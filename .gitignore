@@ -1,0 +1,14 @@
+# Ignore all Python bytecode files
+**/__pycache__/
+
+# python virtual environment directory
+.venv/
+
+# environment variables
+.env
+
+# cache
+.cache/
+
+# IDE
+.idea

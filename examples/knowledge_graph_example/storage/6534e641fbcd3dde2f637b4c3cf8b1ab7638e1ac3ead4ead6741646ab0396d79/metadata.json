@@ -1,0 +1,15 @@
+{
+  "doi": "10.3390/healthcare12090930",
+  "pm_id": 38727487,
+  "pmc_id": "PMC11083930",
+  "gs_id": "",
+  "category": "CITES_HALD",
+  "title": "Pilot Testing of Useful Tools' Validity for Frailty Assessment in Greece: Translated PRISMA-7 Tool, Modified Fried Criteria and Clinical Frailty Scale.",
+  "abstract": "The importance of frailty in older people is getting constant recognition as an important aspect both in terms of public health, as well as at a personal level, for the appropriate management of an older person's health condition. This is reflected by the continuously increasing number of research studies carried out in several settings across different countries. Sometimes, this is very solid, but in other cases, there is a considerable gap in terms of accurate and well-grounded documentation of frailty status. This is the case in Greece, where we are missing clinically validated tools to approach frailty. We are missing frailty screening tools, such as, for instance, Program of Research on Integration of Services for the Maintenance of Autonomy 7 (PRISMA 7), the gold standard tool of Fried criteria, is somehow problematic since the question referring to physical activity originates from a questionnaire that has not been translated and validated, while Clinical Frailty Scale (CFS) has been validated for translation but not for the capacity to detect frailty. The aim of this study is to validate these tools for their accuracy to detect frailty by using a measurable index of frailty, previously proposed for use in clinical studies: the Short Physical Performance Battery (SPPB). Seventy-four male and female participants (mean age 80.47 years SD = \u00b17.45 years, minimum-maximum age = 65-95) have been evaluated for their frailty status using different tools. We observed that the PRISMA 7 translation detects frailty only when one question is removed at a cut-off of \u22652 and indicates a sensitivity of 88.1% and specificity of 99.9% with a good correlation with SPPB measurements (<i>r</i> = -0.858; <i>p</i> < 0.001). When CFS was validated using SPPB, it demonstrated a very good correlation (<i>r</i> = -0.838; <i>p</i> < 0.001 respectively) as was the case for the modified Fried Criteria (<i>r</i> = -0.725; <i>p</i> < 0.001). All items demonstrated a good correlation between them. We here propose that we can accurately assess frailty status in the community setting by using a modified version of Fried criteria, Clinical Frailty Scale translation in Greek, and we can screen for frailty by using the Greek translation of PRISMA 7 only after removing item 6 of the questionnaire.",
+  "gs_meta": NaN,
+  "scraped_date": "2025-02-01 20:38:18.516976",
+  "id": "6534e641fbcd3dde2f637b4c3cf8b1ab7638e1ac3ead4ead6741646ab0396d79",
+  "_internal": {
+    "type": "paper"
+  }
+}

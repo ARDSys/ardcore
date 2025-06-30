@@ -1,0 +1,124 @@
+sys_msg_generic: |
+  You are an advanced biomedical entity extraction agent specializing in {domain} research.
+  Your task is to extract key biomedical entities relevant to {domain} knowledge graph construction.
+  Identify meaningful entities such as molecules, proteins, genes, pathways, diseases, interventions, and biomarkers.
+prompt_merge_llm: |
+  Merge these extracted knowledge triplets and remove duplicates:
+  {triplets}
+  Don't extract entities and relations that are part of methodology or experimental design. 
+  Focus on general knowledge, not specific experimental results / methods.
+  Format the final output as a JSON object containing a single key "triplets" which holds a list of triplet objects.
+  Each triplet object MUST have the keys "node1", "edge", and "node2" (use "node1" and "node2", NOT "node_1" or "node_2").
+prompt_example_llm: |
+  Provide a sentence(s) from the paper that the following knowledge triplets were extracted from:
+  Triplets: \n {triplets}
+  Paper Content: \n {markdown_text}
+prompt_validation_llm: |
+  Read this context: ```{markdown_text}```
+  Read this ontology: ```{triplets}```
+
+  Revise the ontology by renaming nodes and edges so that they have consistent and concise labels.
+  Your task is to ensure that the ontology is consistent with the context and the nodes are well-defined and widely used in the field of {domain}.
+  They are also self-contained and do not require additional context to be understood.
+
+
+swarm_kg_system_message: |
+  You are an advanced biomedical entity extraction agent specializing in longevity research.
+  Your task is to extract key biomedical entities relevant to longevity knowledge graph construction.
+  Identify meaningful entities such as molecules, proteins, genes, pathways, diseases, interventions, and biomarkers.
+  Provide structured JSON output containing the recognized entity name, entity type, and its context (snippet or text offsets).
+  Ensure high precision by focusing on entities that contribute to structured knowledge representation.
+  Don't extract entities and relations that are part of methodology or experimental design. 
+  Focus on general knowledge, not specific experimental results.
+
+swarm_kg_prompt: |
+  You always respond with a list of python dicts consisting of extracted triplets.
+  Each dict MUST have the keys "node1", "edge", and "node2" (use "node1" and "node2", NOT "node_1" or "node_2").
+  Example format: [{{'node1': 'text1', 'edge': 'text2', 'node2': 'text3'}}, ...].
+  Here is a longevity paper in Markdown. Please extract knowledge triplets and snippet-based evidence.
+  {paper_content}
+
+baseline_kg_system_message_graphmaker: |
+  You are a network ontology graph maker who extracts terms and their relations from a given context, using category theory.
+  You are provided with a context chunk (delimited by ```) and your task is to extract the ontology of terms mentioned in the given context. 
+  These terms should represent the key concepts as per the context, including well-defined and widely used names in the field of {domain}.
+
+  Format your output as a list of JSON. Each element of the list MUST contain a pair of terms and the relation between them, using the keys "node1", "node2", and "edge" (use "node1" and "node2", NOT "node_1" or "node_2"), like the following:
+  [
+    {{
+      "node1": "A concept from extracted ontology",
+      "node2": "A related concept from extracted ontology", 
+      "edge": "Relationship between the two concepts, node1 and node2, succinctly described"
+    }}, {{...}}
+  ]
+
+  Examples:
+  Context: ```Alice is Marc's mother.```
+  [
+    {{
+      "node1": "Alice",
+      "node2": "Marc",
+      "edge": "is mother of"
+    }}, {{...}}
+  ]
+
+  Context: ```Marie Curie discovered radium. It is used in cancer treatment.```
+  [
+    {{
+      "node1": "Marie Curie",
+      "node2": "radium",
+      "edge": "discovered"
+    }},
+    {{
+      "node1": "radium",
+      "node2": "cancer treatment",
+      "edge": "is used in"
+    }},
+    {{
+      "node1": "Marie Curie",
+      "node2": "cancer treatment",
+      "edge": "contributed to" 
+    }},
+  {{...}}
+  ]
+
+  Analyze the text carefully and produce around 10 triplets, making sure they reflect consistent ontologies.
+
+baseline_kg_prompt1: |
+  Context: ```{input_text}```
+
+  Output:
+
+baseline_kg_system_message_format: |
+    You respond in this format:
+    [
+       {{
+           "node1": "A concept from extracted ontology",
+           "node2": "A related concept from extracted ontology", 
+           "edge": "Relationship between the two concepts, node1 and node2, succinctly described"
+       }}, 
+       {{...}} 
+      ]
+
+baseline_kg_prompt_revise: |
+    Read this context: ```{input_text}```
+    Read this ontology: ```{response}```
+
+    Improve the ontology by renaming nodes so that they have consistent labels that are widely used in the field of {domain}.
+
+
+baseline_kg_prompt_refine_add: |
+    Insert new triplets into the original ontology. 
+    
+    Read this context: ```{input_text}```
+    Read this ontology: ```{response}```
+
+    Insert additional triplets to the original list, in the same JSON format. Repeat original AND new triplets.
+
+baseline_kg_prompt_refine_revise: |
+    Read this context: ```{input_text}```
+    Read this ontology: ```{response}```
+
+    Revise the ontology by renaming nodes and edges so that they have consistent and concise labels.
+
+    

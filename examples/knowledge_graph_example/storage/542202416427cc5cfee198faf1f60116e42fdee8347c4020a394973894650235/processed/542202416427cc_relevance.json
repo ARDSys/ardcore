@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-02-12T15:45:11.731982",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The article provides a detailed analysis of aging phenotypes across various animal groups, offering insights into the biological mechanisms underlying aging and longevity. This content is highly relevant to longevity research as it explores different strategies for cell replacement, growth, and reproduction that contribute to extended lifespan or immortality in certain species.",
+  "key_terms": [
+    "aging phenotypes",
+    "biological immortality",
+    "cell replacement",
+    "regeneration",
+    "longevity"
+  ],
+  "research_domain": [
+    "longevity",
+    "evolutionary biology",
+    "gerontology"
+  ]
+}

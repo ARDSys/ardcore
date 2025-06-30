@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-02-11T21:34:06.665702",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The article explores the relationship between pain and frailty in older adults, linking persistent pain to homeostenosis and frailty. This is directly relevant to longevity research as it addresses factors affecting healthspan and lifespan, particularly in aging populations.",
+  "key_terms": [
+    "pain management",
+    "homeostenosis",
+    "frailty index",
+    "longevity",
+    "healthspan"
+  ],
+  "research_domain": [
+    "longevity",
+    "gerontology",
+    "public health"
+  ]
+}

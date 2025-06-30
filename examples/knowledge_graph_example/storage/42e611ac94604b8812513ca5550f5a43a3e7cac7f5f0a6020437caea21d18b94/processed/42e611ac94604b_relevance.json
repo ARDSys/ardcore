@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-02-06T05:27:26.362456",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The article discusses the use of sensors for monitoring frailty and its related markers, which are closely linked to longevity research. It reviews methods using IMUs and ambient sensors, providing insights valuable for understanding age-related decline and developing interventions.",
+  "key_terms": [
+    "frailty",
+    "sensor technology",
+    "IMU",
+    "ambient sensors",
+    "longevity"
+  ],
+  "research_domain": [
+    "longevity",
+    "gerontology",
+    "biotechnology",
+    "health informatics"
+  ]
+}

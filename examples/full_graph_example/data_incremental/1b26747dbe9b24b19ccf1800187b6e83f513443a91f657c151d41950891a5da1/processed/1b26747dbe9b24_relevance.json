@@ -1,0 +1,12 @@
+{
+  "timestamp": "2025-03-28T10:41:13.325091",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The content directly addresses the increased cardiovascular risk in RA patients and explores the impact of biological therapies, which is crucial for rheumatology research. It references authoritative guidelines (EULAR) and discusses key areas relevant to disease management and inflammation.",
+  "key_terms": "Rheumatoid Arthritis, Cardiovascular Risk, Inflammation, Atherosclerosis, Biological Therapy, EULAR Recommendations",
+  "research_domain": [
+    "rheumatology",
+    "cardiology",
+    "immunology"
+  ]
+}

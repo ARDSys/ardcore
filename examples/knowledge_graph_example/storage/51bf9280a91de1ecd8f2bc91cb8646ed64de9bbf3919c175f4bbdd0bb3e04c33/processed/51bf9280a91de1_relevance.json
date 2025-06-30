@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-02-12T18:28:39.327848",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The study investigates the role of transposable element (TE) activation in cellular senescence, linking epigenetic changes such as hypomethylation to TE transcription and subsequent pro-inflammatory pathways. This directly contributes to our understanding of aging mechanisms and inflammation, which are central to longevity research.",
+  "key_terms": "cellular senescence, transposable elements, hypomethylation, Alu, L1 RNA, cytoplasmic DNA, cGAS-STING pathway, type 1 IFN, sterile inflammation, inflammaging",
+  "research_domain": [
+    "longevity",
+    "cell biology",
+    "genetics/epigenetics",
+    "immunology"
+  ]
+}

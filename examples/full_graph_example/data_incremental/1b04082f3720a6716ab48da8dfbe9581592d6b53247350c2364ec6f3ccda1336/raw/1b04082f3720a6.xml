@@ -1,0 +1,2636 @@
+<?xml version="1.0" ?>
+<!DOCTYPE pmc-articleset PUBLIC "-//NLM//DTD ARTICLE SET 2.0//EN" "https://dtd.nlm.nih.gov/ncbi/pmc/articleset/nlm-articleset-2.0.dtd">
+<pmc-articleset><article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" dtd-version="1.3" id="joim13525" xml:lang="en" article-type="review-article">
+  <?properties open_access?>
+  <processing-meta base-tagset="archiving" mathml-version="3.0" table-model="xhtml" tagset-family="jats">
+    <restricted-by>pmc</restricted-by>
+  </processing-meta>
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">J Intern Med</journal-id>
+      <journal-id journal-id-type="iso-abbrev">J Intern Med</journal-id>
+      <journal-id journal-id-type="doi">10.1111/(ISSN)1365-2796</journal-id>
+      <journal-id journal-id-type="publisher-id">JOIM</journal-id>
+      <journal-title-group>
+        <journal-title>Journal of Internal Medicine</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0954-6820</issn>
+      <issn pub-type="epub">1365-2796</issn>
+      <publisher>
+        <publisher-name>John Wiley and Sons Inc.</publisher-name>
+        <publisher-loc>Hoboken</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="pmid">35612524</article-id>
+      <article-id pub-id-type="pmc">9796644</article-id>
+      <article-id pub-id-type="doi">10.1111/joim.13525</article-id>
+      <article-id pub-id-type="publisher-id">JOIM13525</article-id>
+      <article-categories>
+        <subj-group subj-group-type="overline">
+          <subject>Review</subject>
+        </subj-group>
+        <subj-group subj-group-type="heading">
+          <subject>Reviews</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>An update on polymyalgia rheumatica</article-title>
+        <alt-title alt-title-type="left-running-head">I. E. Lundberg et&#xA0;al.</alt-title>
+        <alt-title alt-title-type="right-running-head">Update on PMR</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib id="joim13525-cr-0001" contrib-type="author">
+          <name>
+            <surname>Lundberg</surname>
+            <given-names>Ingrid E.</given-names>
+          </name>
+          <contrib-id contrib-id-type="orcid" authenticated="false">https://orcid.org/0000-0002-6068-9212</contrib-id>
+          <xref rid="joim13525-aff-0001" ref-type="aff">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib id="joim13525-cr-0002" contrib-type="author">
+          <name>
+            <surname>Sharma</surname>
+            <given-names>Ankita</given-names>
+          </name>
+          <xref rid="joim13525-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib id="joim13525-cr-0003" contrib-type="author">
+          <name>
+            <surname>Turesson</surname>
+            <given-names>Carl</given-names>
+          </name>
+          <xref rid="joim13525-aff-0002" ref-type="aff">
+<sup>2</sup>
+</xref>
+          <xref rid="joim13525-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib id="joim13525-cr-0004" contrib-type="author" corresp="yes">
+          <name>
+            <surname>Mohammad</surname>
+            <given-names>Aladdin J.</given-names>
+          </name>
+          <xref rid="joim13525-aff-0003" ref-type="aff">
+<sup>3</sup>
+</xref>
+          <xref rid="joim13525-aff-0004" ref-type="aff">
+<sup>4</sup>
+</xref>
+          <xref rid="joim13525-aff-0005" ref-type="aff">
+<sup>5</sup>
+</xref>
+          <address>
+            <email>Aladdin.mohammad@med.lu.se</email>
+          </address>
+        </contrib>
+      </contrib-group>
+      <aff id="joim13525-aff-0001">
+<label>
+<sup>1</sup>
+</label>
+<named-content content-type="organisation-division">Division of Rheumatology</named-content>
+<named-content content-type="organisation-division">Department of Medicine</named-content>
+<named-content content-type="organisation-division">Solna, Karolinska Institutet and Rheumatology</named-content>
+<institution>Karolinska University Hospital</institution>
+<city>Stockholm</city>
+<country country="SE">Sweden</country>
+</aff>
+      <aff id="joim13525-aff-0002">
+<label>
+<sup>2</sup>
+</label>
+<named-content content-type="organisation-division">Rheumatology, Department of Clinical Sciences, Malm&#xF6;</named-content>
+<institution>Lund University</institution>
+<city>Malm&#xF6;</city>
+<country country="SE">Sweden</country>
+</aff>
+      <aff id="joim13525-aff-0003">
+<label>
+<sup>3</sup>
+</label>
+<named-content content-type="organisation-division">Department of Rheumatology</named-content>
+<institution>Sk&#xE5;ne University Hospital</institution>
+<city>Lund&#x2010;Malm&#xF6;</city>
+<country country="SE">Sweden</country>
+</aff>
+      <aff id="joim13525-aff-0004">
+<label>
+<sup>4</sup>
+</label>
+<named-content content-type="organisation-division">Rheumatology, Department of Clinical Sciences, Lund</named-content>
+<institution>Lund University</institution>
+<city>Lund</city>
+<country country="SE">Sweden</country>
+</aff>
+      <aff id="joim13525-aff-0005">
+<label>
+<sup>5</sup>
+</label>
+<named-content content-type="organisation-division">Department of Medicine</named-content>
+<institution>University of Cambridge</institution>
+<city>Cambridge</city>
+<country country="GB">UK</country>
+</aff>
+      <author-notes>
+        <corresp id="correspondenceTo">
+<label>*</label>
+<italic toggle="yes">Correspondence</italic>: Aladdin J. Mohammad, Department of Rheumatology, Sk&#xE5;ne University Hospital, Lund&#x2010;Malm&#xF6;, SE&#x2010;221 85 Lund, Sweden.<break/>Email: <email>Aladdin.mohammad@med.lu.se</email>
+<break/>
+</corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>6</month>
+        <year>2022</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>11</month>
+        <year>2022</year>
+      </pub-date>
+      <volume>292</volume>
+      <issue seq="30">5</issue>
+      <issue-id pub-id-type="doi">10.1111/joim.v292.5</issue-id>
+      <fpage>717</fpage>
+      <lpage>732</lpage>
+      <permissions>
+        <!--&#x000a9; 2022 The Association for the Publication of the Journal of Internal Medicine.-->
+        <copyright-statement content-type="article-copyright">&#xA9; 2022 The Authors. <italic toggle="yes">Journal of Internal Medicine</italic> published by John Wiley &amp; Sons Ltd on behalf of Association for Publication of The Journal of Internal Medicine.</copyright-statement>
+        <license>
+          <ali:license_ref xmlns:ali="http://www.niso.org/schemas/ali/1.0/" specific-use="textmining" content-type="ccbyncndlicense">https://creativecommons.org/licenses/by-nc-nd/4.0/</ali:license_ref>
+          <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by-nc-nd/4.0/">http://creativecommons.org/licenses/by-nc-nd/4.0/</ext-link> License, which permits use and distribution in any medium, provided the original work is properly cited, the use is non&#x2010;commercial and no modifications or adaptations are made.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:href="file:JOIM-292-717.pdf"/>
+      <abstract>
+        <title>Abstract</title>
+        <p>Polymyalgia rheumatica (PMR) is the most common inflammatory rheumatic disease affecting people older than 50 years and is 2&#x2013;3 times more common in women. The most common symptoms are pain and morning stiffness in the shoulder and pelvic girdle and the onset may be acute or develop over a few days to weeks. General symptoms such as fatigue, fever and weight loss may occur, likely driven by systemic IL&#x2010;6 signalling. The pathology includes synovial and periarticular inflammation and muscular vasculopathy. A new observation is that PMR may appear as a side effect of cancer treatment with checkpoint inhibitors. The diagnosis of PMR relies mainly on symptoms and signs combined with laboratory markers of inflammation. Imaging modalities including ultrasound, magnetic resonance imaging and positron emission tomography with computed tomography are promising new tools in the investigation of suspected PMR. However, they are still limited by availability, high cost and unclear performance in the diagnostic workup. Glucocorticoid (GC) therapy is effective in PMR, with most patients responding promptly to 15&#x2013;25&#xA0;mg prednisolone per day. There are challenges in the management of patients with PMR as relapses do occur and patients with PMR may need to stay on GC for extended periods. This is associated with high rates of GC&#x2010;related comorbidities, such as diabetes and osteoporosis, and there are limited data on the use of disease&#x2010;modifying antirheumatic drugs and biologics as GC sparing agents. Finally, PMR is associated with giant cell arteritis that may complicate the disease course and require more intense and prolonged treatment.</p>
+      </abstract>
+      <abstract id="joim13525-abs-0001" abstract-type="graphical">
+        <p>
+<boxed-text position="anchor" content-type="graphic"><graphic xlink:href="JOIM-292-717-g002.jpg" position="anchor" id="jats-graphic-1"/></boxed-text>
+</p>
+      </abstract>
+      <kwd-group kwd-group-type="author-generated">
+        <kwd id="joim13525-kwd-0001">diagnosis</kwd>
+        <kwd id="joim13525-kwd-0002">epidemiology</kwd>
+        <kwd id="joim13525-kwd-0003">giant cell arteritis</kwd>
+        <kwd id="joim13525-kwd-0004">polymyalgia rheumatica</kwd>
+        <kwd id="joim13525-kwd-0005">temporal arteritis</kwd>
+        <kwd id="joim13525-kwd-0006">treatment</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group id="funding-0001">
+          <funding-source>The Swedish Research Council</funding-source>
+        </award-group>
+        <award-group id="funding-0002">
+          <funding-source>ALF Medel Sk&#xE5;ne</funding-source>
+        </award-group>
+        <award-group id="funding-0003">
+          <funding-source>King Gustaf V 80 Year Foundation</funding-source>
+        </award-group>
+        <award-group id="funding-0004">
+          <funding-source>Anna&#x2010;Greta Crafoord Foundation</funding-source>
+        </award-group>
+        <award-group id="funding-0005">
+          <funding-source>Alfred &#xD6;sterlund Stiftelse</funding-source>
+        </award-group>
+        <award-group id="funding-0006">
+          <funding-source>The Swedish Research Council</funding-source>
+          <award-id>2020&#x2010;01378</award-id>
+        </award-group>
+        <award-group id="funding-0007">
+          <funding-source>
+            <institution-wrap>
+              <institution>Swedish Rheumatism Association
+</institution>
+              <institution-id institution-id-type="doi">10.13039/501100007949</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+        <award-group id="funding-0008">
+          <funding-source>Region Stockholm</funding-source>
+        </award-group>
+        <award-group id="funding-0009">
+          <funding-source>The Swedish Research Council</funding-source>
+        </award-group>
+        <award-group id="funding-0010">
+          <funding-source>
+            <institution-wrap>
+              <institution>Greta and Johan Kock Foundation
+</institution>
+              <institution-id institution-id-type="doi">10.13039/501100006075</institution-id>
+            </institution-wrap>
+          </funding-source>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="4"/>
+        <table-count count="2"/>
+        <page-count count="16"/>
+        <word-count count="10044"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>source-schema-version-number</meta-name>
+          <meta-value>2.0</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>cover-date</meta-name>
+          <meta-value>November 2022</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>details-of-publishers-convertor</meta-name>
+          <meta-value>Converter:WILEY_ML3GV2_TO_JATSPMC version:6.2.3 mode:remove_FC converted:28.12.2022</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <p content-type="self-citation">
+<mixed-citation publication-type="journal" id="joim13525-cit-0104">
+<string-name>
+<surname>Lundberg</surname>
+<given-names>IE</given-names>
+</string-name>, <string-name>
+<surname>Sharma</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Turesson</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Mohammad</surname>
+<given-names>AJ</given-names>
+</string-name>. <article-title>An update on polymyalgia rheumatica</article-title>. <source>J Intern Med</source>. <year>2022</year>;<volume>292</volume>:<fpage>717</fpage>&#x2013;<lpage>732</lpage>.<pub-id pub-id-type="pmid">35612524</pub-id></mixed-citation>
+</p>
+    </notes>
+  </front>
+  <body>
+    <sec id="joim13525-sec-0010">
+      <title>Epidemiology</title>
+      <p>Polymyalgia rheumatica (PMR) is a rheumatic disorder associated with musculoskeletal pain and stiffness in the neck, shoulder and hip area [<xref rid="joim13525-bib-0001" ref-type="bibr">1</xref>]. The aetiology is not fully understood, but there are associated environmental and genetic factors [<xref rid="joim13525-bib-0001" ref-type="bibr">1</xref>]. The incidence of PMR increases with age and is rarely seen in people under the age of 50 [<xref rid="joim13525-bib-0002" ref-type="bibr">2</xref>]. Women are approximately 2&#x2013;3 times more likely to be affected by PMR than men [<xref rid="joim13525-bib-0003" ref-type="bibr">3</xref>]. The annual incidence varies geographically and is highest in Scandinavian countries and people of northern European descent [<xref rid="joim13525-bib-0004" ref-type="bibr">4</xref>]. Figure&#xA0;<xref rid="joim13525-fig-0001" ref-type="fig">1</xref> illustrates the variation in the global incidence of PMR. In Sweden, the incidence of PMR ranges from 34 to 50 per 100,000 in the age group 50 years and older [<xref rid="joim13525-bib-0005" ref-type="bibr">5</xref>, <xref rid="joim13525-bib-0006" ref-type="bibr">6</xref>]. In other European studies, for example, the incidence rates for a population &#x2265;50 years are highest in northern regions (113 per 100,000 per year in Norway) and much lower in southern areas (13 per 100,000 per year in Italy) [<xref rid="joim13525-bib-0007" ref-type="bibr">7</xref>]. In Olmsted County, Minnesota, where the population is predominantly of Scandinavian descent, the incidence has been reported to be 63.9 per 100,000 per year, with a prevalence of 701 out of 100,000 [<xref rid="joim13525-bib-0002" ref-type="bibr">2</xref>, <xref rid="joim13525-bib-0008" ref-type="bibr">8</xref>]. PMR is 2&#x2013;3 times more common than giant cell arteritis (GCA) and occurs in approximately 50% of patients with GCA [<xref rid="joim13525-bib-0009" ref-type="bibr">9</xref>]. PMR can precede, accompany or follow GCA. A recent systematic literature review (SLR) retrieved a total of 467 papers in the search on the incidence of PMR. In the search on studies of prevalence, 461 papers on PMR were identified [<xref rid="joim13525-bib-0010" ref-type="bibr">10</xref>]. This review confirms that PMR is more common in populations of Northern European ancestry than in others. The estimated incidence and prevalence of PMR were considerably lower in Southern Europe and other parts of the world, and a low incidence of PMR was reported in Korea [<xref rid="joim13525-bib-0011" ref-type="bibr">11</xref>], likely reflecting that GCA and PMR are less common in Asian populations. Furthermore, the estimated prevalence of GCA in Japan was very low [<xref rid="joim13525-bib-0012" ref-type="bibr">12</xref>], thus suggesting that PMR is distinctly less common in Asian populations. In addition, PMR is rarely reported in African American and Latino populations, though all racial and ethnic groups can be affected.</p>
+      <fig position="float" fig-type="Fig." id="joim13525-fig-0001">
+        <label>Fig. 1</label>
+        <caption>
+          <p>Global incidence of polymyalgia rheumatica. Grey indicates no data available.</p>
+        </caption>
+        <graphic xlink:href="JOIM-292-717-g004" position="anchor" id="jats-graphic-3"/>
+      </fig>
+      <p>Several potential causes for PMR are being investigated. Some of the theories put forward by researchers involve the gene variant HLA&#x2010;DR4. Subtypes of HLA&#x2010;DR4 have been associated with rheumatoid arthritis (RA), and such alleles are also present in many cases where PMR and GCA occur together. It has been suggested that this genotype may contribute to disease mechanisms in both conditions, although this is less clear for PMR [<xref rid="joim13525-bib-0013" ref-type="bibr">13</xref>]. The sudden start of PMR and the nature of the symptoms like joint pain, fever and malaise, are suspected to be a result of infections caused by viruses [<xref rid="joim13525-bib-0014" ref-type="bibr">14</xref>]. Damage to superficial arteries by high exposure to ultraviolet radiation from the sun is another proposed cause for the development of PMR. Some studies suggest the elastic fibres present in the arteries and synovial membranes are damaged by ultraviolet rays. These damaged tissues may get infected by viruses that remain dormant for a long time and may get reactivated later, causing PMR [<xref rid="joim13525-bib-0014" ref-type="bibr">14</xref>]. Several different viruses have been implicated in this context, most recently SARS&#x2010;CoV&#x2010;2 [<xref rid="joim13525-bib-0015" ref-type="bibr">15</xref>, <xref rid="joim13525-bib-0016" ref-type="bibr">16</xref>].</p>
+      <p>Although the aetiology of PMR is unknown, its sudden onset and the wide variation in incidence reported from various parts of the world suggest the contribution of one or more environmental agents or genetic factors, or both, possibly together with exposures that lead to a seasonal distribution [<xref rid="joim13525-bib-0017" ref-type="bibr">17</xref>]. On the other hand, many studies failed to confirm any seasonal trend [<xref rid="joim13525-bib-0017" ref-type="bibr">17</xref>, <xref rid="joim13525-bib-0018" ref-type="bibr">18</xref>, <xref rid="joim13525-bib-0019" ref-type="bibr">19</xref>].</p>
+      <p>It has also been suggested that PMR and GCA may be triggered by seasonal influenza vaccination [<xref rid="joim13525-bib-0020" ref-type="bibr">20</xref>]. Furthermore, a recent study aimed to describe cases of GCA and PMR following COVID&#x2010;19 vaccination using a global pharmacovigilance database [<xref rid="joim13525-bib-0016" ref-type="bibr">16</xref>]. Several such cases were reported, constituting a potential safety signal. However, the findings suggest a reduced relative risk of GCA or PMR following COVID&#x2010;19 vaccination, compared with influenza vaccination. Another study reported the first case of a PMR&#x2010;like syndrome 7 days after vaccination [<xref rid="joim13525-bib-0021" ref-type="bibr">21</xref>]. Reassuringly, several studies have reported that symptoms usually resolve quickly in such cases [<xref rid="joim13525-bib-0021" ref-type="bibr">21</xref>, <xref rid="joim13525-bib-0022" ref-type="bibr">22</xref>]. Taken together, this indicates that the benefits of vaccination against COVID&#x2010;19 largely outweigh the minimal risks associated with such uncommon inflammatory complications, probably reflecting a transient reactogenic response to the vaccine rather than a structured, chronic inflammatory disease.</p>
+    </sec>
+    <sec id="joim13525-sec-0020">
+      <title>Pathogenesis and pathophysiology</title>
+      <p>The typical symptoms of proximal muscular pain and stiffness in PMR can be explained by synovial and periarticular inflammation in central joints. Arthroscopic biopsies from glenohumeral joints of untreated patients with PMR have demonstrated synovitis with leukocyte infiltration and vascular proliferation [<xref rid="joim13525-bib-0023" ref-type="bibr">23</xref>]. Infiltrating cells were mainly macrophages and memory T cells, and a few B cells [<xref rid="joim13525-bib-0023" ref-type="bibr">23</xref>]. T cells demonstrated intense expression of major histocompatibility complex class II molecules, indicating an activated state [<xref rid="joim13525-bib-0023" ref-type="bibr">23</xref>]. Furthermore, vascular endothelial activation may be important to the pathogenesis, as increased expression of vascular endothelial growth factor (VEGF) in synovial biopsies, correlating with levels of circulating VEGF, has been observed [<xref rid="joim13525-bib-0024" ref-type="bibr">24</xref>]. Increased expression of adhesion molecules in endothelial cells and synovial lining cells may contribute to the recruitment of inflammatory cells to these lesions [<xref rid="joim13525-bib-0025" ref-type="bibr">25</xref>]. Vasoactive intestinal peptide (VIP) has been shown to be expressed to a greater extent in shoulder synovium from patients with PMR compared to those with RA or osteoarthritis [<xref rid="joim13525-bib-0026" ref-type="bibr">26</xref>]. It has been suggested that nociception related to local VIP production may contribute to the typical shoulder discomfort of PMR [<xref rid="joim13525-bib-0026" ref-type="bibr">26</xref>].</p>
+      <p>In addition, ultrasonography investigations have revealed subacromial&#x2013;subdeltoid bursitis and long head biceps tendinitis in most patients with PMR [<xref rid="joim13525-bib-0027" ref-type="bibr">27</xref>]. In addition to periarticular shoulder inflammation, whole&#x2010;body positron&#x2010;emission tomography has also shown signs of inflammation adjacent to the ischial tuberosities and in interspinous bursa to be characteristic of PMR [<xref rid="joim13525-bib-0028" ref-type="bibr">28</xref>].</p>
+      <p>Immunofluorescence microscopy of muscle biopsies from the biceps brachii muscle has demonstrated deposits of fibrinogen and IgA in the perifascicular area of the perimysium [<xref rid="joim13525-bib-0029" ref-type="bibr">29</xref>]. Increased microvascularization in the deltoid muscle has been observed in early untreated PMR, despite the absence of local inflammatory infiltrates [<xref rid="joim13525-bib-0030" ref-type="bibr">30</xref>]. Taken together, these observations may suggest that disease mechanisms involving muscular tissue may have a role in PMR.</p>
+      <p>As PMR and GCA often co&#x2010;exist in the same patient, systemic signs of inflammation have often been studied in these two conditions together. Plasma levels of IL&#x2010;6, but not TNF&#x2010;&#x3B1;, have been shown to be elevated in both GCA and PMR [<xref rid="joim13525-bib-0031" ref-type="bibr">31</xref>]. The main source of this IL&#x2010;6 release is CD4+ T cells, which in GCA have been shown to be stimulated by activated dendritic cells [<xref rid="joim13525-bib-0032" ref-type="bibr">32</xref>]. Furthermore, circulating levels of the soluble IL&#x2010;6 receptor have been shown to predict future relapses in patients with PMR [<xref rid="joim13525-bib-0033" ref-type="bibr">33</xref>], further underlining the importance of IL&#x2010;6 signalling in this context (Fig.&#xA0;<xref rid="joim13525-fig-0002" ref-type="fig">2</xref>). In GCA, the IL&#x2010;6 axis has been suggested to contribute to T&#x2010;cell differentiation towards the Th17 phenotype, systemic features such as PMR, fever and weight loss and inflammatory response with the elevation of C&#x2010;reactive protein (CRP) and other biomarkers [<xref rid="joim13525-bib-0034" ref-type="bibr">34</xref>]. By contrast, the IL&#x2010;12/IFN&#x2010;&#x3B3; axis appears to control Th1 differentiation and aspects of chronic vasculitis in GCA [<xref rid="joim13525-bib-0034" ref-type="bibr">34</xref>]. High levels of IFN&#x2010;&#x3B3; expression were found in tissue infiltrating T cells from lesions with GCA, but not with PMR [<xref rid="joim13525-bib-0035" ref-type="bibr">35</xref>].</p>
+      <fig position="float" fig-type="Fig." id="joim13525-fig-0002">
+        <label>Fig. 2</label>
+        <caption>
+          <p>The pathophysiology of polymyalgia rheumatica. Schematic representation of the pathophysiology of polymyalgia rheumatica, highlighting the role of IL&#x2010;6 in systemic and local inflammation. DAMP, damage&#x2010;associated molecular patterns; DCs, dendritic cells; PAMP, pathogen&#x2010;associated molecular patterns; VIP, vasoactive intestinal peptide.</p>
+        </caption>
+        <graphic xlink:href="JOIM-292-717-g001" position="anchor" id="jats-graphic-5"/>
+      </fig>
+      <p>Perturbations of circulating T&#x2010;cell and B&#x2010;cell subsets have been described in PMR, but with inconsistent results [<xref rid="joim13525-bib-0036" ref-type="bibr">36</xref>]. As PMR is a disease of elderly people, such patterns may reflect aging of the immune system. Elevated peripheral blood monocyte counts have been observed in both PMR and GCA, with a significant decrease post&#x2010;treatment in PMR, but not in GCA [<xref rid="joim13525-bib-0037" ref-type="bibr">37</xref>]. In contrast with many other rheumatic disorders, no autoantibody has been consistently associated with PMR or GCA. The combined evidence supports an interplay between the innate and the adaptive cellular immune system [<xref rid="joim13525-bib-0038" ref-type="bibr">38</xref>].</p>
+      <p>Whereas metabolic features (lower body mass index, lower levels of fasting blood glucose) that may contribute to immune regulation have been shown to be associated with subsequent development of GCA [<xref rid="joim13525-bib-0039" ref-type="bibr">39</xref>, <xref rid="joim13525-bib-0040" ref-type="bibr">40</xref>], the relation between such factors and the risk of PMR has not yet been investigated.</p>
+    </sec>
+    <sec id="joim13525-sec-0030">
+      <title>Clinical presentation and disease course</title>
+      <p>A characteristic feature of PMR is a new and relatively acute onset of proximal muscle pain and stiffness in the neck, shoulders, upper arms, hips and thighs [<xref rid="joim13525-bib-0041" ref-type="bibr">41</xref>]. Patients often suffer from a pronounced morning stiffness with difficulty turning in or getting out of bed in the morning with some spontaneous relief of symptoms later in the day [<xref rid="joim13525-bib-0042" ref-type="bibr">42</xref>, <xref rid="joim13525-bib-0043" ref-type="bibr">43</xref>, <xref rid="joim13525-bib-0044" ref-type="bibr">44</xref>]. The stiffness affects even other physical activities in the morning, including getting dressed or taking care of other daily activities. The symptoms are usually fully developed within a few days to a couple of weeks. Occasionally, the onset is more insidious and may lead to nonspecific symptoms such as fatigue, arthralgia, loss of appetite, weight loss or fever. It is not unusual that some patients undergo investigations for suspicion of malignant disease before the diagnosis can be made with PMR [<xref rid="joim13525-bib-0042" ref-type="bibr">42</xref>].</p>
+      <p>The nonspecific clinical presentation and the absence of specific laboratory findings or serologic features often leads to some diagnostic delay. PMR imposes a major burden on the daily life of elderly people. The psychological impact is significant, including anxiety related to active disease and side effects of glucocorticoid (GC) treatment [<xref rid="joim13525-bib-0045" ref-type="bibr">45</xref>].</p>
+    </sec>
+    <sec id="joim13525-sec-0040">
+      <title>Association with temporal arteritis</title>
+      <p>PMR and temporal arteritis (TA) often co&#x2010;exist, suggesting shared predisposing factors and shared disease mechanisms. In a population&#x2010;based study from Olmsted County, Minnesota, including patients diagnosed with PMR between 1970 and 1991 [<xref rid="joim13525-bib-0046" ref-type="bibr">46</xref>], approximately 15% had TA that had been verified by temporal artery biopsy. As the typical histopathology of TA in such biopsies includes the presence of giant cells, the disease is often called GCA in modern literature. GCA is a systemic vasculitis that may involve several large vessels, often but not always including the temporal artery.</p>
+      <p>A concomitant diagnosis of GCA should be suspected in a patient with PMR who also suffers from new&#x2010;onset headache, jaw claudication, new and unexplained visual symptoms or severe constitutional symptoms (fever of unknown origin, weight loss, fatigue, etc.). Such symptoms may occur at the first presentation with PMR or later during the disease course, for example, when GC has been tapered. The clinical overlap between PMR and GCA is likely greater among patients evaluated at referral centres, for example, rheumatology or internal medicine clinics, compared to primary care.</p>
+      <p>Subclinical arteritis may also occur in patients with PMR. The Swedish physician Bengt Hamrin reported six cases with a clinical diagnosis of PMR, but autopsy findings were compatible with large vessel vasculitis [<xref rid="joim13525-bib-0047" ref-type="bibr">47</xref>]. This led him to label the condition &#x2018;polymyalgia arteritica&#x2019;.</p>
+      <p>In systematic studies of patients with a typical clinical PMR phenotype, but no signs or symptoms compatible with GCA, histopathologic findings of vasculitis in temporal artery biopsies have been found in up to 21%, and ultrasonography features of TA in up to 32% [<xref rid="joim13525-bib-0048" ref-type="bibr">48</xref>].</p>
+      <p>Conversely, PMR is common in patients that have been diagnosed with GCA. Approximately 50% of patients with GCA have symptoms of PMR [<xref rid="joim13525-bib-0009" ref-type="bibr">9</xref>, <xref rid="joim13525-bib-0049" ref-type="bibr">49</xref>, <xref rid="joim13525-bib-0050" ref-type="bibr">50</xref>]. Recurrence of PMR symptoms is a common feature of relapse of GCA [<xref rid="joim13525-bib-0051" ref-type="bibr">51</xref>]. Some patients with GCA only have cranial symptoms of TA at diagnosis, before initiation of GC therapy, but later several relapses with a clinical picture of pure PMR.</p>
+    </sec>
+    <sec id="joim13525-sec-0050">
+      <title>Diagnostic and classification criteria</title>
+      <p>Many different diagnostic criteria have been proposed by several groups based on clinical and laboratory characteristics of PMR [<xref rid="joim13525-bib-0052" ref-type="bibr">52</xref>, <xref rid="joim13525-bib-0053" ref-type="bibr">53</xref>, <xref rid="joim13525-bib-0054" ref-type="bibr">54</xref>, <xref rid="joim13525-bib-0055" ref-type="bibr">55</xref>, <xref rid="joim13525-bib-0056" ref-type="bibr">56</xref>]. The purpose of these criteria is to help physicians to make the diagnosis of PMR in individual patients. Most of these criteria are based on characteristics demographic, clinical and laboratory features of PMR [<xref rid="joim13525-bib-0043" ref-type="bibr">43</xref>, <xref rid="joim13525-bib-0057" ref-type="bibr">57</xref>]. The European Alliance of Associations for Rheumatology&#xA0;(EULAR) and The American College of Rheumatology (ACR) issued provisional criteria for the classification of PMR in 2012 [<xref rid="joim13525-bib-0058" ref-type="bibr">58</xref>]. The EULAR/ACR criteria are summarized in Table&#xA0;<xref rid="joim13525-tbl-0001" ref-type="table">1</xref>. Notably, classification criteria are aimed to be used in epidemiological studies and not to make a diagnosis in individual patients.</p>
+      <table-wrap position="float" id="joim13525-tbl-0001" content-type="Table">
+        <label>Table 1</label>
+        <caption>
+          <p>EULAR/ACR provisional classification criteria for polymyalgia rheumatica</p>
+        </caption>
+        <table frame="hsides" rules="groups">
+          <col align="left" span="1"/>
+          <col align="left" span="1"/>
+          <thead>
+            <tr style="border-bottom:solid 1px #000000">
+              <th align="left" rowspan="1" colspan="1">Criteria</th>
+              <th align="left" rowspan="1" colspan="1">Points</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Morning stiffness duration &gt;45 min</td>
+              <td align="left" rowspan="1" colspan="1">2</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Hip pain or limited range of motion</td>
+              <td align="left" rowspan="1" colspan="1">1</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Absence of RF and/or ACPA</td>
+              <td align="left" rowspan="1" colspan="1">2</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Absence of other joint involvement</td>
+              <td align="left" rowspan="1" colspan="1">1</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">At least one shoulder with subdeltoid bursitis and/or bicep tenosynovitis and/or glenohumeral synovitis (either posterior or axillary) and at least one hip with synovitis and/or trochanteric bursitis</td>
+              <td align="left" rowspan="1" colspan="1">0/1<xref rid="joim13525-tbl1-note-0004" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td>
+            </tr>
+            <tr>
+              <td align="left" rowspan="1" colspan="1">Both shoulders with subdeltoid bursitis, biceps tenosynovitis or glenohumeral synovitis</td>
+              <td align="left" rowspan="1" colspan="1">0/1<xref rid="joim13525-tbl1-note-0004" ref-type="table-fn">
+<sup>*</sup>
+</xref>
+</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <fn id="joim13525-tbl1-note-0001">
+            <p>
+<italic toggle="yes">Note</italic>: Required score for the classification of polymyalgia rheumatica: 4 or more without ultrasound and 5 or more in the algorithm with ultrasound.</p>
+          </fn>
+          <fn id="joim13525-tbl1-note-0002">
+            <p>
+<italic toggle="yes">Note</italic>: Required criteria: age &#x2265;50 years, bilateral shoulder aching and abnormal C&#x2010;reactive protein and/or erythrocyte sedimentation rate.</p>
+          </fn>
+          <fn id="joim13525-tbl1-note-0003">
+            <p>
+<italic toggle="yes">Note</italic>: Modified from Dasgupta et&#xA0;al. [<xref rid="joim13525-bib-0058" ref-type="bibr">58</xref>].</p>
+          </fn>
+          <fn id="joim13525-tbl1-note-0004">
+            <label>
+<sup>*</sup>
+</label>
+            <p>Without/with ultrasound.</p>
+          </fn>
+          <fn id="joim13525-tbl1-note-0005">
+            <p>Abbreviations: ACPA, anti&#x2010;citrullinated protein antibody; ACR, American College of Rheumatology; EULAR, European Alliance of Associations for Rheumatology; RF, rheumatoid factor.</p>
+          </fn>
+        </table-wrap-foot>
+        <permissions>
+          <copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder>
+        </permissions>
+      </table-wrap>
+      <p>The EULAR/ACR classification criteria for PMR are based on a scoring algorithm using clinical and laboratory features. The sensitivity and specificity of the criteria vary depending on whether the PMR is discriminating from all conditions, including RA or conditions affecting shoulders. The sensitivity and specificity also vary depending on whether ultrasound is used or not. A score &#x2265;4 had a sensitivity of 68% and a specificity of 78%. When discriminating shoulder conditions from PMR, the specificity increased to 88%, while it was only 65% for discriminating RA from PMR. Using ultrasound, a score &#x2265;5 had a sensitivity of 66% and specificity of 81% [<xref rid="joim13525-bib-0058" ref-type="bibr">58</xref>].</p>
+    </sec>
+    <sec id="joim13525-sec-0060">
+      <title>Diagnosis</title>
+      <p>There is no gold standard for diagnosing PMR, and unlike many other rheumatic syndromes, there are no specific clinical manifestations, serology or other laboratory findings in PMR. As a result, diagnosis of PMR can be challenging with a considerable number of conditions in the list of differential diagnoses. However, in daily practice, the diagnosis of PMR relies mainly on the following combination of principles: new&#x2010;onset symptoms of both morning stiffness and pain in the shoulder and pelvis girdle in a person aged 50 years or older, evidence of systemic inflammation with a raised erythrocyte sedimentation rate (ESR) and or CRP, no other disease that would explain the clinical presentation better and finally abrupt response to GCs [<xref rid="joim13525-bib-0041" ref-type="bibr">41</xref>]. In some diagnostic criteria, there are other specific requirements, such as a 2&#x2010;week duration of symptoms or negative tests for rheumatoid factors or antinuclear antibodies.</p>
+      <p>The diagnosis of PMR should be considered clinically. The typical case is an elderly woman with early morning bilateral shoulder pain and stiffness. Similar symptoms often occur in the pelvic girdle. Typically, the symptoms ease during the day. Systemic manifestations such as fever, fatigue, loss of appetite and weight loss may occur in about a third of the patients. In addition, there is almost always an elevation of inflammatory parameters, especially ESR and/or CRP. Other inflammatory parameters can be elevated as white blood cell or platelet count and sometimes liver enzymes or alkaline phosphatase may be elevated as a sign of systemic inflammation. On clinical examination, tenderness with deep palpation of the muscles around the shoulders and thighs is often noted. In addition, there is usually restricted mobility in the shoulders, without muscle atrophy or weakness. Occasional signs of synovitis in the shoulders, wrist joints and the knees can be seen. PMR can be diagnosed in combination with GCA, especially in those with a cranial phenotype, that is, TA. Although temporal biopsy may be positive in a minority of patients with PMR, it is not included in the currently recommended investigation of the disease, unless there are concomitant cranial GCA symptoms. Finally, in PMR, most patients will respond rapidly and dramatically to GCs and according to some criteria, this response is required for diagnosis [<xref rid="joim13525-bib-0054" ref-type="bibr">54</xref>].</p>
+    </sec>
+    <sec id="joim13525-sec-0070">
+      <title>Imaging studies</title>
+      <p>Due to the nonspecific symptoms or laboratory findings of PMR, there is an unmet need for other modalities to confirm the diagnosis. Imaging has emerged during the last few years as an important diagnostic tool [<xref rid="joim13525-bib-0059" ref-type="bibr">59</xref>]. Several imaging modalities have been used in PMR, including conventional radiology (X&#x2010;ray), scintigraphy, computed tomography (CT), magnetic resonance imaging (MRI), ultrasound and positron emission tomography with CT (PET CT) [<xref rid="joim13525-bib-0059" ref-type="bibr">59</xref>, <xref rid="joim13525-bib-0060" ref-type="bibr">60</xref>]. The choice of one modality over the other is usually dictated by availability as well as local expertise. The aim of imaging studies in PMR is not only to confirm the diagnosis but also to rule out differential diagnoses or comorbidities, and in some cases the co&#x2010;occurrence with large vessel vasculitis.</p>
+      <p>Ultrasound is useful in PMR due to the nature of extra&#x2010;articular soft tissue involvement. The most common findings are inflammation and effusion of the subacromial&#x2013;subdeltoid bursa, biceps tenosynovitis [<xref rid="joim13525-bib-0060" ref-type="bibr">60</xref>, <xref rid="joim13525-bib-0061" ref-type="bibr">61</xref>], glenohumeral joint inflammation [<xref rid="joim13525-bib-0062" ref-type="bibr">62</xref>] and hip synovitis and trochanteritis [<xref rid="joim13525-bib-0063" ref-type="bibr">63</xref>]. Ultrasound is also useful in ruling out other differential diagnoses such as chondrocalcinosis, early RA and late&#x2010;onset spondyloarthropathy [<xref rid="joim13525-bib-0063" ref-type="bibr">63</xref>] and to be used when screening for large vessel vasculitis and cranial arteritis when these are suspected to coexist with PMR [<xref rid="joim13525-bib-0048" ref-type="bibr">48</xref>].</p>
+      <p>MRI has also been used, although its use is still limited to research purposes in most centres. Typical findings in PMR include a characteristic pattern of symmetrical inflammation in the greater trochanter, acetabulum and ischial tuberosity, reported in 64% of patients with PMR in one study [<xref rid="joim13525-bib-0064" ref-type="bibr">64</xref>]. In another study by Laporte et&#xA0;al., all patients with new&#x2010;onset PMR had at least one site of myofascial inflammation, most commonly in the hips, followed by pubic symphysis, shoulders and ischial tuberosity [<xref rid="joim13525-bib-0065" ref-type="bibr">65</xref>]. Advantages of MRI over ultrasound include that MRI is more specific with less interobserver variation in the assessment of vasculitis. However, the disadvantages of MRI include availability, cost and inconvenience for some patients.</p>
+      <p>18&#x2010;Fluorodeoxyglucose (FDG) PET CT has been used in oncology and investigation of inflammatory diseases. The uptake of FDG by activated inflammatory cells constitute the basis for using PET CT in PMR and large vessel vasculitis. In patients with suspected PMR, the use of PET CT is not recommended as a routine examination due to limitations such as cost and varying availability. Beside its role in the visualization of inflammation in articular and extra&#x2010;articular tissues in PMR, PET CT is extremely helpful in confirming suspected coexistent large vessel vasculitis and differentiation between PMR and other conditions such as malignancies or other rheumatic diseases [<xref rid="joim13525-bib-0066" ref-type="bibr">66</xref>].</p>
+      <p>There is a rationale for using PET CT in the workup of PMR, mainly in patients who did not respond to initial GC treatment. Nonresponsiveness could either be explained by coexistent large vessel vasculitis, other underlying rheumatic diseases or malignancy. The typical PET CT findings in a patient with active PMR include increased uptake in sternoclavicular joints, the shoulders, ischial tuberosities, vertebral spinous processes and greater trochanters [<xref rid="joim13525-bib-0067" ref-type="bibr">67</xref>] (Fig.&#xA0;<xref rid="joim13525-fig-0003" ref-type="fig">3a,b</xref>). The sensitivity and specificity of PET CT in the diagnosis of PMR differ according to the number of sites of increased uptake of FDG. In a study by Sondag et&#xA0;al., significant uptake in three or more sites had a sensitivity of 74% and specificity of 79% for the diagnosis of PMR [<xref rid="joim13525-bib-0068" ref-type="bibr">68</xref>]. The sensitivity and specificity of FDG&#x2010;PET in the diagnosis of PMR also depend on the site of uptake. In a meta&#x2010;analysis by Van der Geest et&#xA0;al., the highest sensitivity was found for uptake at the ischial tuberosity and greater trochanters&#x2014;85%. In the same meta&#x2010;analysis, the highest specificity was found for the uptake at the interspinous process, 81% [<xref rid="joim13525-bib-0066" ref-type="bibr">66</xref>].</p>
+      <fig position="float" fig-type="Fig." id="joim13525-fig-0003">
+        <label>Fig. 3</label>
+        <caption>
+          <p>18&#x2010;Fluorodeoxyglucose (FDG) positron emission tomography with computed tomography (PET CT) findings in patients with polymyalgia rheumatica. (a) A maximum intensity projection showing uptake of the FDG (arrows) in the shoulders, sternoclavicular joints and tubular sciatica. (b) A sagittal view of a PET CT showing uptake (the arrow) in connection with the spinous process in the lumbar spine.</p>
+        </caption>
+        <graphic xlink:href="JOIM-292-717-g003" position="anchor" id="jats-graphic-7"/>
+      </fig>
+      <sec id="joim13525-sec-0080">
+        <title>Other imaging studies</title>
+        <p>Conventional radiography has been used previously in this context, especially in patients with suspected PMR and peripheral joint disease [<xref rid="joim13525-bib-0059" ref-type="bibr">59</xref>]. Arthritis in PMR is usually nonerosive, which distinguishes it from destructive arthritis typical of RA or other arthritic diseases such as chondrocalcinosis. Scintigraphy has also been used previously in the diagnosis of PMR though this modality of imaging is not currently in wide use [<xref rid="joim13525-bib-0059" ref-type="bibr">59</xref>]</p>
+      </sec>
+    </sec>
+    <sec id="joim13525-sec-0090">
+      <title>Laboratory findings</title>
+      <p>There are no serologic or other specific laboratory findings that can confirm the diagnosis of PMR with absolute certainty. The most common and important finding is the elevation of inflammatory parameters such as ESR or CRP. However, a normal ESR does not exclude the diagnosis of PMR, although other conditions should be considered in such cases. Other laboratory findings of active systemic inflammation include normochromic normocytic anaemia, thrombocytosis and leucocytosis. Furthermore, an increase in other acute phase reactants on plasma protein electrophoresis is also often seen.</p>
+    </sec>
+    <sec id="joim13525-sec-0100">
+      <title>Differential diagnosis</title>
+      <p>Conditions affecting people in the age group 50 years and older and associated with bilateral shoulder pain should be included in the differential diagnoses of PMR. This is especially true as there are no specific diagnostic tests for PMR and a misdiagnosis of any condition as PMR may lead to unnecessary exposure to GCs for extensive periods of time. The differential diagnosis should include both rheumatic and nonrheumatic diseases.</p>
+      <sec id="joim13525-sec-0110">
+        <title>Rheumatoid arthritis</title>
+        <p>Among the most important rheumatic conditions in the differential diagnoses of PMR is seronegative RA. This is especially true early in the disease onset of RA, which might have a prodromal phase of bilateral shoulder joint arthritis. In addition, both RA and PMR can present with arthritis in wrist joints, and if patients test negative for rheumatoid factor and/or anti&#x2010;cyclic citrullinated peptide (anti&#x2010;CCP), the differentiation between these two conditions may not be easy. However, the presence of symmetric small joint arthritis should favour the RA diagnosis. Both RA and PMR can be successfully treated with prednisolone, limiting the utility of this medication in the differentiation. Typical extra&#x2010;articular manifestations (e.g., rheumatoid nodules, cutaneous vasculitis, serositis, etc.) and positive RF/anti&#x2010;CCP favour the diagnosis of RA rather than PMR.</p>
+      </sec>
+      <sec id="joim13525-sec-0120">
+        <title>Myositis</title>
+        <p>Polymyositis (PM) is another disease that may be misdiagnosed as PMR and vice versa. Both conditions affect the proximal muscle groups in the upper and lower extremities. However, the presence of muscle weakness rather than stiffness and pain is an important differential feature of PM. In addition, PM is usually associated with elevated serum levels of muscle enzymes, which is not a feature of PMR. Other features that favour the possibility of PM is the presence of myositis specific autoantibodies and extramuscular manifestations including in the lungs, skin, gastrointestinal tract or the heart. Difficulty in swallowing will favour the diagnosis of PM. Unlike PM, pure muscle weakness is not typical of PMR, where the predominant symptoms are muscle aches and pain and morning stiffness.</p>
+      </sec>
+      <sec id="joim13525-sec-0130">
+        <title>Pain syndromes</title>
+        <p>The differentiation between PMR and pain syndromes such as fibromyalgia should be easier compared to other differential diagnosis. Fibromyalgia usually has its onset in younger age groups than PMR. In addition, there is no elevation of laboratory parameters indicating an inflammatory condition in the former group. It is important to differentiate between these two conditions to avoid unnecessary use of GCs in patients with fibromyalgia and pain syndromes.</p>
+      </sec>
+      <sec id="joim13525-sec-0140">
+        <title>Malignancy</title>
+        <p>One important differential diagnosis in PMR is malignant diseases. PMR manifestations could represent a paramalignant symptom of occult cancer. Patients with PMR who do not respond to a prednisolone daily dose of 15&#x2013;25 mg or have a rapid recurrence of symptoms directly after tapering of GCs should alert the treating physician to the possibility of an underlying malignant disease. Careful medical history and clinical examination together with basic laboratory screening are mandatory to make a correct diagnosis. Physicians treating a so&#x2010;called atypical or treatment&#x2010;resistant PMR need to consider relevant radiologic examination to rule out the possibility of an underlying cancer.</p>
+        <p>Remitting seronegative symmetric synovitis with pitting oedema syndrome is a clinical syndrome characterised by the onset of symmetrical small joint arthritis with oedema of the hands and feet, typically in elderly men who are rheumatoid&#x2010;factor negative. This condition usually responds well to a short course of oral GCs and should be one of important differential diagnosis for PMR. A similar phenotype may be seen in paramalignant syndromes.</p>
+      </sec>
+      <sec id="joim13525-sec-0150">
+        <title>Others</title>
+        <p>Noninflammatory degenerative diseases such as cervical spondylosis and hip joint osteoarthritis may mimic the presentation of PMR with symptoms like pain and morning stiffness. Radiologic confirmation of osteoarthrosis (OA) or spondylosis together with absence of active inflammatory parameters will favour the diagnosis of spondylosis and OA rather than PMR. Hypothyroidism is a common disease among female patients with clinical presentation of diffuse pain, fatigue and a fibromyalgia&#x2010;like syndrome. Checking serum levels of thyroid hormones is an important part of the investigation of female patients with pain syndrome.</p>
+      </sec>
+    </sec>
+    <sec id="joim13525-sec-0160">
+      <title>PMR as an immune&#x2010;related event after immune checkpoint inhibition in cancer treatment</title>
+      <p>Immune checkpoint inhibitors (ICI) are increasingly used in cancer therapy to boost the antitumour immune response. Treatment with monoclonal antibodies blocking the cytotoxic T&#x2010;lymphocyte&#x2010;associated protein 4 (CTLA&#x2010;4), or the programmed death receptor&#x2010;1 (PD&#x2010;1) or its ligand PD&#x2010;L1, has been associated with the emergence of a number of autoimmune disorders, and with activation/worsening of established autoimmune disease [<xref rid="joim13525-bib-0069" ref-type="bibr">69</xref>]. PMR is one of the rheumatic disorders that has been reported as an immune&#x2010;related event in this context [<xref rid="joim13525-bib-0070" ref-type="bibr">70</xref>]. In addition, there are several reports on cases with &#x2018;PMR&#x2010;like illness&#x2019;, with some features atypical for idiopathic PMR, following ICI treatment [<xref rid="joim13525-bib-0070" ref-type="bibr">70</xref>]. Further systematic studies on the occurrence of PMR among patients treated with ICI, and the clinical phenotype and disease course are needed. With more extensive use of ICI in cancer therapy, including in treatment of older patients, the incidence of such immune&#x2010;related events is likely to increase in the future. Careful characterization of such cases might guide us in the understanding the role of the adaptive immune system in the pathophysiology of PMR.</p>
+      <p>Interestingly, T&#x2010;cell checkpoint dysregulation has been described in GCA, with downregulation of PD&#x2010;L1 in vascular lesions [<xref rid="joim13525-bib-0071" ref-type="bibr">71</xref>]. Treatment with anti&#x2010;PD&#x2010;1 antibodies resulted in worsening of vasculitis in a chimeric animal model of GCA [<xref rid="joim13525-bib-0071" ref-type="bibr">71</xref>]. Whether such mechanisms may also contribute to &#x2018;spontaneous&#x2019; PMR, that is, in the absence of ICI treatment, needs further studies.</p>
+    </sec>
+    <sec id="joim13525-sec-0170">
+      <title>Treatment</title>
+      <sec id="joim13525-sec-0180">
+        <title>Oral GCs</title>
+        <p>The cornerstone in the treatment of PMR is oral GCs. All PMR symptoms usually respond promptly to GCs. The recommended daily starting prednisolone dose in PMR is 12.5&#x2013;25 mg according to the most recent ACR/EULAR recommendation [<xref rid="joim13525-bib-0072" ref-type="bibr">72</xref>]. This recommendation is based on consensus, as dose&#x2010;finding studies have been limited, with partly conflicting evidence [<xref rid="joim13525-bib-0073" ref-type="bibr">73</xref>]. A starting dose of 20 mg is superior to 10 mg but at a cost of more adverse events [<xref rid="joim13525-bib-0074" ref-type="bibr">74</xref>]. The choice within the interval of 12.5&#x2013;25 mg should consider inflammatory activity, risk of relapse and risk of GC toxicity due to comorbidities such as diabetes or cardiovascular disease [<xref rid="joim13525-bib-0072" ref-type="bibr">72</xref>]. The prednisolone dose should be gradually tapered by about 2.5 mg per month down to 10 mg per day, after which slower tapering continues. In patients with typical clinical presentation and clinical findings for PMR, prompt response to treatment provides additional support for the diagnosis. Similarly, a poor response to initiated treatment should lead to reconsideration of possible differential diagnoses, especially other rheumatic diseases or malignancy. GC treatment should be accompanied by supportive measures to minimize long&#x2010;term toxicity such as osteoporosis.</p>
+        <p>Overall, the prognosis for PMR is good and usually, the disease heals in a couple of years, during which GC must be taken to control the disease and its symptoms. Some patients have a more complicated course with some residual inflammation during treatment and recurrence of symptoms when trying to reduce the prednisolone dose. There are no validated guidelines on the optimal duration of GC therapy in PMR and data available in studies are not consistent. In a study by Healey, only 30% of patients were able to stop GC therapy and remain asymptomatic within 2 years of follow&#x2010;up while only 2% were able to stop GC completely within 6 months [<xref rid="joim13525-bib-0054" ref-type="bibr">54</xref>]. In a meta&#x2010;analysis by Floris et&#xA0;al. including 21 studies eligible for analysis, 77%, 51% and 25% were still on GC after 1, 2 and 5 years from diagnosis [<xref rid="joim13525-bib-0075" ref-type="bibr">75</xref>].</p>
+      </sec>
+      <sec id="joim13525-sec-0190">
+        <title>Injectable GC</title>
+        <p>Intramuscular methylprednisolone (i.m. MP) has been compared to oral GC in the treatment of PMR regarding efficacy and safety [<xref rid="joim13525-bib-0076" ref-type="bibr">76</xref>, <xref rid="joim13525-bib-0077" ref-type="bibr">77</xref>]. In a study by Dasgupta et&#xA0;al., 60 patients were randomized in 1:1 fashion to 120 mg i.m. MP each for 3 weeks or prednisolone (initial dose 15 mg/day tapered according to a predefined schedule) [<xref rid="joim13525-bib-0077" ref-type="bibr">77</xref>]. The remission rate after a 12&#x2010;week double&#x2010;blind phase of the study was similar in the two groups but the cumulative mean GC dose in the i.m. MP group after 96 weeks was 56% of that in the oral GC group. The i.m. MP group had less events of all known GC long&#x2010;term unwanted effects [<xref rid="joim13525-bib-0077" ref-type="bibr">77</xref>]. Intramuscular MP is probably a suitable alternative to oral GC in elderly patients with multiple medications as well as in patients who experience a problem following the tapering schedule of oral GC and in patients a with compliance problem, but further larger studies are needed.</p>
+      </sec>
+      <sec id="joim13525-sec-0200">
+        <title>Disease&#x2010;modifying antirheumatic drugs and biologics</title>
+        <p>Due to the toxicity of long&#x2010;term GC therapy, there is clearly a need for GC&#x2010;sparing strategies in patients with PMR. However, disease&#x2010;modifying antirheumatic drugs (DMARDs), which have had major success in the treatment of RA and several other rheumatic disorders, have not been extensively studied in PMR (Table&#xA0;<xref rid="joim13525-tbl-0002" ref-type="table">2</xref>).</p>
+        <table-wrap position="float" id="joim13525-tbl-0002" content-type="Table">
+          <label>Table 2</label>
+          <caption>
+            <p>Pharmaceutical agents that have been used successfully in the treatment of PMR, and their evidence base</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <col align="left" span="1"/>
+            <col align="left" span="1"/>
+            <col align="left" span="1"/>
+            <col align="left" span="1"/>
+            <col align="left" span="1"/>
+            <thead>
+              <tr style="border-bottom:solid 1px #000000">
+                <th align="left" rowspan="1" colspan="1">Drug</th>
+                <th align="left" rowspan="1" colspan="1">Dose</th>
+                <th align="left" rowspan="1" colspan="1">Summary of evidence</th>
+                <th align="left" rowspan="1" colspan="1">Recommendations<xref rid="joim13525-tbl2-note-0001" ref-type="table-fn">
+<sup>a</sup>
+</xref> and comments</th>
+                <th align="left" rowspan="1" colspan="1">References</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Oral GCs</td>
+                <td align="left" rowspan="1" colspan="1">Prednisolone 12.5&#x2013;20 mg/day starting dose</td>
+                <td align="left" rowspan="1" colspan="1">
+<p>1 OL&#x2010;RCT: lower relapse rate with 20 mg versus 10 mg</p>
+<p>Conflicting observational data</p>
+</td>
+                <td align="left" rowspan="1" colspan="1">Individualized, gradual tapering recommended&#x2014;higher relapse rate with rapid tapering</td>
+                <td align="left" rowspan="1" colspan="1">[<xref rid="joim13525-bib-0073" ref-type="bibr">73</xref>, <xref rid="joim13525-bib-0102" ref-type="bibr">102</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">I.m. GCs</td>
+                <td align="left" rowspan="1" colspan="1">MP 120 mg every 3&#xA0;weeks, tapered</td>
+                <td align="left" rowspan="1" colspan="1">1 DB&#x2010;RCT: Lower cumulative GCs compared to oral GC course, similar remission rates, less weight gain</td>
+                <td align="left" rowspan="1" colspan="1">Conditionally recommended as alternative to oral GCs</td>
+                <td align="left" rowspan="1" colspan="1">[<xref rid="joim13525-bib-0073" ref-type="bibr">73</xref>, <xref rid="joim13525-bib-0077" ref-type="bibr">77</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Methotrexate</td>
+                <td align="left" rowspan="1" colspan="1">7.5&#x2013;10 mg/week (higher doses not evaluated)</td>
+                <td align="left" rowspan="1" colspan="1">
+<p>1 DB&#x2010;RCT: Lower relapse rate, GC discontinuation more likely</p>
+<p>Similar observational data, OL&#x2010;RCT</p>
+</td>
+                <td align="left" rowspan="1" colspan="1">Consider in early PMR for patients with high relapse risk. Refractory PMR not studied</td>
+                <td align="left" rowspan="1" colspan="1">[<xref rid="joim13525-bib-0073" ref-type="bibr">73</xref>, <xref rid="joim13525-bib-0103" ref-type="bibr">103</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Azathioprine</td>
+                <td align="left" rowspan="1" colspan="1">100&#x2013;150 mg/day</td>
+                <td align="left" rowspan="1" colspan="1">1 small DB&#x2010;RCT of patients with PMR&#xA0;&#xB1;&#xA0;GCA: GC&#x2010;sparing effect at 1 year</td>
+                <td align="left" rowspan="1" colspan="1">
+<p>Limited evidence</p>
+<p>Not included in ACR/EULAR recommendations</p>
+</td>
+                <td align="left" rowspan="1" colspan="1">[<xref rid="joim13525-bib-0081" ref-type="bibr">81</xref>]</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Tocilizumab</td>
+                <td align="left" rowspan="1" colspan="1">
+<p>162 mg s.c. weekly</p>
+<p>8 mg/kg i.v. monthly</p>
+</td>
+                <td align="left" rowspan="1" colspan="1">
+<p>Post&#x2010;hoc subanalysis of GCA DB&#x2010;RCT</p>
+<p>Case reports and series on treatment success in PMR</p>
+</td>
+                <td align="left" rowspan="1" colspan="1">Main evidence on PMR in the context of biopsy/imaging&#x2010;positive GCA</td>
+                <td align="left" rowspan="1" colspan="1">[<xref rid="joim13525-bib-0084" ref-type="bibr">84</xref>, <xref rid="joim13525-bib-0085" ref-type="bibr">85</xref>]</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <fn id="joim13525-tbl2-note-0001">
+              <label>
+<sup>a</sup>
+</label>
+              <p>Reflect ACR/EULAR recommendations [<xref rid="joim13525-bib-0072" ref-type="bibr">72</xref>].</p>
+            </fn>
+            <fn id="joim13525-tbl2-note-0002">
+              <p>Abbreviations: ACR/EULAR, American College of Rheumatology/European League Against Rheumatism; DB, double blind; GCA, giant cell arteritis; GCs, glucocorticoids; I.m., intramuscular; i.v., intravenous; MP, methylprednisolone; OL, open label; PMR, polymyalgia rheumatica; RCT, randomized controlled trial; s.c., subcutaneous.</p>
+            </fn>
+          </table-wrap-foot>
+          <permissions>
+            <copyright-holder>John Wiley &amp; Sons, Ltd.</copyright-holder>
+          </permissions>
+        </table-wrap>
+        <p>There is some evidence for a benefit of methotrexate (MTX) in patients with PMR [<xref rid="joim13525-bib-0073" ref-type="bibr">73</xref>]. In a double&#x2010;blind, randomized controlled trial (RCT), a lower risk of relapse and a greater chance of GC discontinuation was demonstrated in patients with new&#x2010;onset PMR taking MTX in addition to a regular GC regimen compared to the comparison group taking GC + placebo [<xref rid="joim13525-bib-0078" ref-type="bibr">78</xref>]. Similar results were obtained in other studies [<xref rid="joim13525-bib-0073" ref-type="bibr">73</xref>], including a smaller, open&#x2010;label trial [<xref rid="joim13525-bib-0079" ref-type="bibr">79</xref>]. In these studies, weekly doses of 7.5&#x2013;10 mg of MTX were used. Higher doses have not been investigated, and the efficacy of MTX in long&#x2010;standing, relapsing PMR has not been systematically evaluated.</p>
+        <p>Based on this type of evidence, the ACR/EULAR panel conditionally recommended considering early introduction of MTX, in particular for patients at a high risk of relapse and/or prolonged therapy, for example, female patients with high initial ESR (&gt;40 mm/h), peripheral arthritis and/or comorbidities that may be exacerbated by GC therapy [<xref rid="joim13525-bib-0080" ref-type="bibr">80</xref>]. Based on clinical experience and consensus, MTX may also be considered in patients with a relapsing disease or GC&#x2010;related toxicity [<xref rid="joim13525-bib-0080" ref-type="bibr">80</xref>].</p>
+        <p>Data on the use of azathioprine in the treatment of PMR are very limited. A small, double&#x2010;blind RCT of azathioprine for patients with PMR with or without concomitant GCA suggested a GC&#x2010;sparing effect of azathioprine [<xref rid="joim13525-bib-0081" ref-type="bibr">81</xref>]. However, the effect was not apparent until after 1 year of follow&#x2010;up. Despite the limited evidence, azathioprine has been used in some patients with refractory PMR, mainly based on extrapolation from the evidence of benefit in other systemic diseases. The ACR/EULAR recommendations for the management of PMR do not include azathioprine [<xref rid="joim13525-bib-0080" ref-type="bibr">80</xref>]. A retrospective study of low quality indicated that the antimalarial agent hydroxychloroquine, which is used as a DMARD for other conditions, is not effective in preventing relapses in PMR [<xref rid="joim13525-bib-0082" ref-type="bibr">82</xref>].</p>
+        <p>There are very limited data on treatment with biologic DMARDs for PMR. As the monoclonal anti&#x2010;IL&#x2010;6 receptor antibody tocilizumab has been shown to be effective for GCA [<xref rid="joim13525-bib-0083" ref-type="bibr">83</xref>], there is a rationale for investigating it as a therapy for PMR. Many case reports and case series suggest the efficacy of intravenous tocilizumab in individual patients with PMR [<xref rid="joim13525-bib-0084" ref-type="bibr">84</xref>]. In a post&#x2010;hoc subanalysis of the GiACTA trial, in which patients with GCA were treated with subcutaneous tocilizumab or placebo in addition to structured GC&#x2010;tapering schedules [<xref rid="joim13525-bib-0083" ref-type="bibr">83</xref>], there were significantly better outcomes with tocilizumab compared to placebo in the subset of patients presenting with dominating signs and symptoms of PMR [<xref rid="joim13525-bib-0085" ref-type="bibr">85</xref>]. It should be noted that all the patients in this study had GCA that had been verified by temporal artery biopsy or imaging of large vessels.</p>
+        <p>A retrospective cohort study of treatment with tocilizumab or MTX for relapsing PMR in Japan indicated a significant GC&#x2010;sparing effect of tocilizumab, but not of MTX [<xref rid="joim13525-bib-0086" ref-type="bibr">86</xref>].</p>
+        <p>Placebo&#x2010;controlled RCTs of the TNF&#x2010;inhibitors infliximab [<xref rid="joim13525-bib-0087" ref-type="bibr">87</xref>] or etanercept [<xref rid="joim13525-bib-0088" ref-type="bibr">88</xref>] have not demonstrated any significant benefit in patients with PMR. Therefore, TNF inhibitors are not recommended for the treatment of PMR [<xref rid="joim13525-bib-0080" ref-type="bibr">80</xref>].</p>
+      </sec>
+      <sec id="joim13525-sec-0210">
+        <title>Supportive therapies</title>
+        <p>Prolonged use of GC is an important contributing factor to several comorbidities in patients with rheumatic diseases including systemic vasculitis, PMR and GCA [<xref rid="joim13525-bib-0089" ref-type="bibr">89</xref>, <xref rid="joim13525-bib-0090" ref-type="bibr">90</xref>, <xref rid="joim13525-bib-0091" ref-type="bibr">91</xref>, <xref rid="joim13525-bib-0092" ref-type="bibr">92</xref>]. The determination of a safe dose in patients with long&#x2010;term GC exposure in patients with rheumatic disease is debatable. However, a task force group by the EULAR agreed on a GC dose for long&#x2010;term treatment with a low level of harm [<xref rid="joim13525-bib-0093" ref-type="bibr">93</xref>]. According to the task force, a daily dose of 5 mg prednisolone or equivalent is associated with a low level of harm, whereas a daily dose of 10 mg or more is associated with an elevated risk of harm. At a daily dose of 5&#x2013;10 mg, patient characteristics and the level of comorbidities should be taken into consideration in determining the level of harm [<xref rid="joim13525-bib-0093" ref-type="bibr">93</xref>]. It is therefore recommended that all patients with PMR should receive early in their disease course other supportive therapies, such as calcium/vitamin D and bisphosphonates to prevent osteoporosis [<xref rid="joim13525-bib-0094" ref-type="bibr">94</xref>].</p>
+      </sec>
+    </sec>
+    <sec id="joim13525-sec-0220">
+      <title>Comorbidities</title>
+      <p>There is limited information on comorbidities in patients with PMR from large epidemiological studies. In an SLR published in 2018 including 41 reports, wide variations were found in the study design, type of populations subjected to investigations and comorbidities reported, emphasizing the knowledge gap and the need for studies on comorbidities in patients with a well&#x2010;defined diagnosis of PMR [<xref rid="joim13525-bib-0095" ref-type="bibr">95</xref>]. From this SLR, there were some indications of increased risk of comorbidities in patients with a diagnosis of PMR. These comorbidities can be grouped into vascular disease, cancer and other diseases, the latter including hypothyroidism and diverticular disease. The most frequent comorbidity reported after PMR diagnosis is vascular disease [<xref rid="joim13525-bib-0095" ref-type="bibr">95</xref>, <xref rid="joim13525-bib-0096" ref-type="bibr">96</xref>]. The vascular conditions include stroke, myocardial infarction and peripheral vascular disease. This is in line with an increased risk of cardiovascular disease in other chronic inflammatory diseases such as RA. The divergent reports from studies on patients with PMR may be affected by including or excluding patients with GCA. Further studies are required to address this question. Whether patients with PMR have an increased risk of cancer after PMR diagnosis is more controversial as part of this association was observed within the first 6 months following diagnosis of PMR, which is why the possibility of an element of misdiagnosis cannot be ruled out. While a few studies have reported an increased risk of cancer, others have reported a lower risk or the results have been equivocal. Concerning other comorbidities, there are conflicting data on an association with hypothyroidism. No reports suggested an association between PMR and psychiatric comorbidities like bipolar disease or schizophrenia but there are some reports of increased risk of depression, which may be associated with chronic pain or GC treatment.</p>
+      <p>Data from a recent national cohort study from the UK support the increased risk of vascular disease (adjusted hazard ratio (HR) 1.23 [95% confidence interval 1.19, 1.28]) after PMR diagnosis [<xref rid="joim13525-bib-0096" ref-type="bibr">96</xref>]. Furthermore, there was also a risk of respiratory (HR 1.25 [1.18, 1.32]), renal (HR 1.34 [1.30, 1.39]) and autoimmune diseases (HR 4.68 [4.35, 5.03]) after PMR diagnosis. At least for the latter two, the explanation could be surveillance bias.</p>
+      <p>Patients with PMR have a high rate of comorbidities associated with GC treatment such as osteoporosis, vertebral fractures, infections, cataract and glaucoma [<xref rid="joim13525-bib-0096" ref-type="bibr">96</xref>]. However, in a population&#x2010;based cohort study from Olmstead County, Minnesota, USA, it was only cataract that was more common in patients with PMR followed for a median of 5.8 years compared to age&#x2010; and sex&#x2010;matched comparators without PMR [<xref rid="joim13525-bib-0097" ref-type="bibr">97</xref>]. Possibly, the nonincreased risk of osteoporosis and fractures could reflect common use of osteoporosis prophylaxis in this group of patients with planned long&#x2010;term treatment with GC and with other risk factors of osteoporosis. Such patterns may depend on access to care in different populations.</p>
+    </sec>
+    <sec id="joim13525-sec-0230">
+      <title>Mortality</title>
+      <p>PMR is characterised by increased levels of inflammation, and therefore patients with PMR may have a predisposition to increased risks of certain conditions similar to patients with other rheumatologic conditions [<xref rid="joim13525-bib-0095" ref-type="bibr">95</xref>]. Given the high burden of comorbidity among patients with PMR, it is important to ascertain whether a diagnosis of PMR is associated with an increased risk of mortality. A recent systematic review found that patients with PMR had a higher burden of comorbid disease when compared to age&#x2010; and sex&#x2010;matched controls [<xref rid="joim13525-bib-0095" ref-type="bibr">95</xref>]. However, three previous studies reported reduced mortality among patients diagnosed with PMR [<xref rid="joim13525-bib-0002" ref-type="bibr">2</xref>, <xref rid="joim13525-bib-0098" ref-type="bibr">98</xref>, <xref rid="joim13525-bib-0099" ref-type="bibr">99</xref>]. A possible explanation for this could be surveillance bias. Patients with chronic illness (and especially PMR where regular assessment, follow&#x2010;up and monitoring are advised) are more likely to be under active follow&#x2010;up for their condition and any developing morbidity which leads to management of the illness at an early stage. Another study found an increase in mortality, but this study did not differentiate between patients with PMR and GCA [<xref rid="joim13525-bib-0100" ref-type="bibr">100</xref>]. Yet another study, which is known to be the largest study to estimate the effect that a diagnosis of PMR has on life expectancy, showed that a diagnosis of PMR does not have a significant impact on life expectancy [<xref rid="joim13525-bib-0101" ref-type="bibr">101</xref>]. The causes of death in patients with PMR were broadly similar to those of matched controls; however, a slightly higher proportion of patients with PMR died due to vascular causes, and a slightly lower proportion died due to neoplastic conditions when compared to matched controls [<xref rid="joim13525-bib-0101" ref-type="bibr">101</xref>]. Thus, a diagnosis of PMR does not appear to increase the risk of premature death. Possibly, other factors with a positive effect on longevity predisposing to PMR may balance the negative effects of inflammation and treatment side effects in these patients.</p>
+    </sec>
+    <sec id="joim13525-sec-0240">
+      <title>Conclusion</title>
+      <p>In conclusion, PMR is a common disorder and sometimes a major clinical challenge. Further studies on pathophysiology are needed to better understand the disease mechanisms as a basis for future targeted therapies. IL&#x2010;6 inhibition is a particularly promising therapeutic concept, but more data are needed. Furthermore, there is a need for better diagnostic methods, including further development of imaging modalities, to facilitate diagnosis and adequate treatment.</p>
+    </sec>
+    <sec sec-type="COI-statement" id="joim13525-sec-0260">
+      <title>Conflict of interest</title>
+      <p>Ingrid E. Lundberg has stock shares in Roche and Novartis. Carl Turesson has received honoraria for lectures and educational events from Abbvie, Bristol&#x2010;Myers Squibb, Nordic Drugs, Pfizer and Roche. Aladdin J. Mohammad has received honoraria for lectures and educational events from Roche, GSK, Vifor, Lilly and AMGEN.</p>
+    </sec>
+    <sec id="joim13525-sec-0270">
+      <title>Author contributions</title>
+      <p>Ingrid E. Lundberg: Conceptualization; data curation; project administration. Ankita Sharma: Data curation. Carl Turesson: Data curation. Aladdin J. Mohammad: Conceptualization; data curation; project administration.</p>
+    </sec>
+  </body>
+  <back>
+    <ack id="joim13525-sec-0250">
+      <title>Acknowledgements</title>
+      <p>The authors would like to thank Dr Ra&#xEF;ssa de Boer, PhD, Researcher and Computer scientists, Lund University, for her kind help in production of the figures and Associate Professor Fredrik Hedeer, Lund University, for providing the PET CT Figures. We also thank the patient who accepted and gave consent to publishing her PET CT images. Aladdin J. Mohammad was supported by grants from The Swedish Research Council, ALF Medel Sk&#xE5;ne, King Gustaf V 80 Year Foundation, Anna&#x2010;Greta Crafoord Foundation and Alfred &#xD6;sterlund Stiftelse. Ingrid E. Lundberg was supported by grants from The Swedish Research Council (2020&#x2010;01378), the Swedish Rheumatism Association, King Gustaf V 80 Year Foundation and Region Stockholm (ALF project). Carl Turesson was supported by grants from The Swedish Research Council, the Swedish Rheumatism Association, King Gustaf V 80 Year Foundation, Greta and Johan Kock Foundation and Region Sk&#xE5;ne.</p>
+    </ack>
+    <ref-list id="joim13525-bibl-0001">
+      <title>References</title>
+      <ref id="joim13525-bib-0001">
+        <label>1</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0001">
+<string-name>
+<surname>Raheel</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Shbeeb</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Crowson</surname>
+<given-names>CS</given-names>
+</string-name>, <string-name>
+<surname>Matteson</surname>
+<given-names>EL</given-names>
+</string-name>. <article-title>Epidemiology of polymyalgia rheumatica 2000&#x2013;2014 and examination of incidence and survival trends over 45 years: a population&#x2010;based study</article-title>. <source>Arthritis Care Res (Hoboken).</source>
+<year>2017</year>;<volume>69</volume>:<fpage>1282</fpage>&#x2013;<lpage>5</lpage>.<pub-id pub-id-type="pmid">27768840</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0002">
+        <label>2</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0002">
+<string-name>
+<surname>Doran</surname>
+<given-names>MF</given-names>
+</string-name>, <string-name>
+<surname>Crowson</surname>
+<given-names>CS</given-names>
+</string-name>, <string-name>
+<surname>O'Fallon</surname>
+<given-names>WM</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>, <string-name>
+<surname>Gabriel</surname>
+<given-names>SE</given-names>
+</string-name>. <article-title>Trends in the incidence of polymyalgia rheumatica over a 30 year period in Olmsted County, Minnesota, USA</article-title>. <source>J Rheumatol.</source>
+<year>2002</year>;<volume>29</volume>:<fpage>1694</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">12180732</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0003">
+        <label>3</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0003">
+<string-name>
+<surname>Michet</surname>
+<given-names>CJ</given-names>
+</string-name>, <string-name>
+<surname>Matteson</surname>
+<given-names>EL</given-names>
+</string-name>. <article-title>Polymyalgia rheumatica</article-title>. <source>BMJ.</source>
+<year>2008</year>;<volume>336</volume>:<fpage>765</fpage>&#x2013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">18390527</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0004">
+        <label>4</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0004">
+<string-name>
+<surname>Gonzalez&#x2010;Gay</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Vazquez&#x2010;Rodriguez</surname>
+<given-names>TR</given-names>
+</string-name>, <string-name>
+<surname>Lopez&#x2010;Diaz</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Miranda&#x2010;Filloy</surname>
+<given-names>JA</given-names>
+</string-name>, <string-name>
+<surname>Gonzalez&#x2010;Juanatey</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Martin</surname>
+<given-names>J</given-names>
+</string-name>, et&#xA0;al. <article-title>Epidemiology of giant cell arteritis and polymyalgia rheumatica</article-title>. <source>Arthritis Rheum.</source>
+<year>2009</year>;<volume>61</volume>:<fpage>1454</fpage>&#x2013;<lpage>61</lpage>.<pub-id pub-id-type="pmid">19790127</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0005">
+        <label>5</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0005">
+<string-name>
+<surname>Noltorp</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Svensson</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>High incidence of polymyalgia rheumatica and giant cell arteritis in a Swedish community</article-title>. <source>Clin Exp Rheumatol.</source>
+<year>1991</year>;<volume>9</volume>:<fpage>351</fpage>&#x2013;<lpage>5</lpage>.<pub-id pub-id-type="pmid">1934682</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0006">
+        <label>6</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0006">
+<string-name>
+<surname>Schaufelberger</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Bengtsson</surname>
+<given-names>B&#x2010;&#xC5;</given-names>
+</string-name>, <string-name>
+<surname>Andersson</surname>
+<given-names>R</given-names>
+</string-name>. <article-title>Epidemiology and mortality in 220 patients with polymyalgia rheumatica</article-title>. <source>Br J Rheumatol.</source>
+<year>1995</year>;<volume>34</volume>:<fpage>261</fpage>&#x2013;<lpage>4</lpage>.<pub-id pub-id-type="pmid">7728403</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0007">
+        <label>7</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0007">
+<string-name>
+<surname>Gran</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name>
+<surname>Myklebust</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>The incidence of polymyalgia rheumatica and temporal arteritis in the county of Aust Agder, south Norway: a prospective study 1987&#x2013;94</article-title>. <source>J Rheumatol.</source>
+<year>1997</year>;<volume>24</volume>:<fpage>1739</fpage>&#x2013;<lpage>43</lpage>.<pub-id pub-id-type="pmid">9292797</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0008">
+        <label>8</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0008">
+<string-name>
+<surname>Crowson</surname>
+<given-names>CS</given-names>
+</string-name>, <string-name>
+<surname>Matteson</surname>
+<given-names>EL</given-names>
+</string-name>. <article-title>Contemporary prevalence estimates for giant cell arteritis and polymyalgia rheumatica, 2015</article-title>. <source>Semin Arthritis Rheum.</source>
+<year>2017</year>;<volume>47</volume>:<fpage>253</fpage>&#x2013;<lpage>6</lpage>.<pub-id pub-id-type="pmid">28551169</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0009">
+        <label>9</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0009">
+<string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Gabriel</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>O'Fallon</surname>
+<given-names>WM</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>. <article-title>The incidence of giant cell arteritis in Olmsted County, Minnesota: apparent fluctuations in a cyclic pattern</article-title>. <source>Ann Intern Med.</source>
+<year>1995</year>;<volume>123</volume>:<fpage>192</fpage>&#x2013;<lpage>4</lpage>.<pub-id pub-id-type="pmid">7598301</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0010">
+        <label>10</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0010">
+<string-name>
+<surname>Sharma</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Mohammad</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Turesson</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Incidence and prevalence of giant cell arteritis and polymyalgia rheumatica: a systematic literature review</article-title>. <source>Semin Arthritis Rheum.</source>
+<year>2020</year>;<volume>50</volume>:<fpage>1040</fpage>&#x2013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">32911281</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0011">
+        <label>11</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0011">
+<string-name>
+<surname>Kim</surname>
+<given-names>IY</given-names>
+</string-name>, <string-name>
+<surname>Seo</surname>
+<given-names>GH</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Jeong</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>J</given-names>
+</string-name>, et&#xA0;al. <article-title>Epidemiology of polymyalgia rheumatica in Korea</article-title>. <source>J Rheum Dis.</source>
+<year>2014</year>;<volume>21</volume>:<fpage>297</fpage>&#x2013;<lpage>302</lpage>.</mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0012">
+        <label>12</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0012">
+<string-name>
+<surname>Kobayashi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Yano</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Matsumoto</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Numano</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Nakajima</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Yasuda</surname>
+<given-names>K</given-names>
+</string-name>, et&#xA0;al. <article-title>Clinical and epidemiologic analysis of giant cell (temporal) arteritis from a nationwide survey in 1998 in Japan: the first government&#x2010;supported nationwide survey</article-title>. <source>Arthritis Rheum.</source>
+<year>2003</year>;<volume>49</volume>:<fpage>594</fpage>&#x2013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">12910568</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0013">
+        <label>13</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0013">
+<string-name>
+<surname>Cimmino</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Zaccaria</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Epidemiology of polymyalgia rheumatica</article-title>. <source>Clin Exp Rheumatol.</source>
+<year>2000</year>;<volume>18</volume>:<fpage>S9</fpage>&#x2013;<lpage>11</lpage>.<pub-id pub-id-type="pmid">10948749</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0014">
+        <label>14</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0014">
+<string-name>
+<surname>Cimmino</surname>
+<given-names>MA</given-names>
+</string-name>. <article-title>Genetic and environmental factors in polymyalgia rheumatica</article-title>. <source>Ann Rheum Dis.</source>
+<year>1997</year>;<volume>56</volume>:<fpage>576</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">9389216</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0015">
+        <label>15</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0015">
+<string-name>
+<surname>Metyas</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Chen</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Aung</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Ballester</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Cheav</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Rheumatologic manifestations of post SARS&#x2010;CoV&#x2010;2 infection: a case series</article-title>. <source>Curr Rheumatol Rev.</source>
+<year>2022</year>. <pub-id pub-id-type="doi">10.2174/1573397118666220211155716</pub-id>
+</mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0016">
+        <label>16</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0016">
+<string-name>
+<surname>Mettler</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Jonville&#x2010;Bera</surname>
+<given-names>A&#x2010;P</given-names>
+</string-name>, <string-name>
+<surname>Grandvuillemin</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Treluyer</surname>
+<given-names>J&#x2010;M</given-names>
+</string-name>, <string-name>
+<surname>Terrier</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Chouchana</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Risk of giant cell arteritis and polymyalgia rheumatica following COVID&#x2010;19 vaccination: a global pharmacovigilance study</article-title>. <source>Rheumatology (Oxford).</source>
+<year>2022</year>;<volume>61</volume>:<fpage>865</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">34626105</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0017">
+        <label>17</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0017">
+<string-name>
+<surname>Hysa</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Sobrero</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Camellino</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Rumi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Carrara</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Cutolo</surname>
+<given-names>M</given-names>
+</string-name>, et&#xA0;al. <article-title>A seasonal pattern in the onset of polymyalgia rheumatica and giant cell arteritis? A systematic review and meta&#x2010;analysis</article-title>. <source>Semin Arthritis Rheum.</source>
+<year>2020</year>;<volume>50</volume>:<fpage>1131</fpage>&#x2013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">32920326</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0018">
+        <label>18</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0018">
+<string-name>
+<surname>Sobrero</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Paolino</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hysa</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Camellino</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Tomatis</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Cutolo</surname>
+<given-names>M</given-names>
+</string-name>, et&#xA0;al. <article-title>Seasonal onset of polymyalgia rheumatica: correlations with the pattern of clinical presentation, disease severity and outcome in 383 patients from a single centre</article-title>. <source>Clin Exp Rheumatol.</source>
+<year>2021</year>;<volume>39</volume>:<fpage>564</fpage>&#x2013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">33822703</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0019">
+        <label>19</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0019">
+<string-name>
+<surname>Peris</surname>
+<given-names>P</given-names>
+</string-name>. <article-title>Polymyalgia rheumatica is not seasonal in pattern and is unrelated to parvovirus b19 infection</article-title>. <source>J Rheumatol.</source>
+<year>2003</year>;<volume>30</volume>:<fpage>2624</fpage>&#x2013;<lpage>6</lpage>.<pub-id pub-id-type="pmid">14719204</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0020">
+        <label>20</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0020">
+<string-name>
+<surname>Liozon</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Parreau</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Filloux</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Dumonteil</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Gondran</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Bezanahary</surname>
+<given-names>H</given-names>
+</string-name>, et&#xA0;al. <article-title>Giant cell arteritis or polymyalgia rheumatica after influenza vaccination: a study of 12 patients and a literature review</article-title>. <source>Autoimmun Rev.</source>
+<year>2021</year>;<volume>20</volume>:<elocation-id>102732</elocation-id>.<pub-id pub-id-type="pmid">33326851</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0021">
+        <label>21</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0021">
+<string-name>
+<surname>Izuka</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Komai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Natsumoto</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Shoda</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Fujio</surname>
+<given-names>K</given-names>
+</string-name>. <article-title>Self&#x2010;limited polymyalgia rheumatica&#x2010;like syndrome following mRNA&#x2010;1273 SARS&#x2010;CoV&#x2010;2 vaccination</article-title>. <source>Intern Med.</source>
+<year>2022</year>;<volume>61</volume>:<fpage>903</fpage>&#x2013;<lpage>6</lpage>.<pub-id pub-id-type="pmid">34980802</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0022">
+        <label>22</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0022">
+<string-name>
+<surname>Cadiou</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Perdriger</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Ardois</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Albert</surname>
+<given-names>J&#x2010;D</given-names>
+</string-name>, <string-name>
+<surname>Berthoud</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Lescoat</surname>
+<given-names>A</given-names>
+</string-name>, et&#xA0;al. <article-title>SARS&#x2010;CoV&#x2010;2, polymyalgia rheumatica and giant cell arteritis: COVID&#x2010;19 vaccine shot as a trigger? Comment on: &#x201C;Can SARS&#x2010;CoV&#x2010;2 trigger relapse of polymyalgia rheumatica?&#x201D; by Manzo Joint Bone Spine 2021;88:105150</article-title>. <source>Joint Bone Spine.</source>
+<year>2022</year>;<volume>89</volume>:<elocation-id>105282</elocation-id>.<pub-id pub-id-type="pmid">34600148</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0023">
+        <label>23</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0023">
+<string-name>
+<surname>Meliconi</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Pulsatelli</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Uguccioni</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Macchioni</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Melchiorri</surname>
+<given-names>C</given-names>
+</string-name>, et&#xA0;al. <article-title>Leukocyte infiltration in synovial tissue from the shoulder of patients with polymyalgia rheumatica. Quantitative analysis and influence of corticosteroid treatment</article-title>. <source>Arthritis Rheum.</source>
+<year>1996</year>;<volume>39</volume>:<fpage>1199</fpage>&#x2013;<lpage>207</lpage>.<pub-id pub-id-type="pmid">8670331</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0024">
+        <label>24</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0024">
+<string-name>
+<surname>Meliconi</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Pulsatelli</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Dolzani</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Boiardi</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Macchioni</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, et&#xA0;al. <article-title>Vascular endothelial growth factor production in polymyalgia rheumatica</article-title>. <source>Arthritis Rheum.</source>
+<year>2000</year>;<volume>43</volume>:<fpage>2472</fpage>&#x2013;<lpage>80</lpage>.<pub-id pub-id-type="pmid">11083270</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0025">
+        <label>25</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0025">
+<string-name>
+<surname>Meliconi</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Pulsatelli</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Melchiorri</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Frizziero</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Macchioni</surname>
+<given-names>P</given-names>
+</string-name>, et&#xA0;al. <article-title>Synovial expression of cell adhesion molecules in polymyalgia rheumatica</article-title>. <source>Clin Exp Immunol.</source>
+<year>1997</year>;<volume>107</volume>:<fpage>494</fpage>&#x2013;<lpage>500</lpage>.<pub-id pub-id-type="pmid">9067523</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0026">
+        <label>26</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0026">
+<string-name>
+<surname>Pulsatelli</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Dolzani</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Silvestri</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>De Giorgio</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Macchioni</surname>
+<given-names>P</given-names>
+</string-name>, et&#xA0;al. <article-title>Synovial expression of vasoactive intestinal peptide in polymyalgia rheumatica</article-title>. <source>Clin Exp Rheumatol.</source>
+<year>2006</year>;<volume>24</volume>:<fpage>562</fpage>&#x2013;<lpage>6</lpage>.<pub-id pub-id-type="pmid">17181926</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0027">
+        <label>27</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0027">
+<string-name>
+<surname>Ruta</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Rosa</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Navarta</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Saucedo</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Catoggio</surname>
+<given-names>LJ</given-names>
+</string-name>, <string-name>
+<surname>Monaco</surname>
+<given-names>RG</given-names>
+</string-name>, et&#xA0;al. <article-title>Ultrasound assessment of new onset bilateral painful shoulder in patients with polymyalgia rheumatica and rheumatoid arthritis</article-title>. <source>Clin Rheumatol.</source>
+<year>2012</year>;<volume>31</volume>:<fpage>1383</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">22684205</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0028">
+        <label>28</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0028">
+<string-name>
+<surname>Owen</surname>
+<given-names>CE</given-names>
+</string-name>, <string-name>
+<surname>Poon</surname>
+<given-names>AMT</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Mcmaster</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>ST</given-names>
+</string-name>, <string-name>
+<surname>Liew</surname>
+<given-names>DFL</given-names>
+</string-name>, et&#xA0;al. <article-title>Abnormalities at three musculoskeletal sites on whole&#x2010;body positron emission tomography/computed tomography can diagnose polymyalgia rheumatica with high sensitivity and specificity</article-title>. <source>Eur J Nucl Med Mol Imaging.</source>
+<year>2020</year>;<volume>47</volume>:<fpage>2461</fpage>&#x2013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">32090280</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0029">
+        <label>29</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0029">
+<string-name>
+<surname>Shintani</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Shiigai</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Matsui</surname>
+<given-names>Y</given-names>
+</string-name>. <article-title>Polymyalgia rheumatica (PMR): clinical, laboratory, and immunofluorescence studies in 13 patients</article-title>. <source>Clin Neurol Neurosurg.</source>
+<year>2002</year>;<volume>104</volume>:<fpage>20</fpage>&#x2013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">11792472</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0030">
+        <label>30</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0030">
+<string-name>
+<surname>Uddhammar</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Rantapaa Dahlqvist</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hedberg</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Thornell</surname>
+<given-names>LE</given-names>
+</string-name>. <article-title>Deltoid muscle in patients with polymyalgia rheumatica</article-title>. <source>J Rheumatol.</source>
+<year>1998</year>;<volume>25</volume>:<fpage>1344</fpage>&#x2013;<lpage>51</lpage>.<pub-id pub-id-type="pmid">9676767</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0031">
+        <label>31</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0031">
+<string-name>
+<surname>Roche</surname>
+<given-names>NE</given-names>
+</string-name>, <string-name>
+<surname>Fulbright</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name>
+<surname>Wagner</surname>
+<given-names>AD</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>, <string-name>
+<surname>Goronzy</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name>
+<surname>Weyand</surname>
+<given-names>CM</given-names>
+</string-name>. <article-title>Correlation of interleukin&#x2010;6 production and disease activity in polymyalgia rheumatica and giant cell arteritis</article-title>. <source>Arthritis Rheum.</source>
+<year>1993</year>;<volume>36</volume>:<fpage>1286</fpage>&#x2013;<lpage>94</lpage>.<pub-id pub-id-type="pmid">8216422</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0032">
+        <label>32</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0032">
+<string-name>
+<surname>Samson</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Corbera&#x2010;Bellalta</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Audia</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Planas&#x2010;Rigol</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Martin</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Cid</surname>
+<given-names>MC</given-names>
+</string-name>, et&#xA0;al. <article-title>Recent advances in our understanding of giant cell arteritis pathogenesis</article-title>. <source>Autoimmun Rev.</source>
+<year>2017</year>;<volume>16</volume>:<fpage>833</fpage>&#x2013;<lpage>44</lpage>.<pub-id pub-id-type="pmid">28564617</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0033">
+        <label>33</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0033">
+<string-name>
+<surname>Pulsatelli</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Boiardi</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Pignotti</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Dolzani</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Silvestri</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Macchioni</surname>
+<given-names>P</given-names>
+</string-name>, et&#xA0;al. <article-title>Serum interleukin&#x2010;6 receptor in polymyalgia rheumatica: a potential marker of relapse/recurrence risk</article-title>. <source>Arthritis Rheum.</source>
+<year>2008</year>;<volume>59</volume>:<fpage>1147</fpage>&#x2013;<lpage>54</lpage>.<pub-id pub-id-type="pmid">18668607</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0034">
+        <label>34</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0034">
+<string-name>
+<surname>Weyand</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name>
+<surname>Goronzy</surname>
+<given-names>JJ</given-names>
+</string-name>. <article-title>Immune mechanisms in medium and large&#x2010;vessel vasculitis</article-title>. <source>Nat Rev Rheumatol.</source>
+<year>2013</year>;<volume>9</volume>:<fpage>731</fpage>&#x2013;<lpage>40</lpage>.<pub-id pub-id-type="pmid">24189842</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0035">
+        <label>35</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0035">
+<string-name>
+<surname>Weyand</surname>
+<given-names>CM</given-names>
+</string-name>, <string-name>
+<surname>Hicok</surname>
+<given-names>KC</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>, <string-name>
+<surname>Goronzy</surname>
+<given-names>JJ</given-names>
+</string-name>. <article-title>Tissue cytokine patterns in patients with polymyalgia rheumatica and giant cell arteritis</article-title>. <source>Ann Intern Med.</source>
+<year>1994</year>;<volume>121</volume>:<fpage>484</fpage>&#x2013;<lpage>91</lpage>.<pub-id pub-id-type="pmid">8067646</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0036">
+        <label>36</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0036">
+<string-name>
+<surname>Carvajal Alegria</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Boukhlal</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Cornec</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Devauchelle&#x2010;Pensec</surname>
+<given-names>V</given-names>
+</string-name>. <article-title>The pathophysiology of polymyalgia rheumatica, small pieces of a big puzzle</article-title>. <source>Autoimmun Rev.</source>
+<year>2020</year>;<volume>19</volume>:<elocation-id>102670</elocation-id>.<pub-id pub-id-type="pmid">32942037</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0037">
+        <label>37</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0037">
+<string-name>
+<surname>Van Sleen</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>Q</given-names>
+</string-name>, <string-name>
+<surname>Van Der Geest</surname>
+<given-names>KSM</given-names>
+</string-name>, <string-name>
+<surname>Westra</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Abdulahad</surname>
+<given-names>WH</given-names>
+</string-name>, <string-name>
+<surname>Heeringa</surname>
+<given-names>P</given-names>
+</string-name>, et&#xA0;al. <article-title>Involvement of monocyte subsets in the immunopathology of giant cell arteritis</article-title>. <source>Sci Rep.</source>
+<year>2017</year>;<volume>7</volume>:<fpage>6553</fpage>.<pub-id pub-id-type="pmid">28747747</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0038">
+        <label>38</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0038">
+<string-name>
+<surname>Hysa</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Gotelli</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Sammor&#xEC;</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Cimmino</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Paolino</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Pizzorni</surname>
+<given-names>C</given-names>
+</string-name>, et&#xA0;al. <article-title>Immune system activation in polymyalgia rheumatica: which balance between autoinflammation and autoimmunity? A systematic review</article-title>. <source>Autoimmun Rev.</source>
+<year>2022</year>;<volume>21</volume>:<elocation-id>102995</elocation-id>.<pub-id pub-id-type="pmid">34798314</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0039">
+        <label>39</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0039">
+<string-name>
+<surname>Jakobsson</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Jacobsson</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Warrington</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Matteson</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name>
+<surname>Liang</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Melander</surname>
+<given-names>O</given-names>
+</string-name>, et&#xA0;al. <article-title>Body mass index and the risk of giant cell arteritis: results from a prospective study</article-title>. <source>Rheumatology (Oxford).</source>
+<year>2015</year>;<volume>54</volume>:<fpage>433</fpage>&#x2013;<lpage>40</lpage>.<pub-id pub-id-type="pmid">25193806</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0040">
+        <label>40</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0040">
+<string-name>
+<surname>Wadstr&#xF6;m</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Jacobsson</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Mohammad</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Warrington</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name>
+<surname>Matteson</surname>
+<given-names>EL</given-names>
+</string-name>, <string-name>
+<surname>Turesson</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Negative associations for fasting blood glucose, cholesterol and triglyceride levels with the development of giant cell arteritis</article-title>. <source>Rheumatology (Oxford).</source>
+<year>2020</year>;<volume>59</volume>:<fpage>3229</fpage>&#x2013;<lpage>36</lpage>.<pub-id pub-id-type="pmid">32240313</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0041">
+        <label>41</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0041">
+<string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Cantini</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>. <article-title>Polymyalgia rheumatica and giant&#x2010;cell arteritis</article-title>. <source>Lancet.</source>
+<year>2008</year>;<volume>372</volume>:<fpage>234</fpage>&#x2013;<lpage>45</lpage>.<pub-id pub-id-type="pmid">18640460</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0042">
+        <label>42</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0042">
+<string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Cantini</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Boiardi</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>. <article-title>Polymyalgia rheumatica</article-title>. <source>Best Pract Res Clin Rheumatol.</source>
+<year>2004</year>;<volume>18</volume>:<fpage>705</fpage>&#x2013;<lpage>22</lpage>.<pub-id pub-id-type="pmid">15454128</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0043">
+        <label>43</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0043">
+<string-name>
+<surname>Nesher</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Polymyalgia rheumatica&#x2014;diagnosis and classification</article-title>. <source>J Autoimmun.</source>
+<year>2014</year>;<volume>48&#x2013;49</volume>:<fpage>76</fpage>&#x2013;<lpage>8</lpage>.</mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0044">
+        <label>44</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0044">
+<string-name>
+<surname>Kermani</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Warrington</surname>
+<given-names>KJ</given-names>
+</string-name>. <article-title>Polymyalgia rheumatica</article-title>. <source>Lancet.</source>
+<year>2013</year>;<volume>381</volume>:<fpage>63</fpage>&#x2013;<lpage>72</lpage>.<pub-id pub-id-type="pmid">23051717</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0045">
+        <label>45</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0045">
+<string-name>
+<surname>Twohig</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Mitchell</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Mallen</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Adebajo</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Mathers</surname>
+<given-names>N</given-names>
+</string-name>. <article-title>&#x201C;I suddenly felt I'd aged&#x201D;: a qualitative study of patient experiences of polymyalgia rheumatica (PMR)</article-title>. <source>Patient Educ Couns.</source>
+<year>2015</year>;<volume>98</volume>:<fpage>645</fpage>&#x2013;<lpage>50</lpage>.<pub-id pub-id-type="pmid">25638304</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0046">
+        <label>46</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0046">
+<string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Gabriel</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>Michael O'fallon</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>. <article-title>Epidemiology of polymyalgia rheumatica in Olmsted County, Minnesota, 1970&#x2013;1991</article-title>. <source>Arthritis Rheum.</source>
+<year>1995</year>;<volume>38</volume>:<fpage>369</fpage>&#x2013;<lpage>73</lpage>.<pub-id pub-id-type="pmid">7880191</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0047">
+        <label>47</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0047">
+<string-name>
+<surname>Hamrin</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Jonsson</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Hellsten</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>&#x201C;Polymyalgia arteritica&#x201D;. Further clinical and histopathological studies with a report of six autopsy cases</article-title>. <source>Ann Rheum Dis.</source>
+<year>1968</year>;<volume>27</volume>:<fpage>397</fpage>&#x2013;<lpage>405</lpage>.<pub-id pub-id-type="pmid">5677163</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0048">
+        <label>48</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0048">
+<string-name>
+<surname>Schmidt</surname>
+<given-names>WA</given-names>
+</string-name>, <string-name>
+<surname>Gromnica&#x2010;Ihle</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Incidence of temporal arteritis in patients with polymyalgia rheumatica: a prospective study using colour Doppler ultrasonography of the temporal arteries</article-title>. <source>Rheumatology (Oxford).</source>
+<year>2002</year>;<volume>41</volume>:<fpage>46</fpage>&#x2013;<lpage>52</lpage>.<pub-id pub-id-type="pmid">11792879</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0049">
+        <label>49</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0049">
+<string-name>
+<surname>Baldursson</surname>
+<given-names>&#xD3;</given-names>
+</string-name>, <string-name>
+<surname>Steinsson</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Bj&#xF6;rnsson</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Lie</surname>
+<given-names>JT</given-names>
+</string-name>. <article-title>Giant cell arteritis in Iceland. An epidemiologic and histopathologic analysis</article-title>. <source>Arthritis and Rheumatism.</source>
+<year>1994</year>;<volume>37</volume>:<fpage>1007</fpage>&#x2013;<lpage>12</lpage>.<pub-id pub-id-type="pmid">8024610</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0050">
+        <label>50</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0050">
+<string-name>
+<surname>Gonzalez&#x2010;Gay</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Garc&#xED;a&#x2010;Porr&#xFA;a</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Systemic vasculitis in adults in northwestern Spain, 1988&#x2013;1997. Clinical and epidemiologic aspects</article-title>. <source>Medicine (Baltimore).</source>
+<year>1999</year>;<volume>78</volume>:<fpage>292</fpage>&#x2013;<lpage>308</lpage>.<pub-id pub-id-type="pmid">10499071</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0051">
+        <label>51</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0051">
+<string-name>
+<surname>Kermani</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Warrington</surname>
+<given-names>KJ</given-names>
+</string-name>, <string-name>
+<surname>Cuthbertson</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Carette</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hoffman</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name>
+<surname>Khalidi</surname>
+<given-names>NA</given-names>
+</string-name>, et&#xA0;al. <article-title>Disease relapses among patients with giant cell arteritis: a prospective, longitudinal cohort study</article-title>. <source>J Rheumatol.</source>
+<year>2015</year>;<volume>42</volume>:<fpage>1213</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">25877501</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0052">
+        <label>52</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0052">
+<string-name>
+<surname>Nobunaga</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Yoshioka</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Yasuda</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Shingu</surname>
+<given-names>M</given-names>
+</string-name>. <article-title>Clinical studies of polymyalgia rheumatica. A proposal of diagnostic criteria</article-title>. <source>Jpn J Med.</source>
+<year>1989</year>;<volume>28</volume>:<fpage>452</fpage>&#x2013;<lpage>6</lpage>.<pub-id pub-id-type="pmid">2681899</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0053">
+        <label>53</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0053">
+<string-name>
+<surname>Bird</surname>
+<given-names>HA</given-names>
+</string-name>, <string-name>
+<surname>Esselinckx</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Dixon</surname>
+<given-names>AS</given-names>
+</string-name>, <string-name>
+<surname>Mowat</surname>
+<given-names>AG</given-names>
+</string-name>, <string-name>
+<surname>Wood</surname>
+<given-names>PH</given-names>
+</string-name>. <article-title>An evaluation of criteria for polymyalgia rheumatica</article-title>. <source>Ann Rheum Dis.</source>
+<year>1979</year>;<volume>38</volume>:<fpage>434</fpage>&#x2013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">518143</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0054">
+        <label>54</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0054">
+<string-name>
+<surname>Healey</surname>
+<given-names>LA</given-names>
+</string-name>. <article-title>Long&#x2010;term follow&#x2010;up of polymyalgia rheumatica: evidence for synovitis</article-title>. <source>Semin Arthritis Rheum.</source>
+<year>1984</year>;<volume>13</volume>:<fpage>322</fpage>&#x2013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">6729485</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0055">
+        <label>55</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0055">
+<string-name>
+<surname>Hamrin</surname>
+<given-names>B</given-names>
+</string-name>. <article-title>Polymyalgia arteritica</article-title>. <source>Acta Med Scand Suppl.</source>
+<year>1972</year>;<volume>533</volume>:<fpage>1</fpage>&#x2013;<lpage>131</lpage>.<pub-id pub-id-type="pmid">4508180</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0056">
+        <label>56</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0056">
+<string-name>
+<surname>Chuang</surname>
+<given-names>TY</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>, <string-name>
+<surname>Ilstrup</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Kurland</surname>
+<given-names>LT</given-names>
+</string-name>. <article-title>Polymyalgia rheumatica: a 10&#x2010;year epidemiologic and clinical study</article-title>. <source>Ann Intern Med.</source>
+<year>1982</year>;<volume>97</volume>:<fpage>672</fpage>&#x2013;<lpage>80</lpage>.<pub-id pub-id-type="pmid">6982645</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0057">
+        <label>57</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0057">
+<string-name>
+<surname>Fors</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Bergstr&#xF6;m</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Willim</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Pilman</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Turesson</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Validity of polymyalgia rheumatica diagnoses and classification criteria in primary health care</article-title>. <source>Rheumatol Adv Pract.</source>
+<year>2019</year>;<volume>3</volume>:<elocation-id>rkz033</elocation-id>.<pub-id pub-id-type="pmid">31660474</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0058">
+        <label>58</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0058">
+<string-name>
+<surname>Dasgupta</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Cimmino</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Maradit&#x2010;Kremers</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>
+<given-names>WA</given-names>
+</string-name>, <string-name>
+<surname>Schirmer</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, et&#xA0;al. <article-title>2012 provisional classification criteria for polymyalgia rheumatica: a European League Against Rheumatism/American College of Rheumatology collaborative initiative</article-title>. <source>Ann Rheum Dis.</source>
+<year>2012</year>;<volume>71</volume>:<fpage>484</fpage>&#x2013;<lpage>92</lpage>.<pub-id pub-id-type="pmid">22388996</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0059">
+        <label>59</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0059">
+<string-name>
+<surname>Figus</surname>
+<given-names>FA</given-names>
+</string-name>, <string-name>
+<surname>Skoczynska</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>McConnell</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Massazza</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Iagnocco</surname>
+<given-names>A</given-names>
+</string-name>. <article-title>Imaging in polymyalgia rheumatica: which technique to use?</article-title>
+<source>Clin Exp Rheumatol.</source>
+<year>2021</year>;<volume>39</volume>:<fpage>883</fpage>&#x2013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">33200736</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0060">
+        <label>60</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0060">
+<string-name>
+<surname>Mackie</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name>
+<surname>Koduri</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Hill</surname>
+<given-names>CL</given-names>
+</string-name>, <string-name>
+<surname>Wakefield</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Hutchings</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Loy</surname>
+<given-names>C</given-names>
+</string-name>, et&#xA0;al. <article-title>Accuracy of musculoskeletal imaging for the diagnosis of polymyalgia rheumatica: systematic review</article-title>. <source>RMD Open.</source>
+<year>2015</year>;<volume>1</volume>:<elocation-id>e000100</elocation-id>.<pub-id pub-id-type="pmid">26535139</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0061">
+        <label>61</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0061">
+<string-name>
+<surname>Frediani</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Falsetti</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Storri</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Bisogno</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Baldi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Campanella</surname>
+<given-names>V</given-names>
+</string-name>, et&#xA0;al. <article-title>Evidence for synovitis in active polymyalgia rheumatica: sonographic study in a large series of patients</article-title>. <source>J Rheumatol.</source>
+<year>2002</year>;<volume>29</volume>:<fpage>123</fpage>&#x2013;<lpage>30</lpage>.<pub-id pub-id-type="pmid">11824948</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0062">
+        <label>62</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0062">
+<string-name>
+<surname>Lange</surname>
+<given-names>U</given-names>
+</string-name>, <string-name>
+<surname>Piegsa</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Teichmann</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Neeck</surname>
+<given-names>G</given-names>
+</string-name>. <article-title>Ultrasonography of the glenohumeral joints&#x2014;a helpful instrument in differentiation in elderly onset rheumatoid arthritis and polymyalgia rheumatica</article-title>. <source>Rheumatol Int.</source>
+<year>2000</year>;<volume>19</volume>:<fpage>185</fpage>&#x2013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">10984136</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0063">
+        <label>63</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0063">
+<string-name>
+<surname>Falsetti</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Acciai</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Volpe</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Lenzi</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Ultrasonography in early assessment of elderly patients with polymyalgic symptoms: a role in predicting diagnostic outcome?</article-title>
+<source>Scand J Rheumatol.</source>
+<year>2011</year>;<volume>40</volume>:<fpage>57</fpage>&#x2013;<lpage>63</lpage>.<pub-id pub-id-type="pmid">20653466</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0064">
+        <label>64</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0064">
+<string-name>
+<surname>Mackie</surname>
+<given-names>SL</given-names>
+</string-name>, <string-name>
+<surname>Pease</surname>
+<given-names>CT</given-names>
+</string-name>, <string-name>
+<surname>Fukuba</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Harris</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Emery</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Hodgson</surname>
+<given-names>R</given-names>
+</string-name>, et&#xA0;al. <article-title>Whole&#x2010;body MRI of patients with polymyalgia rheumatica identifies a distinct subset with complete patient&#x2010;reported response to glucocorticoids</article-title>. <source>Ann Rheum Dis.</source>
+<year>2015</year>;<volume>74</volume>:<fpage>2188</fpage>&#x2013;<lpage>92</lpage>.<pub-id pub-id-type="pmid">26376658</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0065">
+        <label>65</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0065">
+<string-name>
+<surname>Laporte</surname>
+<given-names>J&#x2010;P</given-names>
+</string-name>, <string-name>
+<surname>Garrigues</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Huwart</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Jousse&#x2010;Joulin</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Marhadour</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Guellec</surname>
+<given-names>D</given-names>
+</string-name>, et&#xA0;al. <article-title>Localized myofascial inflammation revealed by magnetic resonance imaging in recent&#x2010;onset polymyalgia rheumatica and effect of tocilizumab therapy</article-title>. <source>J Rheumatol.</source>
+<year>2019</year>;<volume>46</volume>:<fpage>1619</fpage>&#x2013;<lpage>26</lpage>.<pub-id pub-id-type="pmid">30877202</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0066">
+        <label>66</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0066">
+<string-name>
+<surname>Van Der Geest</surname>
+<given-names>KSM</given-names>
+</string-name>, <string-name>
+<surname>Treglia</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Glaudemans</surname>
+<given-names>AWJM</given-names>
+</string-name>, <string-name>
+<surname>Brouwer</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Jamar</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Slart</surname>
+<given-names>RHJA</given-names>
+</string-name>, et&#xA0;al. <article-title>Diagnostic value of [18F]FDG&#x2010;PET/CT in polymyalgia rheumatica: a systematic review and meta&#x2010;analysis</article-title>. <source>Eur J Nucl Med Mol Imaging.</source>
+<year>2021</year>;<volume>48</volume>:<fpage>1876</fpage>&#x2013;<lpage>89</lpage>.<pub-id pub-id-type="pmid">33372248</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0067">
+        <label>67</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0067">
+<string-name>
+<surname>Yuge</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Nakatani</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Yoshino</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Koyama</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Diagnosing polymyalgia rheumatica on (18)F&#x2010;FDG PET/CT: typical uptake patterns</article-title>. <source>Ann Nucl Med.</source>
+<year>2018</year>;<volume>32</volume>:<fpage>573</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">29948622</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0068">
+        <label>68</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0068">
+<string-name>
+<surname>Sondag</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Guillot</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Verhoeven</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Blagosklonov</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Prati</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Boulahdour</surname>
+<given-names>H</given-names>
+</string-name>, et&#xA0;al. <article-title>Utility of 18F&#x2010;fluoro&#x2010;dexoxyglucose positron emission tomography for the diagnosis of polymyalgia rheumatica: a controlled study</article-title>. <source>Rheumatology (Oxford).</source>
+<year>2016</year>;<volume>55</volume>:<fpage>1452</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">27107429</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0069">
+        <label>69</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0069">
+<string-name>
+<surname>Richter</surname>
+<given-names>MD</given-names>
+</string-name>, <string-name>
+<surname>Crowson</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kottschade</surname>
+<given-names>LA</given-names>
+</string-name>, <string-name>
+<surname>Finnes</surname>
+<given-names>HD</given-names>
+</string-name>, <string-name>
+<surname>Markovic</surname>
+<given-names>SN</given-names>
+</string-name>, <string-name>
+<surname>Thanarajasingam</surname>
+<given-names>U</given-names>
+</string-name>. <article-title>Rheumatic syndromes associated with immune checkpoint inhibitors: a single&#x2010;center cohort of sixty&#x2010;one patients</article-title>. <source>Arthritis Rheumatol.</source>
+<year>2019</year>;<volume>71</volume>:<fpage>468</fpage>&#x2013;<lpage>75</lpage>.<pub-id pub-id-type="pmid">30281202</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0070">
+        <label>70</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0070">
+<string-name>
+<surname>Calabrese</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Cappelli</surname>
+<given-names>LC</given-names>
+</string-name>, <string-name>
+<surname>Kostine</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kirchner</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Braaten</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Calabrese</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>Polymyalgia rheumatica&#x2010;like syndrome from checkpoint inhibitor therapy: case series and systematic review of the literature</article-title>. <source>RMD Open.</source>
+<year>2019</year>;<volume>5</volume>:<elocation-id>e000906</elocation-id>.<pub-id pub-id-type="pmid">31168414</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0071">
+        <label>71</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0071">
+<string-name>
+<surname>Zhang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Watanabe</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Berry</surname>
+<given-names>GJ</given-names>
+</string-name>, <string-name>
+<surname>Vaglio</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Liao</surname>
+<given-names>YJ</given-names>
+</string-name>, <string-name>
+<surname>Warrington</surname>
+<given-names>KJ</given-names>
+</string-name>, et&#xA0;al. <article-title>Immunoinhibitory checkpoint deficiency in medium and large vessel vasculitis</article-title>. <source>Proc Natl Acad Sci U S A.</source>
+<year>2017</year>;<volume>114</volume>:<fpage>E970</fpage>&#x2013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">28115719</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0072">
+        <label>72</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0072">
+<string-name>
+<surname>Dejaco</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>
+<given-names>YP</given-names>
+</string-name>, <string-name>
+<surname>Perel</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Hutchings</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Camellino</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Mackie</surname>
+<given-names>S</given-names>
+</string-name>, et&#xA0;al. <article-title>2015 Recommendations for the management of polymyalgia rheumatica: a European League Against Rheumatism/American College of Rheumatology collaborative initiative</article-title>. <source>Ann Rheum Dis.</source>
+<year>2015</year>;<volume>74</volume>:<fpage>1799</fpage>&#x2013;<lpage>807</lpage>.<pub-id pub-id-type="pmid">26359488</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0073">
+        <label>73</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0073">
+<string-name>
+<surname>Dejaco</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>
+<given-names>YP</given-names>
+</string-name>, <string-name>
+<surname>Perel</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Hutchings</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Camellino</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Mackie</surname>
+<given-names>S</given-names>
+</string-name>, et&#xA0;al. <article-title>Current evidence for therapeutic interventions and prognostic factors in polymyalgia rheumatica: a systematic literature review informing the 2015 European League Against Rheumatism/American College of Rheumatology recommendations for the management of polymyalgia rheumatica</article-title>. <source>Ann Rheum Dis.</source>
+<year>2015</year>;<volume>74</volume>:<fpage>1808</fpage>&#x2013;<lpage>17</lpage>.<pub-id pub-id-type="pmid">26359489</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0074">
+        <label>74</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0074">
+<string-name>
+<surname>Kyle</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Hazleman</surname>
+<given-names>BL</given-names>
+</string-name>. <article-title>Treatment of polymyalgia rheumatica and giant cell arteritis. I. Steroid regimens in the first two months</article-title>. <source>Ann Rheum Dis.</source>
+<year>1989</year>;<volume>48</volume>:<fpage>658</fpage>&#x2013;<lpage>61</lpage>.<pub-id pub-id-type="pmid">2782975</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0075">
+        <label>75</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0075">
+<string-name>
+<surname>Floris</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Piga</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Chessa</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Congia</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Erre</surname>
+<given-names>GL</given-names>
+</string-name>, <string-name>
+<surname>Angioni</surname>
+<given-names>MM</given-names>
+</string-name>, et&#xA0;al. <article-title>Long&#x2010;term glucocorticoid treatment and high relapse rate remain unresolved issues in the real&#x2010;life management of polymyalgia rheumatica: a systematic literature review and meta&#x2010;analysis</article-title>. <source>Clin Rheumatol.</source>
+<year>2021</year>;<volume>41</volume>(<issue>1</issue>):<fpage>19</fpage>&#x2013;<lpage>31</lpage>.<pub-id pub-id-type="pmid">34415462</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0076">
+        <label>76</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0076">
+<string-name>
+<surname>Dasgupta</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Gray</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Fernandes</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Olliff</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Treatment of polymyalgia rheumatica with intramuscular injections of depot methylprednisolone</article-title>. <source>Ann Rheum Dis.</source>
+<year>1991</year>;<volume>50</volume>:<fpage>942</fpage>&#x2013;<lpage>5</lpage>.<pub-id pub-id-type="pmid">1768166</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0077">
+        <label>77</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0077">
+<string-name>
+<surname>Dasgupta</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Dolan</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name>
+<surname>Panayi</surname>
+<given-names>GS</given-names>
+</string-name>, <string-name>
+<surname>Fernandes</surname>
+<given-names>L</given-names>
+</string-name>. <article-title>An initially double&#x2010;blind controlled 96 week trial of depot methylprednisolone against oral prednisolone in the treatment of polymyalgia rheumatica</article-title>. <source>Br J Rheumatol.</source>
+<year>1998</year>;<volume>37</volume>:<fpage>189</fpage>&#x2013;<lpage>95</lpage>.<pub-id pub-id-type="pmid">9569075</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0078">
+        <label>78</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0078">
+<string-name>
+<surname>Caporali</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Cimmino</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Ferraccioli</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Gerli</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Klersy</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, et&#xA0;al. <article-title>Prednisone plus methotrexate for polymyalgia rheumatica: a randomized, double&#x2010;blind, placebo&#x2010;controlled trial</article-title>. <source>Ann Intern Med.</source>
+<year>2004</year>;<volume>141</volume>:<fpage>493</fpage>&#x2013;<lpage>500</lpage>.<pub-id pub-id-type="pmid">15466766</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0079">
+        <label>79</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0079">
+<string-name>
+<surname>Ferraccioli</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Salaffi</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>De Vita</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Casatta</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Bartoli</surname>
+<given-names>E</given-names>
+</string-name>. <article-title>Methotrexate in polymyalgia rheumatica: preliminary results of an open, randomized study</article-title>. <source>J Rheumatol.</source>
+<year>1996</year>;<volume>23</volume>:<fpage>624</fpage>&#x2013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">8730115</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0080">
+        <label>80</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0080">
+<string-name>
+<surname>Dejaco</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>
+<given-names>YP</given-names>
+</string-name>, <string-name>
+<surname>Perel</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Hutchings</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Camellino</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Mackie</surname>
+<given-names>S</given-names>
+</string-name>, et&#xA0;al. <article-title>2015 Recommendations for the management of polymyalgia rheumatica: a European League Against Rheumatism/American College of Rheumatology collaborative initiative</article-title>. <source>Ann Rheum Dis.</source>
+<year>2015</year>;<volume>74</volume>:<fpage>1799</fpage>&#x2013;<lpage>807</lpage>.<pub-id pub-id-type="pmid">26359488</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0081">
+        <label>81</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0081">
+<string-name>
+<surname>De Silva</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hazleman</surname>
+<given-names>BL</given-names>
+</string-name>. <article-title>Azathioprine in giant cell arteritis/polymyalgia rheumatica: a double&#x2010;blind study</article-title>. <source>Ann Rheum Dis.</source>
+<year>1986</year>;<volume>45</volume>:<fpage>136</fpage>&#x2013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">3511861</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0082">
+        <label>82</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0082">
+<string-name>
+<surname>Lee</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name>
+<surname>Choi</surname>
+<given-names>ST</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>JS</given-names>
+</string-name>, <string-name>
+<surname>Yoon</surname>
+<given-names>BY</given-names>
+</string-name>, <string-name>
+<surname>Kwok</surname>
+<given-names>S&#x2010;K</given-names>
+</string-name>, <string-name>
+<surname>Kim</surname>
+<given-names>H&#x2010;S</given-names>
+</string-name>, et&#xA0;al. <article-title>Clinical characteristics and prognostic factors for relapse in patients with polymyalgia rheumatica (PMR)</article-title>. <source>Rheumatol Int.</source>
+<year>2013</year>;<volume>33</volume>:<fpage>1475</fpage>&#x2013;<lpage>80</lpage>.<pub-id pub-id-type="pmid">23184033</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0083">
+        <label>83</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0083">
+<string-name>
+<surname>Stone</surname>
+<given-names>JH</given-names>
+</string-name>, <string-name>
+<surname>Klearman</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Collinson</surname>
+<given-names>N</given-names>
+</string-name>. <article-title>Trial of tocilizumab in giant&#x2010;cell arteritis</article-title>. <source>N Engl J Med.</source>
+<year>2017</year>;<volume>377</volume>:<fpage>1494</fpage>&#x2013;<lpage>5</lpage>.<pub-id pub-id-type="pmid">29020600</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0084">
+        <label>84</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0084">
+<string-name>
+<surname>Akiyama</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kaneko</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Takeuchi</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Tocilizumab in isolated polymyalgia rheumatica: a systematic literature review</article-title>. <source>Semin Arthritis Rheum.</source>
+<year>2020</year>;<volume>50</volume>:<fpage>521</fpage>&#x2013;<lpage>5</lpage>.<pub-id pub-id-type="pmid">32107035</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0085">
+        <label>85</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0085">
+<string-name>
+<surname>Spiera</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Unizony</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name>
+<surname>Bao</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Luder</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Han</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Pavlov</surname>
+<given-names>A</given-names>
+</string-name>, et&#xA0;al. <article-title>Tocilizumab vs placebo for the treatment of giant cell arteritis with polymyalgia rheumatica symptoms, cranial symptoms or both in a randomized trial</article-title>. <source>Semin Arthritis Rheum.</source>
+<year>2021</year>;<volume>51</volume>:<fpage>469</fpage>&#x2013;<lpage>76</lpage>.<pub-id pub-id-type="pmid">33784598</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0086">
+        <label>86</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0086">
+<string-name>
+<surname>Izumi</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Murata</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Higashida&#x2010;Konishi</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Kaneko</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Oshima</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Takeuchi</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Steroid&#x2010;sparing effect of tocilizumab and methotrexate in patients with polymyalgia rheumatica: a retrospective cohort study</article-title>. <source>J Clin Med.</source>
+<year>2021</year>;<volume>10</volume>:<fpage>2948</fpage>.<pub-id pub-id-type="pmid">34209126</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0087">
+        <label>87</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0087">
+<string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Macchioni</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Manzini</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Paolazzi</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Trotta</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Manganelli</surname>
+<given-names>P</given-names>
+</string-name>, et&#xA0;al. <article-title>Infliximab plus prednisone or placebo plus prednisone for the initial treatment of polymyalgia rheumatica: a randomized trial</article-title>. <source>Ann Intern Med.</source>
+<year>2007</year>;<volume>146</volume>:<fpage>631</fpage>&#x2013;<lpage>9</lpage>.<pub-id pub-id-type="pmid">17470831</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0088">
+        <label>88</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0088">
+<string-name>
+<surname>Kreiner</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Galbo</surname>
+<given-names>H</given-names>
+</string-name>. <article-title>Effect of etanercept in polymyalgia rheumatica: a randomized controlled trial</article-title>. <source>Arthritis Res Ther.</source>
+<year>2010</year>;<volume>12</volume>:<fpage>R176</fpage>.<pub-id pub-id-type="pmid">20854662</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0089">
+        <label>89</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0089">
+<string-name>
+<surname>Mazzantini</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Torre</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Miccoli</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Baggiani</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Talarico</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Bombardieri</surname>
+<given-names>S</given-names>
+</string-name>, et&#xA0;al. <article-title>Adverse events during longterm low&#x2010;dose glucocorticoid treatment of polymyalgia rheumatica: a retrospective study</article-title>. <source>J Rheumatol.</source>
+<year>2012</year>;<volume>39</volume>:<fpage>552</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">22247343</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0090">
+        <label>90</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0090">
+<string-name>
+<surname>Proven</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Gabriel</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>Orces</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>O'Fallon</surname>
+<given-names>WM</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>. <article-title>Glucocorticoid therapy in giant cell arteritis: duration and adverse outcomes</article-title>. <source>Arthritis Rheum.</source>
+<year>2003</year>;<volume>49</volume>:<fpage>703</fpage>&#x2013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">14558057</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0091">
+        <label>91</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0091">
+<string-name>
+<surname>Robson</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Doll</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Suppiah</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Flossmann</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>Harper</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>H&#xF6;glund</surname>
+<given-names>P</given-names>
+</string-name>, et&#xA0;al. <article-title>Damage in the anca&#x2010;associated vasculitides: long&#x2010;term data from the European vasculitis study group (EUVAS) therapeutic trials</article-title>. <source>Ann Rheum Dis.</source>
+<year>2015</year>;<volume>74</volume>:<fpage>177</fpage>&#x2013;<lpage>84</lpage>.<pub-id pub-id-type="pmid">24243925</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0092">
+        <label>92</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0092">
+<string-name>
+<surname>Gabriel</surname>
+<given-names>SE</given-names>
+</string-name>, <string-name>
+<surname>Sunku</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>O'Fallon</surname>
+<given-names>WM</given-names>
+</string-name>, <string-name>
+<surname>Hunder</surname>
+<given-names>GG</given-names>
+</string-name>. <article-title>Adverse outcomes of antiinflammatory therapy among patients with polymyalgia rheumatica</article-title>. <source>Arthritis Rheum.</source>
+<year>1997</year>;<volume>40</volume>:<fpage>1873</fpage>&#x2013;<lpage>8</lpage>.<pub-id pub-id-type="pmid">9336424</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0093">
+        <label>93</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0093">
+<string-name>
+<surname>Strehl</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Bijlsma</surname>
+<given-names>JWJ</given-names>
+</string-name>, <string-name>
+<surname>De Wit</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Boers</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Caeyers</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Cutolo</surname>
+<given-names>M</given-names>
+</string-name>, et&#xA0;al. <article-title>Defining conditions where long&#x2010;term glucocorticoid treatment has an acceptably low level of harm to facilitate implementation of existing recommendations: viewpoints from an EULAR task force</article-title>. <source>Ann Rheum Dis.</source>
+<year>2016</year>;<volume>75</volume>:<fpage>952</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">26933146</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0094">
+        <label>94</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0094">
+<string-name>
+<surname>Buckley</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Guyatt</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Fink</surname>
+<given-names>HA</given-names>
+</string-name>, <string-name>
+<surname>Cannon</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Grossman</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Hansen</surname>
+<given-names>KE</given-names>
+</string-name>, et&#xA0;al. <article-title>2017 American College of Rheumatology guideline for the prevention and treatment of glucocorticoid&#x2010;induced osteoporosis</article-title>. <source>Arthritis Care Res (Hoboken).</source>
+<year>2017</year>;<volume>69</volume>:<fpage>1095</fpage>&#x2013;<lpage>110</lpage>.<pub-id pub-id-type="pmid">28585410</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0095">
+        <label>95</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0095">
+<string-name>
+<surname>Partington</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Helliwell</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Muller</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Abdul Sultan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Mallen</surname>
+<given-names>C</given-names>
+</string-name>. <article-title>Comorbidities in polymyalgia rheumatica: a systematic review</article-title>. <source>Arthritis Res Ther.</source>
+<year>2018</year>;<volume>20</volume>:<fpage>258</fpage>.<pub-id pub-id-type="pmid">30458857</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0096">
+        <label>96</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0096">
+<string-name>
+<surname>Partington</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Muller</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Mallen</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name>
+<surname>Abdul Sultan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Helliwell</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Comorbidities in patients with polymyalgia rheumatica prior to and following diagnosis: a case control and cohort study</article-title>. <source>Semin Arthritis Rheum.</source>
+<year>2020</year>;<volume>50</volume>:<fpage>663</fpage>&#x2013;<lpage>72</lpage>.<pub-id pub-id-type="pmid">32512261</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0097">
+        <label>97</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0097">
+<string-name>
+<surname>Shbeeb</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Challah</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Raheel</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Crowson</surname>
+<given-names>CS</given-names>
+</string-name>, <string-name>
+<surname>Matteson</surname>
+<given-names>EL</given-names>
+</string-name>. <article-title>Comparable rates of glucocorticoid&#x2010;associated adverse events in patients with polymyalgia rheumatica and comorbidities in the general population</article-title>. <source>Arthritis Care Res (Hoboken).</source>
+<year>2018</year>;<volume>70</volume>:<fpage>643</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">28704600</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0098">
+        <label>98</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0098">
+<string-name>
+<surname>Gran</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name>
+<surname>Myklebust</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Wilsgaard</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Jacobsen</surname>
+<given-names>BK</given-names>
+</string-name>. <article-title>Survival in polymyalgia rheumatica and temporal arteritis: a study of 398 cases and matched population controls</article-title>. <source>Rheumatology (Oxford).</source>
+<year>2001</year>;<volume>40</volume>:<fpage>1238</fpage>&#x2013;<lpage>42</lpage>.<pub-id pub-id-type="pmid">11709607</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0099">
+        <label>99</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0099">
+<string-name>
+<surname>Myklebust</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Wilsgaard</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Koster Jacobsen</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Tore Gran</surname>
+<given-names>J</given-names>
+</string-name>. <article-title>Causes of death in polymyalgia rheumatica. A prospective longitudinal study of 315 cases and matched population controls</article-title>. <source>Scand J Rheumatol.</source>
+<year>2003</year>;<volume>32</volume>:<fpage>38</fpage>&#x2013;<lpage>41</lpage>.<pub-id pub-id-type="pmid">12635944</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0100">
+        <label>100</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0100">
+<string-name>
+<surname>Uddhammar</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Eriksson</surname>
+<given-names>AL</given-names>
+</string-name>, <string-name>
+<surname>Nystrom</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Stenling</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Rantap&#xE4;&#xE4;&#x2010;Dahlqvist</surname>
+<given-names>S</given-names>
+</string-name>. <article-title>Increased mortality due to cardiovascular disease in patients with giant cell arteritis in northern Sweden</article-title>. <source>J Rheumatol.</source>
+<year>2002</year>;<volume>29</volume>:<fpage>737</fpage>&#x2013;<lpage>42</lpage>.<pub-id pub-id-type="pmid">11950015</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0101">
+        <label>101</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0101">
+<string-name>
+<surname>Partington</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Muller</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Mallen</surname>
+<given-names>CD</given-names>
+</string-name>, <string-name>
+<surname>Abdul Sultan</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Helliwell</surname>
+<given-names>T</given-names>
+</string-name>. <article-title>Mortality among patients with polymyalgia rheumatica: a retrospective cohort study</article-title>. <source>Arthritis Care Res (Hoboken).</source>
+<year>2021</year>;<volume>73</volume>:<fpage>1853</fpage>&#x2013;<lpage>7</lpage>.<pub-id pub-id-type="pmid">32741132</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0102">
+        <label>102</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0102">
+<string-name>
+<surname>Kyle</surname>
+<given-names>V</given-names>
+</string-name>, <string-name>
+<surname>Hazleman</surname>
+<given-names>BL</given-names>
+</string-name>. <article-title>Treatment of polymyalgia rheumatica and giant cell arteritis. II. Relation between steroid dose and steroid associated side effects</article-title>. <source>Ann Rheum Dis.</source>
+<year>1989</year>;<volume>48</volume>:<fpage>662</fpage>&#x2013;<lpage>6</lpage>.<pub-id pub-id-type="pmid">2782976</pub-id></mixed-citation>
+      </ref>
+      <ref id="joim13525-bib-0103">
+        <label>103</label>
+        <mixed-citation publication-type="journal" id="joim13525-cit-0103">
+<string-name>
+<surname>Caporali</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Cimmino</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Ferraccioli</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Gerli</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Klersy</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Salvarani</surname>
+<given-names>C</given-names>
+</string-name>, et&#xA0;al. <article-title>Prednisone plus methotrexate for polymyalgia rheumatica: a randomized, double&#x2010;blind, placebo&#x2010;controlled trial</article-title>. <source>Ann Intern Med.</source>
+<year>2004</year>;<volume>141</volume>:<fpage>493</fpage>&#x2013;<lpage>500</lpage>.<pub-id pub-id-type="pmid">15466766</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+</pmc-articleset>

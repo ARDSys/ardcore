@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-03-28T10:40:08.153604",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The article provides comprehensive insights into Polymyalgia Rheumatica, covering pathophysiology, diagnosis, treatment options, comorbidities, and mortality. It is directly relevant to rheumatology research as it focuses on a specific rheumatic disorder and discusses therapeutic approaches, diagnostic criteria, and disease outcomes.",
+  "key_terms": [
+    "polymyalgia rheumatica",
+    "diagnosis",
+    "treatment",
+    "IL-6 inhibition",
+    "comorbidities",
+    "mortality"
+  ],
+  "research_domain": [
+    "rheumatology"
+  ]
+}

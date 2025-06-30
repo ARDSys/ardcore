@@ -1,0 +1,17 @@
+{
+  "timestamp": "2025-01-31T03:26:29.621270",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The article focuses on chromatin immunoprecipitation (ChIP) methods and DNA analysis, including bisulfite sequencing for methylation patterns. These techniques are crucial in studying epigenetic changes, which are closely linked to aging and longevity.",
+  "key_terms": [
+    "ChIP",
+    "DNA methylation",
+    "bisulfite sequencing",
+    "rDNA promoter"
+  ],
+  "research_domain": [
+    "longevity",
+    "epigenetics",
+    "genetics"
+  ]
+}

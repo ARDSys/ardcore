@@ -1,0 +1,15 @@
+{
+  "timestamp": "2025-02-08T10:58:53.279478",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The article discusses the potential role of the gut-muscle axis in physical frailty and sarcopenia, which are significant contributors to aging. It provides insights into how gut microbiota composition might influence muscle health and overall longevity through mechanisms such as short-chain fatty acid production and exercise effects on microbiota.",
+  "key_terms": "gut microbiota, sarcopenia, physical frailty, muscle mass, anti-inflammatory, pro-anabolic",
+  "research_domain": [
+    "longevity",
+    "aging",
+    "gut microbiome",
+    "metabolism",
+    "muscle physiology",
+    "nutrition"
+  ]
+}

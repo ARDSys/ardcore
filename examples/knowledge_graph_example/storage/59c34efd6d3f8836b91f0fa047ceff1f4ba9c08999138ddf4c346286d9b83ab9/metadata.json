@@ -1,0 +1,15 @@
+{
+  "doi": "10.3390/nu11071633",
+  "pm_id": 31319564,
+  "pmc_id": "PMC6683074",
+  "gs_id": "",
+  "category": "CITES_HALD",
+  "title": "Gut Microbiota, Muscle Mass and Function in Aging: A Focus on Physical Frailty and Sarcopenia.",
+  "abstract": "Human gut microbiota is able to influence the host physiology by regulating multiple processes, including nutrient absorption, inflammation, oxidative stress, immune function, and anabolic balance. Aging is associated with reduced microbiota biodiversity, increased inter-individual variability, and over-representation of pathobionts, and these phenomena may have great relevance for skeletal muscle mass and function. For this reason, the presence of a gut-muscle axis regulating the onset and progression of age-related physical frailty and sarcopenia has been recently hypothesized. In this narrative review, we summarize the studies supporting a possible association between gut microbiota-related parameters with measures of muscle mass, muscle function, and physical performance in animal models and humans. Reduced muscle mass has been associated with distinct microbiota composition and reduced fermentative capacity in mice, and the administration of probiotics or butyrate to mouse models of muscle wasting has been associated with improved muscle mass. However, no studies have targeted the human microbiome associated with sarcopenia. Limited evidence from human studies shows an association between microbiota composition, involving key taxa such as <i>Faecalibacterium</i> and <i>Bifidobacterium</i>, and grip strength. Similarly, few studies conducted on patients with parkinsonism showed a trend towards a different microbiota composition in those with reduced gait speed. No studies have assessed the association of fecal microbiota with other measures of physical performance. However, several studies, mainly with a cross-sectional design, suggest an association between microbiota composition and frailty, mostly assessed according to the deficit accumulation model. Namely, frailty was associated with reduced microbiota biodiversity, and lower representation of butyrate-producing bacteria. Therefore, we conclude that the causal link between microbiota and physical fitness is still uncertain due to the lack of targeted studies and the influence of a large number of covariates, including diet, exercise, multimorbidity, and polypharmacy, on both microbiota composition and physical function in older age. However, the relationship between gut microbiota and physical function remains a very promising area of research for the future.",
+  "gs_meta": NaN,
+  "scraped_date": "2025-02-01 20:37:54.676041",
+  "id": "59c34efd6d3f8836b91f0fa047ceff1f4ba9c08999138ddf4c346286d9b83ab9",
+  "_internal": {
+    "type": "paper"
+  }
+}

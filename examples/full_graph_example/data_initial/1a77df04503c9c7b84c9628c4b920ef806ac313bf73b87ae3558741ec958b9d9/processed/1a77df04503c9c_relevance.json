@@ -1,0 +1,18 @@
+{
+  "timestamp": "2025-03-28T10:39:20.652579",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The content focuses on the role of hydroxychloroquine (HCQ) in the treatment of systemic lupus erythematosus (SLE), including its efficacy, side effects, monitoring, and considerations for treatment duration and withdrawal. This is highly relevant to rheumatology research as HCQ is a key therapeutic agent in this field.",
+  "key_terms": [
+    "Hydroxychloroquine",
+    "Systemic Lupus Erythematosus (SLE)",
+    "Lupus Nephritis",
+    "Retinopathy",
+    "Cardiotoxicity",
+    "Treatment Monitoring"
+  ],
+  "research_domain": [
+    "Rheumatology",
+    "Pharmacology"
+  ]
+}

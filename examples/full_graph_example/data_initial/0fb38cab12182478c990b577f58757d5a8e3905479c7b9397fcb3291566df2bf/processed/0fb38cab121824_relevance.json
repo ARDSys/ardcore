@@ -1,0 +1,19 @@
+{
+  "timestamp": "2025-03-28T10:33:33.939896",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The article focuses on psoriatic arthritis (PsA), providing a comprehensive review of its clinical manifestations, pathogenesis, and treatment options. It is highly relevant to rheumatology research as it discusses biologics, small molecule therapies, and treatment strategies that are central to the field.",
+  "key_terms": [
+    "psoriatic arthritis",
+    "biologics",
+    "treatment options",
+    "early diagnosis",
+    "inflammatory diseases",
+    "joint inflammation"
+  ],
+  "research_domain": [
+    "rheumatology",
+    "dermatology",
+    "immunology"
+  ]
+}

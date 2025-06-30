@@ -1,0 +1,13 @@
+{
+  "timestamp": "2025-02-07T12:57:41.555149",
+  "model_used": "deepseek-r1:14b",
+  "relevance": "directly relevant",
+  "justification": "The study evaluates the relevance and validity of frailty screening tools in the context of longevity research. Frailty is a key concept in gerontology and aging research, directly impacting lifespan and healthspan. The validation of assessment tools contributes to the understanding of biological processes related to longevity.",
+  "key_terms": "frailty assessment, PRISMA-7, Clinical Frailty Scale, Fried criteria, Short Physical Performance Battery",
+  "research_domain": [
+    "Gerontology",
+    "Aging",
+    "Public Health",
+    "Biomedical Research"
+  ]
+}
