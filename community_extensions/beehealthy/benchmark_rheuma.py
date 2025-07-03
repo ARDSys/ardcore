@@ -366,7 +366,7 @@ def generate_report(results: List[ModelResult], output_dir: str) -> None:
     type=click.Path(exists=True),
     required=True,
     help="RheumaMIR dataset CSV",
-    default="datasets/RheumaMIR.csv",
+    default="community_extensions/beehealthy/datasets/RheumaMIR.csv",
 )
 @click.option(
     "--openai-key", help="OpenAI API key", default=os.getenv("OPENAI_API_KEY")
