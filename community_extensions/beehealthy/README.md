@@ -35,7 +35,7 @@ agents
 
 ## Run 
 
-> python -m hackathon.beehealthy.generate_hypothesis -f eval/Autoimmunity.json --output hackathon/beehealthy/output
+> python -m community_extensions.beehealthy.generate_hypothesis -f eval/Autoimmunity.json --output community_extensions/beehealthy/output
 
 ## Tools
 

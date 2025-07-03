@@ -4,7 +4,7 @@ from langgraph.graph import END, START, StateGraph
 from langgraph.graph.graph import CompiledGraph
 from loguru import logger
 
-from hackathon.beehealthy.agents.hot_topic_reviewer import (
+from community_extensions.beehealthy.agents.hot_topic_reviewer import (
     create_hot_topic_reviewer_agent,
 )
 
