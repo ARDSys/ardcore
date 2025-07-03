@@ -1,1 +1,0 @@
-python -m hackathon.beehealthy.generate_hypothesis -f data/Antinuclear_Antibodies__ANA_.json --output hackathon/beehealthy/output
