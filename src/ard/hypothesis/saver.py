@@ -81,7 +81,7 @@ class JSONParser(Parser):
                 "hypothesis_id": hypothesis.hypothesis_id,
                 "subgraph_id": hypothesis.subgraph_id,
                 "method": hypothesis.method.to_json(),
-                # "metadata": hypothesis.metadata,
+                # "metadata": hypothesis.metadata, # TODO: TODO: due to issue with beehealthy
                 "method_name": str(hypothesis.method),
                 "references": hypothesis.references,
                 "source": hypothesis.source.to_json(),
