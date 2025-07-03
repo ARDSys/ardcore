@@ -1,7 +1,7 @@
-> This solution was created during BeeARD hackathon ()
-
 # BeeHealthy
-
+> <span style="font-size: 0.85em; color: #777; "><em>This solution was created during BeeARD hackathon.<em></span>
+> 
+> 
 ## Overview
 
 The BeeHealthy workflow is designed to generate hypotheses for a health-related topic using a multi-agent system. The workflow consists of several key components:
