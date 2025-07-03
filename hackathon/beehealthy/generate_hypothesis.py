@@ -33,7 +33,7 @@ def main(file: str, output: str):
 
     logger.info("Generating hypothesis...")
     hypothesis = Hypothesis.from_subgraph(
-        subgraph=Subgraph.load_from_file(file_path),
+        subgraph=Subgraph.load_from_file(file_path, scientific_domain="rheumatology"),
         method=HypothesisGenerator(),
     )
     logger.info(f"Hypothesis generated for {file_path}")
