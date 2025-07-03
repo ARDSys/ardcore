@@ -1,3 +1,5 @@
+> This solution was created during BeeARD hackathon ()
+
 # BeeHealthy
 
 ## Overview
@@ -35,9 +37,4 @@ agents
 
 ## Run 
 
-> python -m community_extensions.beehealthy.generate_hypothesis -f eval/Autoimmunity.json --output community_extensions/beehealthy/output
-
-## Tools
-
-- `benchmark_rheuma.py`: CLI interface for running the benchmark tool, 
-  which evaluates the performance of the hypothesis generation system.
+> python -m community_extensions.beehealthy.main -f eval/Autoimmunity.json --output community_extensions/beehealthy/output
