@@ -9,7 +9,7 @@ from ard.subgraph import Subgraph
 
 from .graph import hypgen_graph
 from .state import HypgenState
-from .utils import message_to_dict
+from .utils import serialize_metadata
 
 langfuse_callback = CallbackHandler()
 
@@ -27,16 +27,17 @@ class HypothesisGenerator(HypothesisGeneratorProtocol):
         title = self.__parse_title(res, subgraph) or ""
         statement = self.__parse_statement(res)
         references = self.__parse_references(res)
+
+        # Create serializable metadata by converting all non-serializable objects
+        metadata = serialize_metadata(dict(res))
+
         return Hypothesis(
             title=title,
             statement=statement,
             source=subgraph,
             method=self,
             references=references,
-            metadata={
-                **{key: value for key, value in res.items()},
-                "messages": [message_to_dict(message) for message in res["messages"]],
-            },
+            metadata=metadata,
         )
 
     def __parse_title(self, state: HypgenState, subgraph: Subgraph) -> str:

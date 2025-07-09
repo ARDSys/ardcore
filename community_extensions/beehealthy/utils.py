@@ -80,3 +80,33 @@ def calculate_message_cost(message: Dict[str, Any]) -> float:
     total_cost = input_cost + output_cost
 
     return round(total_cost, 4)
+
+
+def serialize_metadata(obj, key=None):
+    """Convert non-serializable objects to serializable format.
+    
+    Args:
+        obj: The object to serialize
+        key: Optional key name for special handling (e.g., 'messages')
+        
+    Returns:
+        A JSON-serializable version of the object
+    """
+    if key == "messages" and isinstance(obj, list):
+        # Special handling for messages - use message_to_dict
+        return [message_to_dict(message) for message in obj]
+    elif hasattr(obj, 'content'):
+        # Handle AIMessage objects by extracting their content
+        return obj.content
+    elif isinstance(obj, list):
+        # Handle lists that might contain non-serializable objects
+        return [serialize_metadata(item) for item in obj]
+    elif isinstance(obj, dict):
+        # Handle dictionaries that might contain non-serializable objects
+        return {key: serialize_metadata(value, key) for key, value in obj.items()}
+    elif isinstance(obj, (str, int, float, bool, type(None))):
+        # Keep simple types as-is
+        return obj
+    else:
+        # Convert everything else to string as fallback
+        return str(obj)
