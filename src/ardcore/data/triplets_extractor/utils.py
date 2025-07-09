@@ -3,7 +3,7 @@ import re
 from typing import List
 
 import litellm
-from langfuse.decorators import langfuse_context, observe
+from langfuse import observe
 from litellm import completion
 from pydantic import BaseModel
 
@@ -32,10 +32,7 @@ def generate_response(model_name, sys_message, user_prompt):
     response = completion(
         model=model_name,
         messages=messages,
-        metadata={
-            "existing_trace_id": langfuse_context.get_current_trace_id(),  # set langfuse trace ID
-            "parent_observation_id": langfuse_context.get_current_observation_id(),
-        },
+        # Removed langfuse_context metadata as it's not available in current version
     )
     return response.choices[0].message.content
 
