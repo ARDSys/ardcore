@@ -65,7 +65,7 @@ def create_ethics_and_bias_analyst_agent(
 
         logger.info("Ethics and bias analysis completed successfully")
         return {
-        "ethics_analysis": response.content,
+            "ethics_analysis": response.content,
             "messages": [add_role(response, "ethics_analyst")],
         }
 
