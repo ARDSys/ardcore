@@ -1,13 +1,11 @@
 # ardcore: Autonomous Research Discovery (ARD)
 
 [![Python 3.12+](https://img.shields.io/badge/python-3.12+-blue.svg)](https://www.python.org/downloads/)
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
-[![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
-[![Documentation](https://img.shields.io/badge/docs-beeard.ai-blue)](https://docs.beeard.ai)
-[![Community Extensions](https://img.shields.io/badge/community-extensions-brightgreen)](community_extensions/)
 [![Package Manager](https://img.shields.io/badge/package%20manager-uv-orange)](https://github.com/astral-sh/uv)
-[![AI Powered](https://img.shields.io/badge/AI-powered-ff6b6b)](https://github.com/your-org/ardcore)
+[![Documentation](https://img.shields.io/badge/docs-beeard.ai-blue)](https://docs.beeard.ai)
+[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
 [![Open Science](https://img.shields.io/badge/open-science-green)](https://github.com/your-org/ardcore)
+[![Community Extensions](https://img.shields.io/badge/community-extensions-brightgreen)](community_extensions/)
 
 ARD is a Python framework for building, curating, and mining knowledge graphs to accelerate scientific progress. It provides a complete, end-to-end pipeline to transform raw data into novel, AI-generated research hypotheses.
 
