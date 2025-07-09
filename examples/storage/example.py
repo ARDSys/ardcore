@@ -12,9 +12,9 @@ from loguru import logger
 # Add the src directory to the Python path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
-from ard.data.metadata import Metadata
-from ard.data.research_paper import ResearchPaper
-from ard.storage.file import StorageManager
+from ardcore.data.metadata import Metadata
+from ardcore.data.research_paper import ResearchPaper
+from ardcore.storage.file import StorageManager
 
 
 def main():

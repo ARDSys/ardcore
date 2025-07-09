@@ -1,6 +1,6 @@
 from typing import Any, Dict, Optional
 
-from langchain.schema import AIMessage, BaseMessage
+from langchain.schema import BaseMessage
 
 
 def add_role(message: BaseMessage, role: Optional[str] = None) -> BaseMessage:

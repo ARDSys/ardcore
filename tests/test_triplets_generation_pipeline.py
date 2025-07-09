@@ -4,8 +4,8 @@ Unit tests for TripletsGenerationPipeline.
 
 import pytest
 
-from ard.data.triplets_extractor.config.pipeline import PipelineConfig
-from ard.data.triplets_extractor.pipeline import TripletsGenerationPipeline
+from ardcore.data.triplets_extractor.config.pipeline import PipelineConfig
+from ardcore.data.triplets_extractor.pipeline import TripletsGenerationPipeline
 
 
 class TestTripletsGenerationPipeline:
@@ -98,7 +98,7 @@ class TestTripletsGenerationPipeline:
 
     def test_extractor_factory_integration(self):
         """Test that ExtractorFactory integration works."""
-        from ard.data.triplets_extractor.config.factory import ExtractorFactory
+        from ardcore.data.triplets_extractor.config.factory import ExtractorFactory
 
         config = {"extraction_type": "refine"}
         pipeline = TripletsGenerationPipeline(config=config)

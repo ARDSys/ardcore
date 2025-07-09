@@ -2,8 +2,8 @@ from pathlib import Path
 
 from loguru import logger
 
-from ard.data.dataset import Dataset
-from ard.knowledge_graph import KnowledgeGraph
+from ardcore.data.dataset import Dataset
+from ardcore.knowledge_graph import KnowledgeGraph
 
 
 def main():

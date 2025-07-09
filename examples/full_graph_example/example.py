@@ -5,12 +5,12 @@ from pathlib import Path
 from loguru import logger
 from openai import OpenAI
 
-from ard.data.dataset import Dataset
-from ard.data.research_paper import ResearchPaper
+from ardcore.data.dataset import Dataset
+from ardcore.data.research_paper import ResearchPaper
 
 # No need to import extractors - TripletsGenerationPipeline uses ExtractorFactory automatically
-from ard.knowledge_graph.knowledge_graph import KnowledgeGraph
-from ard.knowledge_graph.node_merger.embedding_based import EmbeddingBasedNodeMerger
+from ardcore.knowledge_graph.knowledge_graph import KnowledgeGraph
+from ardcore.knowledge_graph.node_merger.embedding_based import EmbeddingBasedNodeMerger
 
 # --- Configuration ---
 # Adjust these paths and configurations as needed for your setup
@@ -101,7 +101,7 @@ def main():
 
     # 2.1. Load Initial Dataset
     logger.info(f"📂 Loading initial dataset from: {INITIAL_DATA_DIR}")
-    from ard.storage.file import StorageManager
+    from ardcore.storage.file import StorageManager
 
     initial_dataset = Dataset.from_local(
         INITIAL_DATA_DIR,

@@ -1,6 +1,6 @@
-from ard.data.triplets import Triplet
-from ard.knowledge_graph import KnowledgeGraph
-from ard.knowledge_graph.node_merger import ExactMatchNodeMerger
+from ardcore.data.triplets import Triplet
+from ardcore.knowledge_graph import KnowledgeGraph
+from ardcore.knowledge_graph.node_merger import ExactMatchNodeMerger
 
 
 def test_merge_nodes():

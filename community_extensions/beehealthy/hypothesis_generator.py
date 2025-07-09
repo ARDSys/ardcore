@@ -4,8 +4,8 @@ from typing import Any
 from langchain_core.runnables import RunnableConfig
 from langfuse.callback import CallbackHandler
 
-from ard.hypothesis import Hypothesis, HypothesisGeneratorProtocol
-from ard.subgraph import Subgraph
+from ardcore.hypothesis import Hypothesis, HypothesisGeneratorProtocol
+from ardcore.subgraph import Subgraph
 
 from .graph import hypgen_graph
 from .state import HypgenState

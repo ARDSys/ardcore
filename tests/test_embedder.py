@@ -5,9 +5,9 @@ from unittest.mock import MagicMock, patch
 import numpy as np
 import pytest
 
-from ard.data.triplets import Triplet
-from ard.knowledge_graph.knowledge_graph import KnowledgeGraph
-from ard.utils.embedder import Embedder
+from ardcore.data.triplets import Triplet
+from ardcore.knowledge_graph.knowledge_graph import KnowledgeGraph
+from ardcore.utils.embedder import Embedder
 
 
 @pytest.fixture

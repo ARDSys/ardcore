@@ -5,7 +5,7 @@ from unittest.mock import patch
 
 import pytest
 
-from ard.storage.file import LocalStorageBackend, StorageBackend, StorageManager
+from ardcore.storage.file import LocalStorageBackend, StorageBackend, StorageManager
 
 
 class MockStorageBackend(StorageBackend):

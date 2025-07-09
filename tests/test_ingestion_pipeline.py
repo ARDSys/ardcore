@@ -1,7 +1,7 @@
-# from ard.data.dataset_item import DatasetItem
-# from ard.data.metadata import Metadata
-# from ard.knowledge_graph.knowledge_graph import KnowledgeGraph
-# from ard.pipelines.ingestion_pipeline import run_ingestion_pipeline
+# from ardcore.data.dataset_item import DatasetItem
+# from ardcore.data.metadata import Metadata
+# from ardcore.knowledge_graph.knowledge_graph import KnowledgeGraph
+# from ardcore.pipelines.ingestion_pipeline import run_ingestion_pipeline
 
 
 # def test_ingestion_pipeline():

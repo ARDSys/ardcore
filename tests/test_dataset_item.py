@@ -2,8 +2,8 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from ard.data.metadata import Metadata
-from ard.data.research_paper import ResearchPaper
+from ardcore.data.metadata import Metadata
+from ardcore.data.research_paper import ResearchPaper
 
 
 def test_dataset_item_creation():
@@ -62,8 +62,8 @@ def test_metadata_privacy():
     assert not hasattr(item, "metadata")
 
 
-@patch("ard.data.dataset_item.DatasetItem.list_kg_versions")
-@patch("ard.data.triplets.Triplets.from_dataset_item")
+@patch("ardcore.data.dataset_item.DatasetItem.list_kg_versions")
+@patch("ardcore.data.triplets.Triplets.from_dataset_item")
 def test_get_triplets_with_version(mock_from_dataset_item, mock_list_kg_versions):
     """Test getting triplets with a specified KG version."""
     # Setup
@@ -83,8 +83,8 @@ def test_get_triplets_with_version(mock_from_dataset_item, mock_list_kg_versions
     )
 
 
-@patch("ard.data.dataset_item.DatasetItem.list_kg_versions")
-@patch("ard.data.triplets.Triplets.from_dataset_item")
+@patch("ardcore.data.dataset_item.DatasetItem.list_kg_versions")
+@patch("ardcore.data.triplets.Triplets.from_dataset_item")
 def test_get_triplets_with_build_graph(mock_from_dataset_item, mock_list_kg_versions):
     """Test getting triplets with build_graph parameter."""
     # Setup
@@ -102,8 +102,8 @@ def test_get_triplets_with_build_graph(mock_from_dataset_item, mock_list_kg_vers
     mock_from_dataset_item.assert_called_once_with(item, "baseline_1", build_graph=True)
 
 
-@patch("ard.data.dataset_item.DatasetItem.list_kg_versions")
-@patch("ard.data.triplets.Triplets.from_dataset_item")
+@patch("ardcore.data.dataset_item.DatasetItem.list_kg_versions")
+@patch("ardcore.data.triplets.Triplets.from_dataset_item")
 def test_get_triplets_latest_version(mock_from_dataset_item, mock_list_kg_versions):
     """Test getting triplets with the latest KG version when none is specified."""
     # Setup
@@ -123,7 +123,7 @@ def test_get_triplets_latest_version(mock_from_dataset_item, mock_list_kg_versio
     )
 
 
-@patch("ard.data.dataset_item.DatasetItem.list_kg_versions")
+@patch("ardcore.data.dataset_item.DatasetItem.list_kg_versions")
 def test_get_triplets_no_versions(mock_list_kg_versions):
     """Test that get_triplets raises an error when no KG versions are available."""
     # Setup
@@ -138,7 +138,7 @@ def test_get_triplets_no_versions(mock_list_kg_versions):
     assert f"No knowledge graph versions found for item {item.id}" in str(excinfo.value)
 
 
-@patch("ard.data.dataset_item.DatasetItem.list_kg_versions")
+@patch("ardcore.data.dataset_item.DatasetItem.list_kg_versions")
 def test_get_triplets_invalid_version(mock_list_kg_versions):
     """Test that get_triplets raises an error when an invalid KG version is specified."""
     # Setup

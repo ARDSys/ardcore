@@ -7,7 +7,7 @@ from langchain_core.runnables import RunnableConfig
 from langfuse.callback import CallbackHandler
 from loguru import logger
 
-from ard.subgraph import Subgraph
+from ardcore.subgraph import Subgraph
 
 from .graph import hypgen_graph
 from .utils import message_to_dict

@@ -5,7 +5,7 @@ import boto3
 import pytest
 from moto import mock_aws
 
-from ard.storage.file import LocalStorageBackend, S3StorageBackend
+from ardcore.storage.file import LocalStorageBackend, S3StorageBackend
 
 
 class TestLocalStorageBackend:
