@@ -43,7 +43,6 @@ def search_pubmed_by_year(query: str) -> str:
 
         # Try to get the CSV data directly
         # First, get the web search response
-        data_url = None
 
         # Extract the CSV data URL from the JavaScript
         csv_url_pattern = r"var CSVdata = 'data:text/csv;charset=utf-8,(.*?)';"
