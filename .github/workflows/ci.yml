@@ -1,40 +1,39 @@
 name: Continuous Integration
 
 on:
-  pull_request:
-    types: [opened, synchronize, reopened]
+  pull_request_target:
+    types: [opened, synchronize, reopened, labeled, unlabeled]
     branches:
       - '**'
   push:
-    branches: 
+    branches:
       - '**'
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
-    strategy:
-      matrix:
-        python-version: ["3.12"]
-    
+
     steps:
       - uses: actions/checkout@v4
-      
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
       - name: Install uv
         uses: astral-sh/setup-uv@v5
-        
-      - name: Set up Python ${{ matrix.python-version }}
-        run: uv python install ${{ matrix.python-version }}
 
       - name: Check uv.lock file
         run: uv lock --check
 
-      - name: Install project with dev dependencies
+      - name: Install project
         run: uv sync --all-extras --dev
 
-      - name: Ruff check - linter
+      - name: Check if the docs can be built
+        run: uvx mkdocs build
+
+      - name: Ruff check with linter
         run: uvx ruff check --no-fix
 
-      - name: Ruff check - formatter  
+      - name: Ruff check with formatter
         run: uvx ruff format --check
 
       - name: Run tests
