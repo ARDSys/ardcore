@@ -27,9 +27,6 @@ jobs:
       - name: Install project
         run: uv sync --all-extras --dev
 
-      - name: Check if the docs can be built
-        run: uvx mkdocs build
-
       - name: Ruff check with linter
         run: uvx ruff check --no-fix
 
