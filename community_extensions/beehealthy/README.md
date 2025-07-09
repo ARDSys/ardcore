@@ -35,6 +35,17 @@ agents
 └── summary.py
 ```
 
+## Installation
+
+First, ensure you have the main ARD repository set up, then install BeeHealthy's additional dependencies:
+
+```bash
+# Install BeeHealthy's additional dependencies
+uv pip install -r community_extensions/beehealthy/requirements.txt
+```
+
 ## Run 
 
-> python -m community_extensions.beehealthy.main -f eval/Autoimmunity.json --output community_extensions/beehealthy/output
+```bash
+python -m community_extensions.beehealthy.main -f eval/Autoimmunity.json --output community_extensions/beehealthy/output
+```
