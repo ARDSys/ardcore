@@ -1,5 +1,4 @@
 import logging
-import os
 import time
 from io import BytesIO
 from itertools import chain
@@ -9,7 +8,6 @@ import PyPDF2
 import requests
 from bs4 import BeautifulSoup
 from langchain.tools.retriever import create_retriever_tool
-from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
 from langchain_text_splitters import RecursiveCharacterTextSplitter

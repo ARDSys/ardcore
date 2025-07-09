@@ -1,4 +1,3 @@
-import os
 import time
 from pathlib import Path
 from typing import Optional
@@ -7,20 +6,20 @@ from dotenv import load_dotenv
 from loguru import logger
 from openai import OpenAI
 
-from ard.knowledge_graph.knowledge_graph import KnowledgeGraph
-from ard.storage.file import StorageManager
-from ard.storage.file.utils import sanitize_filename
-from ard.subgraph import Subgraph
-from ard.subgraph.subgraph_generator import (
+from ardcore.knowledge_graph.knowledge_graph import KnowledgeGraph
+from ardcore.storage.file import StorageManager
+from ardcore.storage.file.utils import sanitize_filename
+from ardcore.subgraph import Subgraph
+from ardcore.subgraph.subgraph_generator import (
     RandomizedEmbeddingPathGenerator,
 )
-from ard.subgraph.subgraph_generator.embedding import EmbeddingPathGenerator
-from ard.subgraph.subgraph_generator.llm_walk import LLMWalkGenerator
-from ard.subgraph.subgraph_generator.random_walk import (
+from ardcore.subgraph.subgraph_generator.embedding import EmbeddingPathGenerator
+from ardcore.subgraph.subgraph_generator.llm_walk import LLMWalkGenerator
+from ardcore.subgraph.subgraph_generator.random_walk import (
     SingleNodeRandomWalkGenerator,
 )
-from ard.subgraph.subgraph_generator.shortest_path import ShortestPathGenerator
-from ard.utils.embedder import Embedder
+from ardcore.subgraph.subgraph_generator.shortest_path import ShortestPathGenerator
+from ardcore.utils.embedder import Embedder
 
 # --- Configuration ---
 BASE_DIR = Path(__file__).parent

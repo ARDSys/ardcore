@@ -1,4 +1,4 @@
-from ard.data.metadata import Metadata
+from ardcore.data.metadata import Metadata
 
 
 def test_metadata_citations():

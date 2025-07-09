@@ -2,10 +2,10 @@ import json
 
 import pytest
 
-from ard.hypothesis.hypothesis import Hypothesis, HypothesisGeneratorProtocol
-from ard.hypothesis.saver import JSONParser, MarkdownParser
-from ard.subgraph import Subgraph
-from ard.subgraph.subgraph_generator import ShortestPathGenerator
+from ardcore.hypothesis.hypothesis import Hypothesis, HypothesisGeneratorProtocol
+from ardcore.hypothesis.saver import JSONParser, MarkdownParser
+from ardcore.subgraph import Subgraph
+from ardcore.subgraph.subgraph_generator import ShortestPathGenerator
 
 
 @pytest.fixture

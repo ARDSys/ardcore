@@ -4,9 +4,9 @@ from pathlib import Path
 
 from loguru import logger
 
-from ard.data.dataset import Dataset
-from ard.data.dataset_item import DatasetItem
-from ard.data.metadata import Metadata
+from ardcore.data.dataset import Dataset
+from ardcore.data.dataset_item import DatasetItem
+from ardcore.data.metadata import Metadata
 
 
 def setup_example_environment():

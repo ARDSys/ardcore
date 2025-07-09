@@ -2,8 +2,8 @@ from pathlib import Path
 
 import pytest
 
-from ard.data.metadata import Metadata
-from ard.data.research_paper import ResearchPaper
+from ardcore.data.metadata import Metadata
+from ardcore.data.research_paper import ResearchPaper
 
 
 class TestResearchPaper:

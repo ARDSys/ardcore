@@ -2,11 +2,11 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from ard.data.dataset import Dataset
-from ard.data.dataset_item import DatasetItem
-from ard.data.metadata import Metadata
-from ard.data.research_paper import ResearchPaper
-from ard.storage.file import StorageManager
+from ardcore.data.dataset import Dataset
+from ardcore.data.dataset_item import DatasetItem
+from ardcore.data.metadata import Metadata
+from ardcore.data.research_paper import ResearchPaper
+from ardcore.storage.file import StorageManager
 
 
 def test_dataset_init():
@@ -34,7 +34,7 @@ def test_dataset_init_empty():
 
 
 @patch("os.listdir")
-@patch("ard.data.dataset_item.DatasetItem.from_local")
+@patch("ardcore.data.dataset_item.DatasetItem.from_local")
 def test_from_local(mock_from_local, mock_listdir, tmp_path):
     """Test the from_local method to create a Dataset from a local directory."""
     # Setup mock returns
@@ -77,7 +77,7 @@ def test_from_local(mock_from_local, mock_listdir, tmp_path):
 
 
 @patch("os.listdir")
-@patch("ard.data.dataset_item.DatasetItem.from_local")
+@patch("ardcore.data.dataset_item.DatasetItem.from_local")
 def test_from_local_empty_directory(mock_from_local, mock_listdir, tmp_path):
     """Test the from_local method with an empty directory."""
     # Setup mock to return an empty list
@@ -106,7 +106,7 @@ def test_from_local_empty_directory(mock_from_local, mock_listdir, tmp_path):
 
 
 @patch("os.listdir")
-@patch("ard.data.dataset_item.DatasetItem.from_local")
+@patch("ardcore.data.dataset_item.DatasetItem.from_local")
 @patch("loguru.logger.warning")
 def test_from_local_error_handling(
     mock_logger_warning, mock_from_local, mock_listdir, tmp_path
@@ -189,7 +189,7 @@ def test_len():
 
 
 @patch("os.listdir")
-@patch("ard.data.dataset_item.DatasetItem.from_local")
+@patch("ardcore.data.dataset_item.DatasetItem.from_local")
 def test_dataset_from_local(mock_from_local, mock_listdir, tmp_path):
     """Test that a Dataset can be created from a local directory."""
     # Mock the os.listdir function to return a list of item IDs

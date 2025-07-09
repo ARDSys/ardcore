@@ -2,7 +2,7 @@ import json
 
 import pytest
 
-from ard.data.metadata import Metadata, MetadataType
+from ardcore.data.metadata import Metadata, MetadataType
 
 
 def test_metadata_creation_with_doi():

@@ -5,8 +5,8 @@ import dotenv
 from langfuse.callback import CallbackHandler
 from loguru import logger
 
-from ard.hypothesis import Hypothesis
-from ard.subgraph import Subgraph
+from ardcore.hypothesis import Hypothesis
+from ardcore.subgraph import Subgraph
 
 from .hypothesis_generator import HypothesisGenerator
 

@@ -1,8 +1,8 @@
 from typing import Any
 
-from ard.hypothesis.hypothesis import Hypothesis
-from ard.hypothesis.types import HypothesisGeneratorProtocol
-from ard.subgraph.subgraph import Subgraph
+from ardcore.hypothesis.hypothesis import Hypothesis
+from ardcore.hypothesis.types import HypothesisGeneratorProtocol
+from ardcore.subgraph.subgraph import Subgraph
 
 
 class HypothesisGenerator(HypothesisGeneratorProtocol):

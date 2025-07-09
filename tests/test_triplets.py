@@ -5,7 +5,7 @@ from unittest.mock import MagicMock, patch
 
 import pytest
 
-from ard.data.triplets import Triplet, Triplets
+from ardcore.data.triplets import Triplet, Triplets
 
 
 @pytest.fixture
@@ -187,7 +187,7 @@ def test_triplets_from_csv():
             assert "node_1,node_2,edge,metadata" in lines[0]
 
 
-@patch("ard.data.dataset_item.DatasetItem")
+@patch("ardcore.data.dataset_item.DatasetItem")
 def test_triplets_from_dataset_item(mock_dataset_item, sample_config, sample_metadata):
     """Test creating Triplets from a DatasetItem."""
     # Create mock DatasetItem

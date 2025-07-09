@@ -9,22 +9,22 @@ import numpy as np
 import pytest
 from langchain_core.prompts import PromptTemplate
 
-from ard.data.triplets import Triplet
-from ard.knowledge_graph import KnowledgeGraph
-from ard.subgraph.subgraph import Subgraph
-from ard.subgraph.subgraph_generator import (
+from ardcore.data.triplets import Triplet
+from ardcore.knowledge_graph import KnowledgeGraph
+from ardcore.subgraph.subgraph import Subgraph
+from ardcore.subgraph.subgraph_generator import (
     SingleNodeSubgraphGenerator,
     SubgraphGenerator,
 )
-from ard.subgraph.subgraph_generator.embedding import EmbeddingPathGenerator
-from ard.subgraph.subgraph_generator.llm_walk import LLMWalkGenerator
-from ard.subgraph.subgraph_generator.random_walk import (
+from ardcore.subgraph.subgraph_generator.embedding import EmbeddingPathGenerator
+from ardcore.subgraph.subgraph_generator.llm_walk import LLMWalkGenerator
+from ardcore.subgraph.subgraph_generator.random_walk import (
     RandomWalkGenerator,
 )
-from ard.subgraph.subgraph_generator.randomized_embedding import (
+from ardcore.subgraph.subgraph_generator.randomized_embedding import (
     RandomizedEmbeddingPathGenerator,
 )
-from ard.subgraph.subgraph_generator.shortest_path import ShortestPathGenerator
+from ardcore.subgraph.subgraph_generator.shortest_path import ShortestPathGenerator
 
 
 def test_subgraph_creation(sample_knowledge_graph):

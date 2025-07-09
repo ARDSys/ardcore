@@ -1,6 +1,6 @@
 import pytest
 
-from ard.storage.file.utils import get_subgraph_file_name, get_subgraph_name
+from ardcore.storage.file.utils import get_subgraph_file_name, get_subgraph_name
 
 
 @pytest.mark.parametrize("subgraph_name", ["test_subgraph", "tests/subgraph_123"])

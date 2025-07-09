@@ -9,7 +9,6 @@ from community_extensions.beehealthy.agents.hot_topic_reviewer import (
 )
 
 from .agents.critique_analyst import create_critique_analyst_agent
-from .agents.ethic_and_bias_analyst import create_ethics_and_bias_analyst_agent
 from .agents.feasibility_analyst import create_feasibility_analyst_agent
 from .agents.hypothesis_generator import create_hypothesis_generator_agent
 from .agents.hypothesis_refiner import create_hypothesis_refiner_agent

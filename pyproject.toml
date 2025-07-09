@@ -1,7 +1,7 @@
 [project]
-name = "ard"
-version = "0.1.0"
-description = "ARD is an intelligent system that uses agent-based approaches to ingest scientific literature, build knowledge graphs, and generate novel research hypotheses."
+name = "ardcore"
+version = "0.1.1"
+description = "ARDCore is the core library for building, curating, and mining knowledge graphs to enable autonomous research discovery."
 readme = "README.md"
 authors = [
     { name = "Damian Rolek", email = "d@beeard.ai" },
@@ -43,7 +43,7 @@ dependencies = [
 ]
 
 [project.scripts]
-ard = "ard.cli:cli"
+ardcore = "ardcore.cli:cli"
 
 [build-system]
 requires = ["hatchling"]

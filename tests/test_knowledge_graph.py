@@ -1,4 +1,4 @@
-# from ard.knowledge_graph.knowledge_graph import KnowledgeGraph
+# from ardcore.knowledge_graph.knowledge_graph import KnowledgeGraph
 
 
 # def test_knowledge_graph_creation():
@@ -55,8 +55,8 @@ import tempfile
 
 import pytest
 
-from ard.data.triplets import Triplet
-from ard.knowledge_graph import KnowledgeGraph
+from ardcore.data.triplets import Triplet
+from ardcore.knowledge_graph import KnowledgeGraph
 
 
 @pytest.fixture

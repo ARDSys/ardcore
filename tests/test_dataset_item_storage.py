@@ -5,9 +5,9 @@ from pathlib import Path
 
 import pytest
 
-from ard.data.metadata import Metadata, MetadataType
-from ard.data.research_paper import ResearchPaper
-from ard.storage.file import LocalStorageBackend, StorageManager
+from ardcore.data.metadata import Metadata, MetadataType
+from ardcore.data.research_paper import ResearchPaper
+from ardcore.storage.file import LocalStorageBackend, StorageManager
 
 
 class ConcreteDatasetItem(ResearchPaper):
