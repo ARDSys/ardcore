@@ -21,6 +21,18 @@ The ARD framework is built around a three-stage pipeline, supported by a set of 
 - **Multiple Subgraph Strategies**: Choose from a variety of subgraph generation algorithms, from simple random walks to sophisticated LLM-guided exploration, to find the most relevant insights in your data.
 - **Embedding-based Intelligence**: Leverages modern sentence-transformer and LLM embeddings for core tasks like semantic node merging and intelligent pathfinding.
 
+## 🌟 Building the Open Science Ecosystem
+
+We're constructing a new paradigm where science is **participatory**, **accessible**, and **transparent**. ARD is part of a living ecosystem of tools transforming scientific discovery:
+
+- **[GraphSurfer](https://www.graphsurfer.xyz)** lets anyone explore scientific knowledge intuitively (currently in beta)
+- **[HypGen](https://hypgen.ai)** generates novel hypotheses from AI agents for scientists
+- **[Community Extensions](community_extensions/)** let developers build custom hypothesis generation systems that push the boundaries of what's possible
+
+Together, we're making science more open - not just for scientists, but for everyone.
+
+**Ready to build an extension?** Check out our [Community Extensions guide](community_extensions/) and contribute your innovation via pull request!
+
 ## 📦 Installation
 
 ARD requires Python 3.12+ and uses [UV](https://github.com/astral-sh/uv) as its package manager.
