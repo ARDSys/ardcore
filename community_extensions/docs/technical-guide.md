@@ -108,6 +108,17 @@ uv pip install -e .
 # Make sure your API keys are set in a .env file (see .env.example)
 ```
 
+### Installing Extension Dependencies
+
+Each extension should include its additional dependencies in a `requirements.txt` file. To run a specific extension:
+
+```bash
+# Install the extension's additional dependencies
+uv pip install -r community_extensions/extension_name/requirements.txt
+```
+
+This approach keeps the core ARD installation clean while allowing extensions to specify their own dependencies.
+
 ---
 
 ## Implementation Guide
@@ -225,9 +236,10 @@ We encourage creativity! You can approach building your extension in several way
 
 1. **Create your extension directory**: `community_extensions/your_extension_name/`
 2. **Implement the protocol**: Follow the implementation guide above
-3. **Test your extension**: Generate hypotheses and verify outputs
-4. **Document your approach**: Create a README.md explaining your extension
-5. **Submit your contribution**: Follow the contributing steps below
+3. **Add dependencies**: Create a `requirements.txt` file with any additional packages needed
+4. **Test your extension**: Generate hypotheses and verify outputs
+5. **Document your approach**: Create a README.md explaining your extension and installation
+6. **Submit your contribution**: Follow the contributing steps below
 
 ---
 
@@ -249,8 +261,8 @@ We encourage creativity! You can approach building your extension in several way
 Before submitting, ensure your extension:
 - ✅ Has clear README.md with setup instructions
 - ✅ Includes `.env.example` with required API keys  
-- ✅ Lists all dependencies
-- ✅ Runs without manual intervention
+- ✅ Has `requirements.txt` file listing all additional dependencies
+- ✅ Runs without manual intervention after dependency installation
 - ✅ Includes logging for transparency
 - ✅ Is reproducible by others
 
