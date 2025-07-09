@@ -38,11 +38,6 @@ Dive into our comprehensive [Technical Guide](docs/technical-guide.md) for every
 
 We're not just open sourcing our tools - we're leading by example! **BeeHealthy** is our first community extension, showcasing the full potential of multi-agent hypothesis generation.
 
-<span style="color: red">TODO</span>
-- example supgraph
-- hyp from beehealthy
-- hyp from ard
-
 ## 📚 Documentation
 
 - **[📖 Technical Guide](docs/technical-guide.md)** - Complete guide to building ARD extensions
