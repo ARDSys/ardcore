@@ -21,12 +21,8 @@ dependencies = [
     "pandas>=2.2.3",
     "pydantic>=2.10.6",
     "openpyxl>=3.1.5",
-    
+
     # ML/AI dependencies
-    # Note: To avoid downloading NVIDIA libraries in production/Docker:
-    # Install with: pip install ardcore --index-url https://download.pytorch.org/whl/cpu
-    # Or pre-install torch with: pip install torch --index-url https://download.pytorch.org/whl/cpu
-    "sentence-transformers>=3.4.1",
     "litellm>=1.65.1",
     "langchain-community>=0.3.19",
     "langchain-core>=0.3.43",
