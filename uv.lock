@@ -146,7 +146,7 @@ wheels = [
 
 [[package]]
 name = "ardcore"
-version = "0.1.0"
+version = "0.1.2"
 source = { editable = "." }
 dependencies = [
     { name = "ag2", extra = ["openai"] },

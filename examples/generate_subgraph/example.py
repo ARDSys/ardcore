@@ -189,13 +189,11 @@ def generate_subgraph(
     start_time = time.time()
 
     logger.info(f"📊 Loading knowledge graph from file: {graph_path}")
-    kg = KnowledgeGraph.load_from_file(
-        graph_path, scientific_domain=scientific_domain
-    )
+    kg = KnowledgeGraph.load_from_file(graph_path, scientific_domain=scientific_domain)
 
     log_timing("Knowledge graph loading", start_time)
     logger.info("✅ Loaded graph successfully")
-    
+
     # Generate a single subgraph
     log_section("GENERATING SUBGRAPH")
     subgraph = None
@@ -239,7 +237,7 @@ def generate_subgraph(
                 start_time = time.time()
                 subgraph.contextualize(llm=get_llm(llm))
                 log_timing("Contextualization", start_time)
-                break 
+                break
 
         except Exception as e:
             logger.error(f"❌ Error in attempt {attempt}: {e}")
@@ -254,9 +252,7 @@ def generate_subgraph(
     if subgraph:
         logger.info("💾 Saving subgraph with context")
         output_name = f"{subgraph.start_node}_{subgraph.end_node}"
-        save_subgraph(
-            subgraph, output_name, storage_path=OUTPUT_DIR
-        )
+        save_subgraph(subgraph, output_name, storage_path=OUTPUT_DIR)
 
         log_section("SUBGRAPH SUMMARY")
         logger.info(f"Start node: {subgraph.start_node}")
@@ -270,6 +266,7 @@ def generate_subgraph(
         logger.error("❌ No valid subgraph was generated")
         return None
 
+
 def main():
     """Main function to run the example."""
     load_dotenv()
@@ -282,5 +279,6 @@ def main():
         min_score=3,
     )
 
+
 if __name__ == "__main__":
-    main() 
+    main()

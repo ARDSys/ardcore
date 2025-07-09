@@ -53,13 +53,13 @@ def save_hypothesis(
     )
     hypothesis["timestamp"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
     hypothesis["subgraph_id"] = subgraph.subgraph_id
-    
+
     output_name = f"{subgraph.start_node}_{subgraph.end_node}"
     output_name = sanitize_filename(output_name)
     output_file = OUTPUT_DIR / f"{output_name}.json"
-    
+
     logger.info(f"💾 Saving hypothesis to {output_file}")
-    
+
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(hypothesis, f, indent=2, ensure_ascii=False)
 
@@ -72,7 +72,7 @@ def generate_hypothesis(
 ):
     """Generate hypothesis from a subgraph."""
     log_section("HYPOTHESIS GENERATION")
-    
+
     subgraph_data = Subgraph.load_from_file(
         filename=subgraph_path,
         scientific_domain=scientific_domain,
@@ -98,20 +98,26 @@ def generate_hypothesis(
     )
     return res
 
+
 def main():
     # Find the first subgraph file in the input directory
-    subgraph_files = glob.glob(str(INPUT_SUBGRAPH_DIR / "**/*.subgraph.json"), recursive=True)
+    subgraph_files = glob.glob(
+        str(INPUT_SUBGRAPH_DIR / "**/*.subgraph.json"), recursive=True
+    )
     if not subgraph_files:
-        logger.error(f"No subgraphs found in {INPUT_SUBGRAPH_DIR}. Please run the 'generate_subgraph' example first.")
+        logger.error(
+            f"No subgraphs found in {INPUT_SUBGRAPH_DIR}. Please run the 'generate_subgraph' example first."
+        )
         return
 
     subgraph_path = subgraph_files[0]
     logger.info(f"Using subgraph: {subgraph_path}")
-    
+
     generate_hypothesis(
         subgraph_path=subgraph_path,
         scientific_domain="example_scientific_domain",
     )
 
+
 if __name__ == "__main__":
-    main() 
+    main()
