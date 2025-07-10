@@ -24,13 +24,15 @@ def sample_knowledge_graph():
 
 
 @pytest.fixture
-def mock_sentence_transformer():
-    """Create a mock SentenceTransformer for testing."""
-    with patch("sentence_transformers.SentenceTransformer") as mock_st:
-        # Configure the mock to return fixed embeddings
-        mock_model = MagicMock()
+def mock_gemini():
+    """Create a mock Gemini client for testing."""
+    with (
+        patch.dict(os.environ, {"GOOGLE_API_KEY": "fake-api-key-for-testing"}),
+        patch("google.genai.Client") as mock_gemini_client,
+    ):
+        mock_client = MagicMock()
 
-        def encode_side_effect(texts, **kwargs):
+        def embed_content_side_effect(model=None, contents=None):
             # Create a mapping of text to embeddings
             embedding_map = {
                 "A": [0.1, 0.2, 0.3],
@@ -40,34 +42,17 @@ def mock_sentence_transformer():
             }
 
             # Handle both single text and list of texts
-            if isinstance(texts, str):
-                return np.array(embedding_map.get(texts, [0.5, 0.6, 0.7]))
+            if isinstance(contents, str):
+                values = embedding_map.get(contents, [0.5, 0.6, 0.7])
+                return MagicMock(embeddings=[MagicMock(values=values)])
             else:
-                return np.array(
-                    [embedding_map.get(text, [0.5, 0.6, 0.7]) for text in texts]
-                )
+                embeddings = []
+                for content in contents:
+                    values = embedding_map.get(content, [0.5, 0.6, 0.7])
+                    embeddings.append(MagicMock(values=values))
+                return MagicMock(embeddings=embeddings)
 
-        mock_model.encode.side_effect = encode_side_effect
-        mock_st.return_value = mock_model
-        yield mock_st
-
-
-@pytest.fixture
-def mock_gemini():
-    """Create a mock Gemini client for testing."""
-    with (
-        patch.dict(os.environ, {"GOOGLE_API_KEY": "fake-api-key-for-testing"}),
-        patch("google.genai.Client") as mock_gemini_client,
-    ):
-        mock_client = MagicMock()
-        mock_client.models.embed_content.return_value = MagicMock(
-            embeddings=[
-                MagicMock(values=[0.1, 0.2, 0.3]),
-                MagicMock(values=[0.2, 0.3, 0.4]),
-                MagicMock(values=[0.3, 0.4, 0.5]),
-                MagicMock(values=[0.4, 0.5, 0.6]),
-            ]
-        )
+        mock_client.models.embed_content.side_effect = embed_content_side_effect
         mock_gemini_client.return_value = mock_client
         yield mock_gemini_client
 
@@ -75,26 +60,27 @@ def mock_gemini():
 def test_embedder_initialization():
     """Test that the Embedder initializes correctly."""
     embedder = Embedder(
-        embedding_provider="sentence_transformer",
-        model_name="test-model",
+        embedding_provider="gemini",
+        model_name="text-embedding-004",
         cache_embeddings=True,
         distance_metric="cosine",
     )
 
-    assert embedder.model_name == "test-model"
+    assert embedder.model_name == "text-embedding-004"
     assert embedder.cache_embeddings is True
     assert embedder.distance_metric == "cosine"
     assert embedder._model is None
     assert embedder._embeddings == {}
 
 
-def test_embed(sample_knowledge_graph, mock_sentence_transformer):
-    """Test calculating embeddings for a knowledge graph."""
+def test_embed(sample_knowledge_graph, mock_gemini):
+    """Test calculating embeddings for a knowledge graph using Gemini."""
     embedder = Embedder(
-        embedding_provider="sentence_transformer",
-        model_name="test-model",
+        embedding_provider="gemini",
+        model_name="text-embedding-004",
         cache_embeddings=True,
         distance_metric="cosine",
+        api_key="fake-api-key-for-testing",
     )
 
     # Calculate embeddings
@@ -119,45 +105,14 @@ def test_embed(sample_knowledge_graph, mock_sentence_transformer):
     assert embedder._embeddings["D"].shape == (3,)
 
 
-def test_embed_gemini(mock_gemini):
-    """Test calculating embeddings for a knowledge graph using Gemini."""
+def test_get_embedding(mock_gemini):
+    """Test getting an embedding for a single text using Gemini."""
     embedder = Embedder(
         embedding_provider="gemini",
-        model_name="test-model",
+        model_name="text-embedding-004",
         cache_embeddings=True,
         distance_metric="cosine",
-        api_key="fake-api-key-for-testing",  # Provide fake API key for testing
-    )
-
-    # Calculate embeddings
-    words = ["A", "B", "C", "D"]
-    embedding_vectors = embedder.embed(words)
-
-    # Check that embeddings were calculated for all nodes
-    assert len(embedding_vectors) == len(words)
-    for vector in embedding_vectors:
-        assert isinstance(vector, np.ndarray)
-        assert vector.shape == (3,)
-
-    # Check that embeddings were cached
-    # The cache _embeddings should still map words to their vectors
-    assert set(embedder._embeddings.keys()) == set(words)
-    assert embedder._embeddings["A"].shape == (3,)
-    assert embedder._embeddings["B"].shape == (3,)
-    assert embedder._embeddings["C"].shape == (3,)
-    assert embedder._embeddings["D"].shape == (3,)
-
-    # Mock should have been called only once
-    assert mock_gemini.return_value.models.embed_content.call_count == 1
-
-
-def test_get_embedding(mock_sentence_transformer):
-    """Test getting an embedding for a single text."""
-    embedder = Embedder(
-        embedding_provider="sentence_transformer",
-        model_name="test-model",
-        cache_embeddings=True,
-        distance_metric="cosine",
+        api_key="fake-api-key-for-testing",
     )
 
     # Get embedding for a text
@@ -176,17 +131,18 @@ def test_get_embedding(mock_sentence_transformer):
     # Check that the embedding is the same
     assert np.array_equal(embedding, embedding2)
 
-    # Mock should have been called only once
-    assert mock_sentence_transformer.return_value.encode.call_count == 1
+    # Mock should have been called only once (due to caching)
+    assert mock_gemini.return_value.models.embed_content.call_count == 1
 
 
-def test_get_embeddings(mock_sentence_transformer):
-    """Test getting embeddings for multiple texts."""
+def test_get_embeddings(mock_gemini):
+    """Test getting embeddings for multiple texts using Gemini."""
     embedder = Embedder(
-        embedding_provider="sentence_transformer",
-        model_name="test-model",
+        embedding_provider="gemini",
+        model_name="text-embedding-004",
         cache_embeddings=True,
         distance_metric="cosine",
+        api_key="fake-api-key-for-testing",
     )
 
     # Get embeddings for multiple texts
@@ -202,12 +158,13 @@ def test_get_embeddings(mock_sentence_transformer):
     assert set(embedder._embeddings.keys()) == {"A", "B", "C"}
 
 
-def test_calculate_distance(mock_sentence_transformer):
-    """Test calculating distance between two texts."""
+def test_calculate_distance(mock_gemini):
+    """Test calculating distance between two texts using Gemini."""
     embedder = Embedder(
-        embedding_provider="sentence_transformer",
-        model_name="test-model",
+        embedding_provider="gemini",
+        model_name="text-embedding-004",
         distance_metric="cosine",
+        api_key="fake-api-key-for-testing",
     )
 
     # Test with default metric (cosine)
@@ -234,12 +191,13 @@ def test_calculate_distance(mock_sentence_transformer):
         embedder.calculate_distance("A", "B", metric="invalid")
 
 
-def test_calculate_similarity(mock_sentence_transformer):
-    """Test calculating similarity between two texts."""
+def test_calculate_similarity(mock_gemini):
+    """Test calculating similarity between two texts using Gemini."""
     embedder = Embedder(
-        embedding_provider="sentence_transformer",
-        model_name="test-model",
+        embedding_provider="gemini",
+        model_name="text-embedding-004",
         distance_metric="cosine",
+        api_key="fake-api-key-for-testing",
     )
 
     # Test with default metric (cosine)
@@ -275,8 +233,8 @@ def test_save_and_load_embeddings():
 
         # Create an embedder and add some embeddings
         embedder = Embedder(
-            embedding_provider="sentence_transformer",
-            model_name="test-model",
+            embedding_provider="gemini",
+            model_name="text-embedding-004",
             cache_embeddings=True,
             distance_metric="cosine",
         )
@@ -299,8 +257,8 @@ def test_save_and_load_embeddings():
 
         # Create a new embedder and load embeddings from file
         embedder2 = Embedder(
-            embedding_provider="sentence_transformer",
-            model_name="test-model",
+            embedding_provider="gemini",
+            model_name="text-embedding-004",
             cache_embeddings=True,
             distance_metric="cosine",
         )
@@ -315,8 +273,8 @@ def test_save_and_load_embeddings():
 def test_clear_cache():
     """Test clearing the embedding cache."""
     embedder = Embedder(
-        embedding_provider="sentence_transformer",
-        model_name="test-model",
+        embedding_provider="gemini",
+        model_name="text-embedding-004",
         cache_embeddings=True,
         distance_metric="cosine",
     )
