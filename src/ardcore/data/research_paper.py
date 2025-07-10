@@ -3,7 +3,7 @@ from pathlib import Path
 from typing import BinaryIO, Dict, List, Optional, Union
 
 import pandas as pd
-from langfuse import observe
+from langfuse.decorators import observe
 from loguru import logger
 
 from ardcore.data.chunking import ChunkingProtocol, FixedChunking

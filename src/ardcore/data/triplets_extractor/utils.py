@@ -3,7 +3,7 @@ import re
 from typing import List
 
 import litellm
-from langfuse import observe
+from langfuse.decorators import observe
 from litellm import completion
 from pydantic import BaseModel
 
