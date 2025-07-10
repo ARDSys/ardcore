@@ -44,12 +44,11 @@ ARD requires Python 3.12+ and uses [UV](https://github.com/astral-sh/uv) as its 
 git clone https://github.com/your-username/ardcore.git
 cd ardcore
 
-# Create and activate a virtual environment
-uv venv
-source .venv/bin/activate
-
 # Install dependencies into the virtual environment
 uv sync
+
+# Activate a virtual environment
+source .venv/bin/activate
 ```
 
 ### Configuration
