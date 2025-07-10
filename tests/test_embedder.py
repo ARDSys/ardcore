@@ -31,7 +31,7 @@ def mock_gemini():
         patch("google.genai.Client") as mock_gemini_client,
     ):
         mock_client = MagicMock()
-        
+
         def embed_content_side_effect(model=None, contents=None):
             # Create a mapping of text to embeddings
             embedding_map = {
@@ -40,7 +40,7 @@ def mock_gemini():
                 "C": [0.3, 0.4, 0.5],
                 "D": [0.4, 0.5, 0.6],
             }
-            
+
             # Handle both single text and list of texts
             if isinstance(contents, str):
                 values = embedding_map.get(contents, [0.5, 0.6, 0.7])
@@ -51,7 +51,7 @@ def mock_gemini():
                     values = embedding_map.get(content, [0.5, 0.6, 0.7])
                     embeddings.append(MagicMock(values=values))
                 return MagicMock(embeddings=embeddings)
-        
+
         mock_client.models.embed_content.side_effect = embed_content_side_effect
         mock_gemini_client.return_value = mock_client
         yield mock_gemini_client
