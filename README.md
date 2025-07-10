@@ -49,7 +49,7 @@ uv venv
 source .venv/bin/activate
 
 # Install dependencies into the virtual environment
-uv pip install -e .
+uv sync
 ```
 
 ### Configuration
