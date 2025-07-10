@@ -25,7 +25,7 @@ jobs:
         run: uv lock --check
 
       - name: Install project
-        run: uv sync --all-extras --dev
+        run: uv sync --all-extras
 
       - name: Ruff check with linter
         run: uvx ruff check --no-fix
