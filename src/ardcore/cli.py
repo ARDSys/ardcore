@@ -767,7 +767,7 @@ def extract_subgraph(
             subdir = output_path
 
             subdir.mkdir(parents=True, exist_ok=True)
-            output_name = f"{subgraph.start_node}_{subgraph.end_node}".replace("/", "_")
+            output_name = subgraph.subgraph_id
             output_file = subdir / output_name
             subgraph.save_to_file(output_file.with_suffix(".subgraph.json"))
             logger.info(f"✅ Saved to {output_file}")

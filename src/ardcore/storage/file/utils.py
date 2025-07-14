@@ -5,13 +5,6 @@ import tiktoken
 SUBGRAPH_FILE_EXTENSION = ".subgraph.json"
 
 
-def sanitize_filename(file_name: str) -> str:
-    """Normalize file name by replacing all non-alphanumeric characters with underscores."""
-    # Replace all non-alphanumeric characters with underscores
-    normalized = re.sub(r"[^a-zA-Z0-9]", "_", file_name)
-    return normalized
-
-
 def get_subgraph_file_name(subgraph_name: str) -> str:
     return f"{subgraph_name}{SUBGRAPH_FILE_EXTENSION}"
 

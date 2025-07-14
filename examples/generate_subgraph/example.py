@@ -8,7 +8,6 @@ from openai import OpenAI
 
 from ardcore.knowledge_graph.knowledge_graph import KnowledgeGraph
 from ardcore.storage.file import StorageManager
-from ardcore.storage.file.utils import sanitize_filename
 from ardcore.subgraph import Subgraph
 from ardcore.subgraph.subgraph_generator import (
     RandomizedEmbeddingPathGenerator,
@@ -74,7 +73,6 @@ def save_subgraph(
     )
     storage = storage_manager.get_backend(name="save_subgraph")
 
-    output_name = sanitize_filename(output_name)
     subgraph.save_to_file(
         f"{output_name}.subgraph.json", storage=storage, item_id=output_name
     )
@@ -251,7 +249,7 @@ def generate_subgraph(
     # Save the subgraph if generated successfully
     if subgraph:
         logger.info("💾 Saving subgraph with context")
-        output_name = f"{subgraph.start_node}_{subgraph.end_node}"
+        output_name = subgraph.subgraph_id
         save_subgraph(subgraph, output_name, storage_path=OUTPUT_DIR)
 
         log_section("SUBGRAPH SUMMARY")

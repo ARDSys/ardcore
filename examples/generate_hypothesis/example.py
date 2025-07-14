@@ -1,4 +1,5 @@
 import glob
+import hashlib
 import json
 import time
 from pathlib import Path
@@ -10,7 +11,6 @@ from langchain_core.runnables import RunnableConfig
 from langfuse.callback import CallbackHandler
 from loguru import logger
 
-from ardcore.storage.file.utils import sanitize_filename
 from ardcore.subgraph import Subgraph
 
 # --- Configuration ---
@@ -53,9 +53,9 @@ def save_hypothesis(
     )
     hypothesis["timestamp"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
     hypothesis["subgraph_id"] = subgraph.subgraph_id
+    hypothesis["hypothesis_id"] = hashlib.sha256(hypothesis["hypothesis"].encode()).hexdigest()
 
-    output_name = f"{subgraph.start_node}_{subgraph.end_node}"
-    output_name = sanitize_filename(output_name)
+    output_name = hypothesis["hypothesis_id"]
     output_file = OUTPUT_DIR / f"{output_name}.json"
 
     logger.info(f"💾 Saving hypothesis to {output_file}")
