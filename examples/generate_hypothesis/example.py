@@ -55,8 +55,8 @@ def save_hypothesis(
     hypothesis["subgraph_id"] = subgraph.subgraph_id
     hypothesis["hypothesis_id"] = hashlib.sha256(hypothesis["hypothesis"].encode()).hexdigest()
 
-    output_name = hypothesis["hypothesis_id"]
-    output_file = OUTPUT_DIR / f"{output_name}.json"
+    hypothesis_id = hypothesis["hypothesis_id"]
+    output_file = OUTPUT_DIR / f"{hypothesis_id}.json"
 
     logger.info(f"💾 Saving hypothesis to {output_file}")
 

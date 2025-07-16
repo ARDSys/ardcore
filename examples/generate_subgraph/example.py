@@ -62,10 +62,16 @@ def log_section(section_name):
 
 def save_subgraph(
     subgraph: Subgraph,
-    output_name: str,
+    subgraph_id: str,
     storage_path: Optional[Path] = None,
 ):
-    """Save a subgraph to local storage."""
+    """Save a subgraph to local storage.
+    
+    Args:
+        subgraph: The subgraph to save
+        subgraph_id: The unique identifier for the subgraph
+        storage_path: Local directory path for storage
+    """
     storage_manager = StorageManager(
         storage_type="local",
         storage_path=storage_path,
@@ -74,9 +80,9 @@ def save_subgraph(
     storage = storage_manager.get_backend(name="save_subgraph")
 
     subgraph.save_to_file(
-        f"{output_name}.subgraph.json", storage=storage, item_id=output_name
+        f"{subgraph_id}.subgraph.json", storage=storage, item_id=subgraph_id
     )
-    logger.info(f"✅ Saved subgraph to {output_name}.subgraph.json at {storage_path}")
+    logger.info(f"✅ Saved subgraph to {subgraph_id}.subgraph.json at {storage_path}")
 
 
 def create_subgraph_with_method(
@@ -249,8 +255,8 @@ def generate_subgraph(
     # Save the subgraph if generated successfully
     if subgraph:
         logger.info("💾 Saving subgraph with context")
-        output_name = subgraph.subgraph_id
-        save_subgraph(subgraph, output_name, storage_path=OUTPUT_DIR)
+        subgraph_id = subgraph.subgraph_id
+        save_subgraph(subgraph, subgraph_id, storage_path=OUTPUT_DIR)
 
         log_section("SUBGRAPH SUMMARY")
         logger.info(f"Start node: {subgraph.start_node}")
