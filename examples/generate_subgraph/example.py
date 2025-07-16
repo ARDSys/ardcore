@@ -66,7 +66,7 @@ def save_subgraph(
     storage_path: Optional[Path] = None,
 ):
     """Save a subgraph to local storage.
-    
+
     Args:
         subgraph: The subgraph to save
         subgraph_id: The unique identifier for the subgraph

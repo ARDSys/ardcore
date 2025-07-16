@@ -53,7 +53,9 @@ def save_hypothesis(
     )
     hypothesis["timestamp"] = time.strftime("%Y-%m-%d %H:%M:%S UTC", time.gmtime())
     hypothesis["subgraph_id"] = subgraph.subgraph_id
-    hypothesis["hypothesis_id"] = hashlib.sha256(hypothesis["hypothesis"].encode()).hexdigest()
+    hypothesis["hypothesis_id"] = hashlib.sha256(
+        hypothesis["hypothesis"].encode()
+    ).hexdigest()
 
     hypothesis_id = hypothesis["hypothesis_id"]
     output_file = OUTPUT_DIR / f"{hypothesis_id}.json"

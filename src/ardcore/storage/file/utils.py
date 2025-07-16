@@ -1,4 +1,3 @@
-
 import tiktoken
 
 SUBGRAPH_FILE_EXTENSION = ".subgraph.json"
