@@ -3,7 +3,6 @@ from dataclasses import dataclass
 from typing import TYPE_CHECKING, Protocol
 
 from ardcore.storage.file import StorageBackend
-from ardcore.storage.file.utils import sanitize_filename
 
 if TYPE_CHECKING:
     from ardcore.hypothesis.hypothesis import Hypothesis
@@ -35,12 +34,9 @@ class HypothesisSaver:
         )
 
     def get_file_name(self, hypothesis: "Hypothesis") -> str:
-        file_name = sanitize_filename(hypothesis.title)
-
-        if len(file_name) > 100:
-            file_name = f"{file_name[:100]}[truncated]"
-
-        return file_name
+        # Use hypothesis_id for consistent directory/file naming
+        # No need to sanitize since it's already a clean SHA-256 hash
+        return hypothesis.hypothesis_id
 
 
 class MarkdownParser(Parser):
