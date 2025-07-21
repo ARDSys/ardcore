@@ -8,6 +8,18 @@ from ardcore.storage.file import StorageManager
 from ardcore.subgraph import Subgraph
 
 
+def generate_hypothesis_id(statement: str) -> str:
+    """Generate a hypothesis ID from a statement.
+    
+    Args:
+        statement: The hypothesis statement text
+        
+    Returns:
+        A SHA-256 hash of the statement as a hexadecimal string
+    """
+    return hashlib.sha256(str(statement).encode()).hexdigest()
+
+
 @dataclass
 class Hypothesis:
     """A class representing a research hypothesis with its source subgraph and metadata."""
@@ -39,7 +51,7 @@ class Hypothesis:
     @property
     def hypothesis_id(self) -> str:
         """The ID of the hypothesis."""
-        return hashlib.sha256(str(self.statement).encode()).hexdigest()
+        return generate_hypothesis_id(self.statement)
 
     @property
     def subgraph_id(self) -> str:
