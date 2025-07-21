@@ -10,10 +10,10 @@ from ardcore.subgraph import Subgraph
 
 def generate_hypothesis_id(statement: str) -> str:
     """Generate a hypothesis ID from a statement.
-    
+
     Args:
         statement: The hypothesis statement text
-        
+
     Returns:
         A SHA-256 hash of the statement as a hexadecimal string
     """
