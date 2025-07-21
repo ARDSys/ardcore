@@ -25,17 +25,18 @@ class HypothesisSaver:
         """Save a hypothesis to the storage backend."""
         parsed_hypothesis = self.parser.parse(hypothesis)
 
-        file_name = self.get_file_name(hypothesis)
+        # Use combined subgraph_id and hypothesis_id for directory naming
+        combined_id = f"{hypothesis.subgraph_id}_{hypothesis.hypothesis_id}"
+        file_name = hypothesis.hypothesis_id
 
         self.storage_backend.save_file(
-            file_name,
+            combined_id,
             f"{file_name}.{self.parser.output_type}",
             bytes(parsed_hypothesis, "utf-8"),
         )
 
     def get_file_name(self, hypothesis: "Hypothesis") -> str:
-        # Use hypothesis_id for consistent directory/file naming
-        # No need to sanitize since it's already a clean SHA-256 hash
+        # Use hypothesis_id for consistent file naming
         return hypothesis.hypothesis_id
 
 

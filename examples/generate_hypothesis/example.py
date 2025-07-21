@@ -55,10 +55,15 @@ def save_hypothesis(
     hypothesis["subgraph_id"] = subgraph.subgraph_id
     hypothesis["hypothesis_id"] = generate_hypothesis_id(hypothesis["hypothesis"])
 
+    subgraph_id = hypothesis["subgraph_id"]
     hypothesis_id = hypothesis["hypothesis_id"]
-    output_file = OUTPUT_DIR / f"{hypothesis_id}.json"
+    combined_id = f"{subgraph_id}_{hypothesis_id}"
+    output_file = OUTPUT_DIR / combined_id / f"{hypothesis_id}.json"
 
     logger.info(f"💾 Saving hypothesis to {output_file}")
+
+    # Create directory if it doesn't exist
+    output_file.parent.mkdir(parents=True, exist_ok=True)
 
     with open(output_file, "w", encoding="utf-8") as f:
         json.dump(hypothesis, f, indent=2, ensure_ascii=False)
