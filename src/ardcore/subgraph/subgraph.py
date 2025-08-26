@@ -388,6 +388,38 @@ class Subgraph(KnowledgeGraph):
 
         return path_edges
 
+    def get_path_relationship_with_direction(
+        self, source: str, target: str
+    ) -> tuple[str, str]:
+        """
+        Get relationship between two nodes with proper direction indication.
+
+        Args:
+            source: Source node name
+            target: Target node name
+
+        Returns:
+            tuple: (relationship_name, direction) where direction is 'forward' or 'reverse'
+        """
+        # Try forward direction first
+        forward_attrs = self.get_edge_attrs(source, target)
+        if forward_attrs and forward_attrs[0].get("relation", "").strip():
+            return forward_attrs[0]["relation"], "forward"
+
+        # Try reverse direction
+        reverse_attrs = self.get_edge_attrs(target, source)
+        if reverse_attrs and reverse_attrs[0].get("relation", "").strip():
+            return reverse_attrs[0]["relation"], "reverse"
+
+        # Check for 'edge' attribute as fallback
+        if forward_attrs and forward_attrs[0].get("edge", "").strip():
+            return forward_attrs[0]["edge"], "forward"
+        if reverse_attrs and reverse_attrs[0].get("edge", "").strip():
+            return reverse_attrs[0]["edge"], "reverse"
+
+        # Fallback for truly missing relationships
+        return "UNKNOWN_RELATION", "forward"
+
     def get_path_relationship(self, source: str, target: str) -> str:
         """
         Get relationship between two nodes, checking both directions.
@@ -399,24 +431,8 @@ class Subgraph(KnowledgeGraph):
         Returns:
             str: The relationship name, or 'UNKNOWN_RELATION' if not found
         """
-        # Try forward direction first
-        forward_attrs = self.get_edge_attrs(source, target)
-        if forward_attrs and forward_attrs[0].get("relation", "").strip():
-            return forward_attrs[0]["relation"]
-
-        # Try reverse direction
-        reverse_attrs = self.get_edge_attrs(target, source)
-        if reverse_attrs and reverse_attrs[0].get("relation", "").strip():
-            return reverse_attrs[0]["relation"]
-
-        # Check for 'edge' attribute as fallback
-        if forward_attrs and forward_attrs[0].get("edge", "").strip():
-            return forward_attrs[0]["edge"]
-        if reverse_attrs and reverse_attrs[0].get("edge", "").strip():
-            return reverse_attrs[0]["edge"]
-
-        # Fallback for truly missing relationships
-        return "UNKNOWN_RELATION"
+        relationship, _ = self.get_path_relationship_with_direction(source, target)
+        return relationship
 
     def __str__(self) -> str:
         """
@@ -428,17 +444,25 @@ class Subgraph(KnowledgeGraph):
         subgraph_str = f'Subgraph(start="{self._start_node}", end="{self._end_node}", path_length={len(self._path_nodes)})'
         base_str = super().__str__()
 
-        # Build path with relationships
+        # Build path with relationships and proper arrow directions
         if len(self._path_nodes) > 1:
             path_parts = []
             for i in range(len(self._path_nodes) - 1):
                 current = self._path_nodes[i]
                 next_node = self._path_nodes[i + 1]
-                relation = self.get_path_relationship(current, next_node)
+                relation, direction = self.get_path_relationship_with_direction(
+                    current, next_node
+                )
 
                 if i == 0:
                     path_parts.append(current)
-                path_parts.append(f" -[{relation}]-> ")
+
+                # Use proper arrow direction based on actual relationship direction
+                if direction == "forward":
+                    path_parts.append(f" -[{relation}]-> ")
+                else:  # direction == "reverse"
+                    path_parts.append(f" <-[{relation}]- ")
+
                 path_parts.append(next_node)
 
             path_str = "".join(path_parts)
