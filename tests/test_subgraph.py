@@ -206,8 +206,8 @@ def test_string_representation(sample_knowledge_graph):
     # Get the string representation
     string_repr = str(subgraph)
 
-    # Check that it contains the path
-    assert "Path: A -> E -> D" in string_repr
+    # Check that it contains the path with relationships
+    assert "Path: A -[relates_to]-> E -[influences]-> D" in string_repr
 
 
 def test_visualization(sample_knowledge_graph):
