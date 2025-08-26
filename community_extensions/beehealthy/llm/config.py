@@ -55,7 +55,7 @@ MODEL_REGISTRY = {
         api_key=os.getenv("OPENAI_API_KEY"),
     ),
     "large": OpenAIConfig(
-        model_name="gpt-4o",
+        model_name="gpt-5-2025-08-07",
         api_key=os.getenv("OPENAI_API_KEY"),
     ),
     "reasoning": OpenAIConfig(

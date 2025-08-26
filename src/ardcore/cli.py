@@ -32,11 +32,11 @@ from ardcore.utils.embedder import Embedder
 client = OpenAI()
 
 
-def get_llm(model: str = "gpt-4o-mini"):
+def get_llm(model: str = "large"):
     if model == "small":
         model = "gpt-4o-mini"
     elif model == "large":
-        model = "gpt-4o"
+        model = "gpt-5-2025-08-07"
     elif model == "reasoning":
         model = "o3-mini"
 
