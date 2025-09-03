@@ -14,7 +14,8 @@ def setup_workflow_logging(level=logging.INFO):
 
     This function:
     1. Configures basic logging with the specified level
-    2. Suppresses noisy logs from third-party libraries
+    2. Configures loguru logging to match the same level
+    3. Suppresses noisy logs from third-party libraries
 
     Args:
         level: Logging level (default: logging.INFO)
@@ -22,8 +23,39 @@ def setup_workflow_logging(level=logging.INFO):
     # Configure basic logging
     logging.basicConfig(level=level)
 
+    # Configure loguru logging to match
+    _setup_loguru_logging(level)
+
     # Suppress noisy third-party library logs
     suppress_noisy_loggers()
+
+
+def _setup_loguru_logging(level=logging.INFO):
+    """
+    Configure loguru logging to match standard logging level.
+    
+    Args:
+        level: Logging level to use for loguru
+    """
+    try:
+        from loguru import logger
+        
+        # Convert logging level to loguru level name
+        level_name = logging.getLevelName(level)
+        
+        # Remove default loguru handler
+        logger.remove()
+        
+        # Add new handler with specified level
+        logger.add(
+            lambda msg: print(msg, end=""),  # Use print instead of stderr
+            level=level_name,
+            format="{time:YYYY-MM-DD HH:mm:ss.SSS} | {level:<8} | {name}:{function}:{line} - {message}"
+        )
+        
+    except ImportError:
+        # loguru not available, skip configuration
+        pass
 
 
 def suppress_noisy_loggers():
