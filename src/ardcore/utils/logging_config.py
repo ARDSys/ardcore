@@ -33,26 +33,26 @@ def setup_workflow_logging(level=logging.INFO):
 def _setup_loguru_logging(level=logging.INFO):
     """
     Configure loguru logging to match standard logging level.
-    
+
     Args:
         level: Logging level to use for loguru
     """
     try:
         from loguru import logger
-        
+
         # Convert logging level to loguru level name
         level_name = logging.getLevelName(level)
-        
+
         # Remove default loguru handler
         logger.remove()
-        
+
         # Add new handler with specified level
         logger.add(
             lambda msg: print(msg, end=""),  # Use print instead of stderr
             level=level_name,
-            format="{time:YYYY-MM-DD HH:mm:ss.SSS} | {level:<8} | {name}:{function}:{line} - {message}"
+            format="{time:YYYY-MM-DD HH:mm:ss.SSS} | {level:<8} | {name}:{function}:{line} - {message}",
         )
-        
+
     except ImportError:
         # loguru not available, skip configuration
         pass
