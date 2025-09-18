@@ -1,7 +1,9 @@
 import random
+import time
 from typing import Callable, Dict, List, Optional, Set, Tuple
 
 from langchain_core.prompts import PromptTemplate
+from loguru import logger
 
 from ardcore.knowledge_graph.knowledge_graph import KnowledgeGraph
 from ardcore.subgraph.subgraph_generator.base import SingleNodeSubgraphGenerator
@@ -330,7 +332,8 @@ class LLMWalkGenerator(SingleNodeSubgraphGenerator):
         current_node = start_node
         next_node = None
 
-        for _ in range(self.max_steps):
+        for step_index in range(self.max_steps):
+            step_start = time.time()
             # Get neighbors
             neighbors = self._format_neighbors_for_llm(
                 knowledge_graph, current_node, visited
@@ -350,8 +353,17 @@ class LLMWalkGenerator(SingleNodeSubgraphGenerator):
             neighbors_str = self._format_neighbors_string(neighbors)
 
             # Get the next node from the LLM
+            llm_start = time.time()
             next_node = self._get_next_node_from_llm(
                 path_str, neighbors_str, neighbors, current_node
+            )
+            llm_elapsed = time.time() - llm_start
+            total_step_elapsed = time.time() - step_start
+            # Debug timings per step
+            logger.info(
+                f"[LLMWalk] step={step_index + 1}/{self.max_steps} node='{current_node}' "
+                f"neighbors_unvisited={len(neighbors['unvisited'])} neighbors_visited={len(neighbors['visited'])} "
+                f"llm_s={llm_elapsed:.2f} total_step_s={total_step_elapsed:.2f}"
             )
 
             # If no next node was selected, we're done
@@ -380,7 +392,7 @@ Current node: {current_node}
 Goal: {goal}
 
 Based on the available neighbors, which node should we visit next?
-You can choose from any neighbor, including ones that have been visited before.
+You can choose from any neighbor, except the ones you have visited before.
 Choose the node that would provide the most meaningful path through the graph for hypothesis generation and knowledge discovery.
 
 IMPORTANT: Prioritize nodes that represent substantive concepts, findings, or phenomena that could lead to new insights or hypotheses.
