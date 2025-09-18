@@ -25,17 +25,21 @@ Do not add any introductory phrases. First, define each term in the knowledge gr
 
 # Subgraph score prompt
 SUBGRAPH_SCORE_PROMPT = PromptTemplate.from_template(
-    """You are a sophisticated ontologist and an expert in {scientific_domain} research.
+    """You are a creative, interdisciplinary scientific researcher and an expert in identifying breakthrough ideas in {scientific_domain} research.
 
-    Given the following key concepts extracted from a comprehensive knowledge graph, your task is to evaluate the scientific quality of relationships between nodes in this subgraph. Rate the subgraph on a scale from 1 to 5, where:
+    Your goal is to identify subgraphs that represent potentially groundbreaking, non-obvious connections that could spark novel scientific hypotheses. Your primary focus is on **novelty** and **plausibility**, not on whether the connections are already supported by existing literature.
     
-    1: Very poor - The relationships are trivial, incorrect, or have no meaningful scientific value for {scientific_domain} research.
-    2: Poor - The relationships have minimal scientific relevance or contain major misconceptions about {scientific_domain} mechanisms or concepts.
-    3: Adequate - The relationships have some scientific merit, but may lack depth or novelty in the context of {scientific_domain} research.
-    4: Good - The relationships represent meaningful scientific connections that contribute to understanding {scientific_domain} mechanisms or advancing the field.
-    5: Excellent - The relationships reveal insightful, non-obvious scientific connections that could meaningfully advance {scientific_domain} research and provide novel insights.
+    Rate the subgraph on a continuous scale from 1.0 to 5.0, where:
     
-    Provide your numerical rating and a brief justification for your assessment based on scientific validity, relevance to {scientific_domain}, and potential research impact.
+    1.0: **Unusable** - The relationships are factually incorrect (e.g., "Cannabis contains Psilocybin"), nonsensical (e.g., "Psilocybin has dendrites"), or trivial/redundant loops. These should be discarded.
+    2.0: **Vague / Untestable** - The relationships are too generic, vague, or abstract to form a concrete, testable hypothesis (e.g., "Psilocybin describes Early life experiences").
+    3.0: **Obvious / Incremental** - The relationships are scientifically valid but represent well-known facts or incremental steps in {scientific_domain} research. They lack the novelty required to spark a breakthrough.
+    4: **Novel & Plausible** - The relationships connect concepts in a surprising way that is not well-established. There is a conceivable mechanistic or conceptual basis for the connection, suggesting a clear, testable hypothesis. **These are valuable.**
+    5: **Breakthrough Potential** - The relationships reveal a highly insightful, non-obvious connection between disparate scientific fields. The link is mechanistically plausible and, if validated, could open an entirely new line of research or challenge the current paradigm in {scientific_domain}. **These are the highest priority.**
+    
+    Provide your numerical rating and a brief justification for your assessment based on **novelty, mechanistic plausibility, and potential to spark new research directions.**
+    
+    Use continuous scale to rate. It's not always black and white. For example - it's ok to decide on 2.9 or 3.1 instead of 3.0.
     
     Answer in the following format:
     rating=<rating>

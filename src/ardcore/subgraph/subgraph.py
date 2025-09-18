@@ -741,11 +741,13 @@ class Subgraph(KnowledgeGraph):
         else:
             content = str(analysis)
 
-        # Extract the score and justification
-        score_match = re.search(r"rating=(\d+)", content)
+        # Extract the score and justification (allow for float scores)
+        score_match = re.search(r"rating=([0-9]*\.?[0-9]+)", content)
         if score_match:
-            self._path_score = int(score_match.group(1))
-            self._path_score_justification = re.sub(r"rating=\d+", "", content).strip()
+            self._path_score = float(score_match.group(1))
+            self._path_score_justification = re.sub(
+                r"rating=[0-9]*\.?[0-9]+", "", content
+            ).strip()
 
         return content
 

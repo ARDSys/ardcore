@@ -71,6 +71,7 @@ def suppress_noisy_loggers():
     # HTTP client libraries
     logging.getLogger("httpx").setLevel(logging.WARNING)
     logging.getLogger("urllib3").setLevel(logging.WARNING)
+    logging.getLogger("httpcore").setLevel(logging.WARNING)
 
     # OpenAI client
     logging.getLogger("openai").setLevel(logging.WARNING)
@@ -82,3 +83,4 @@ def suppress_noisy_loggers():
     # Other potentially noisy libraries
     logging.getLogger("requests").setLevel(logging.WARNING)
     logging.getLogger("transformers").setLevel(logging.WARNING)
+    logging.getLogger("neo4j").setLevel(logging.WARNING)
