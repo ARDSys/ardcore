@@ -745,7 +745,9 @@ class Subgraph(KnowledgeGraph):
         score_match = re.search(r"rating=([0-9]*\.?[0-9]+)", content)
         if score_match:
             self._path_score = float(score_match.group(1))
-            self._path_score_justification = re.sub(r"rating=[0-9]*\.?[0-9]+", "", content).strip()
+            self._path_score_justification = re.sub(
+                r"rating=[0-9]*\.?[0-9]+", "", content
+            ).strip()
 
         return content
 

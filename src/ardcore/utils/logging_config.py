@@ -84,4 +84,3 @@ def suppress_noisy_loggers():
     logging.getLogger("requests").setLevel(logging.WARNING)
     logging.getLogger("transformers").setLevel(logging.WARNING)
     logging.getLogger("neo4j").setLevel(logging.WARNING)
-
