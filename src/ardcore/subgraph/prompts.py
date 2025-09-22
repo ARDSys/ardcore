@@ -34,8 +34,8 @@ SUBGRAPH_SCORE_PROMPT = PromptTemplate.from_template(
     1.0: **Unusable** - The relationships are factually incorrect (e.g., "Cannabis contains Psilocybin"), nonsensical (e.g., "Psilocybin has dendrites"), or trivial/redundant loops. These should be discarded.
     2.0: **Vague / Untestable** - The relationships are too generic, vague, or abstract to form a concrete, testable hypothesis (e.g., "Psilocybin describes Early life experiences").
     3.0: **Obvious / Incremental** - The relationships are scientifically valid but represent well-known facts or incremental steps in {scientific_domain} research. They lack the novelty required to spark a breakthrough.
-    4: **Novel & Plausible** - The relationships connect concepts in a surprising way that is not well-established. There is a conceivable mechanistic or conceptual basis for the connection, suggesting a clear, testable hypothesis. **These are valuable.**
-    5: **Breakthrough Potential** - The relationships reveal a highly insightful, non-obvious connection between disparate scientific fields. The link is mechanistically plausible and, if validated, could open an entirely new line of research or challenge the current paradigm in {scientific_domain}. **These are the highest priority.**
+    4.0: **Novel & Plausible** - The relationships connect concepts in a surprising way that is not well-established. There is a conceivable mechanistic or conceptual basis for the connection, suggesting a clear, testable hypothesis. **These are valuable.**
+    5.0: **Breakthrough Potential** - The relationships reveal a highly insightful, non-obvious connection between disparate scientific fields. The link is mechanistically plausible and, if validated, could open an entirely new line of research or challenge the current paradigm in {scientific_domain}. **These are the highest priority.**
     
     Provide your numerical rating and a brief justification for your assessment based on **novelty, mechanistic plausibility, and potential to spark new research directions.**
     
