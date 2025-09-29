@@ -4,8 +4,8 @@ Reusable watchdog utility for ARD workflows.
 
 import os
 import sys
-import time
 import threading
+import time
 from typing import Callable, Optional
 
 from loguru import logger
@@ -45,7 +45,9 @@ class Watchdog:
                     try:
                         self.on_timeout()
                     except Exception as e:
-                        logger.warning(f"Watchdog on_timeout raised: {type(e).__name__}: {e}")
+                        logger.warning(
+                            f"Watchdog on_timeout raised: {type(e).__name__}: {e}"
+                        )
                 try:
                     sys.stdout.flush()
                     sys.stderr.flush()
@@ -88,5 +90,3 @@ def watchdog_timeout(
         on_timeout=on_timeout,
         flush_seconds=flush_seconds,
     )
-
-
