@@ -1,6 +1,6 @@
 [project]
 name = "ardcore"
-version = "0.1.3.1"
+version = "0.1.4"
 description = "ARDCore is the core library for building, curating, and mining knowledge graphs to enable autonomous research discovery."
 readme = "README.md"
 authors = [
