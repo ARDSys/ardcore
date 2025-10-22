@@ -33,6 +33,7 @@ dependencies = [
     # Utilities
     "dotenv>=0.9.9",            # Used in: ardcore/src/ardcore/utils/postgres.py
     "tqdm>=4.66.0",             # Used in: ardcore/src/ardcore/utils/embedder.py, ardcore/src/ardcore/knowledge_graph/node_merger/embedding_based.py
+    "awscli>=1.32.0",           # Used in: ardcore/src/ardcore/tools/paperqa/utils/s3_sync.py (subprocess calls)
     
     # Optional dependencies (could be made optional in the future)
     "matplotlib>=3.10.1",       # Used in: ardcore/src/ardcore/subgraph/subgraph.py
