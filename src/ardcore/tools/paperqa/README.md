@@ -8,7 +8,7 @@ Query scientific papers with citations using PaperQA. Includes a search tool for
 LangChain tool that searches indexed papers and returns cited answers.
 
 ```python
-from ardcore.tools.paperqa import paperqa_search
+from ardcore.tools.paperqa.paperqa_manager import paperqa_search
 
 # Used by LLM agents to search papers
 result = paperqa_search("What are the effects of meditation on anxiety?")
